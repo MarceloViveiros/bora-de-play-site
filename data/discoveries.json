@@ -1,1 +1,62 @@
-{"schemaVersion":1,"updatedAt":null,"projects":[]}
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-16T19:21:57.897105+00:00",
+  "projects": [
+    {
+      "repository": "florinp93/hells-gate-recomp",
+      "github": "https://github.com/florinp93/hells-gate-recomp",
+      "stars": 533,
+      "checkedAt": "2026-10-16T19:22:44.163982+00:00",
+      "evidenceUrl": "https://github.com/florinp93/hells-gate-recomp/blob/3ce3993b0f03c77353f8f10fdcd982160c9a2d18/README.md"
+    },
+    {
+      "repository": "freefrank/LostOdysseyRecomp",
+      "github": "https://github.com/freefrank/LostOdysseyRecomp",
+      "stars": 632,
+      "checkedAt": "2026-10-16T19:22:41.225433+00:00",
+      "evidenceUrl": "https://github.com/freefrank/LostOdysseyRecomp/blob/4b8641c30354575927393fb0ffc9425bfffe6690/README.md"
+    },
+    {
+      "repository": "sonicnext-dev/MarathonRecomp",
+      "github": "https://github.com/sonicnext-dev/MarathonRecomp",
+      "stars": 677,
+      "checkedAt": "2026-10-16T19:22:40.324551+00:00",
+      "evidenceUrl": "https://github.com/sonicnext-dev/MarathonRecomp/blob/8999a2a89506217e01076e5d332cc5915948fe7d/README.md"
+    },
+    {
+      "repository": "SlickAmogus/silent-hill-decomp",
+      "github": "https://github.com/SlickAmogus/silent-hill-decomp",
+      "stars": 684,
+      "checkedAt": "2026-10-16T19:22:39.560294+00:00",
+      "evidenceUrl": "https://github.com/SlickAmogus/silent-hill-decomp/blob/c46979075906073c9df33390c52ae14869a73eb3/README.md"
+    },
+    {
+      "repository": "arcanite24/pinyon-shift",
+      "github": "https://github.com/arcanite24/pinyon-shift",
+      "stars": 684,
+      "checkedAt": "2026-10-16T19:22:38.717440+00:00",
+      "evidenceUrl": "https://github.com/arcanite24/pinyon-shift/blob/a72a92a5f215a32875386b824b8b6f0f34e1caf9/README.md"
+    },
+    {
+      "repository": "Sebastrion/awesome-unofficial-pc-ports",
+      "github": "https://github.com/Sebastrion/awesome-unofficial-pc-ports",
+      "stars": 912,
+      "checkedAt": "2026-10-16T19:22:31.244969+00:00",
+      "evidenceUrl": "https://github.com/Sebastrion/awesome-unofficial-pc-ports/blob/faef1ab57fa50446ca156bcbf085466dce9a9229/README.md"
+    },
+    {
+      "repository": "patchzyy/Wiicompiled",
+      "github": "https://github.com/patchzyy/Wiicompiled",
+      "stars": 1167,
+      "checkedAt": "2026-10-16T19:22:28.221732+00:00",
+      "evidenceUrl": "https://github.com/patchzyy/Wiicompiled/blob/bd219e38a3e9a1a5047ce41d8cd01210bef3af43/README.md"
+    },
+    {
+      "repository": "ran-j/PS2Recomp",
+      "github": "https://github.com/ran-j/PS2Recomp",
+      "stars": 3534,
+      "checkedAt": "2026-10-16T19:22:24.641193+00:00",
+      "evidenceUrl": "https://github.com/ran-j/PS2Recomp/blob/eb8688b2fd191129f103a39543002c005b33409c/README.md"
+    }
+  ]
+}

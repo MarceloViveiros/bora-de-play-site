@@ -46,7 +46,7 @@ async function init() {
   let language = pickLanguage(new URL(location.href).searchParams.get('lang'), stored);
   const languageSelect = document.querySelector('#language');
   const form = document.querySelector('#filters'), results = document.querySelector('#results'), total = document.querySelector('#total');
-  let projects = [], data = null, loadFailed = false, discoveries = null;
+  let projects = [], data = null, loadFailed = false, discoveries = null, channelVideo = null;
   const t = (key, values = {}) => BORA_I18N[language][key].replace(/\{(\w+)\}/g, (_, name) => String(values[name] ?? ''));
   const date = value => new Intl.DateTimeFormat(language === 'pt' ? 'pt-BR' : language, {dateStyle:'medium', timeZone:'UTC'}).format(new Date(value.slice(0,10)+'T00:00:00Z'));
   const number = value => new Intl.NumberFormat(language === 'pt' ? 'pt-BR' : language).format(value);
@@ -85,6 +85,15 @@ async function init() {
     if(p.upstream?.documentationChanged)details.append(el('p',t('upstreamChanged'),'review'));
     body.append(page,details,link(t('github'),p.github));article.append(cover,body);return article;
   }
+  function renderChannel(){
+    if(!channelVideo)return;
+    const hero=document.querySelector('.hero-art');hero.classList.add('video-hero');
+    const frame=el('div',undefined,'channel-player'),button=el('button',undefined,'video-poster');button.type='button';button.setAttribute('aria-label',t('watchVideo')+': '+channelVideo.title);
+    const poster=el('img');poster.src='https://i.ytimg.com/vi/'+channelVideo.videoId+'/hqdefault.jpg';poster.alt='';poster.width=480;poster.height=360;
+    button.append(poster,el('span','▶ '+t('watchVideo'),'video-play-label'));frame.append(button);
+    button.onclick=()=>{const iframe=el('iframe');iframe.src='https://www.youtube-nocookie.com/embed/'+channelVideo.videoId+'?autoplay=1&rel=0';iframe.title=channelVideo.title;iframe.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';iframe.referrerPolicy='strict-origin-when-cross-origin';iframe.setAttribute('allowfullscreen','');frame.replaceChildren(iframe);};
+    const caption=el('div',undefined,'video-caption');caption.append(el('small',t('latestVideo')),el('p',channelVideo.title),link(t('watchYouTube'),'https://www.youtube.com/watch?v='+channelVideo.videoId));hero.replaceChildren(frame,caption);
+  }
   function renderDiscoveries(){
     if(!discoveries)return;
     document.querySelector('#discoveries').hidden=false;
@@ -108,7 +117,7 @@ async function init() {
     language=pickLanguage(languageSelect.value);
     try{localStorage.setItem('bora-language',language);}catch{/* Still works without storage. */}
     try{const url=new URL(location.href);url.searchParams.set('lang',language);history.replaceState(null,'',url);}catch{/* Language works without URL persistence. */}
-    translatePage();render();
+    translatePage();renderChannel();render();
   });
   form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('input',render);form.addEventListener('change',render);form.addEventListener('reset',()=>setTimeout(render,0));
   try {
@@ -118,7 +127,8 @@ async function init() {
     for(const [id,values]of [['origin',projects.flatMap(p=>p.origins)],['target',projects.flatMap(p=>p.targets)]]){const select=document.getElementById(id);[...new Set(values)].sort().forEach(v=>{if(![...select.options].some(o=>o.value===v))select.append(el('option',v));});}
   }catch(error){loadFailed=true;console.error(error);}
   try{const response=await fetch('./data/discoveries.json');if(response.ok){const value=await response.json();if(value.schemaVersion===1&&Array.isArray(value.projects)&&value.projects.every(p=>typeof p.repository==='string'&&safeURL(p.github)&&Number.isInteger(p.stars)))discoveries=value;}}catch{/* Discoveries never block the reviewed catalog. */}
-  render();
+  try{const response=await fetch('./data/youtube.json');if(response.ok){const value=await response.json();if(value.schemaVersion===1&&value.channelId==='UCIyP0J7kf8JiKr6kG7RY4EA'&&/^[A-Za-z0-9_-]{11}$/.test(value.videoId)&&typeof value.title==='string')channelVideo=value;}}catch{/* Keep the channel artwork if the feed snapshot is unavailable. */}
+  renderChannel();render();
 }
 if(typeof document!=='undefined' && document.querySelector('#filters'))init();
 if(typeof module!=='undefined')module.exports={filterProjects,sortProjects,validateProject,safeURL,pickLanguage,validDate,projectURL};
