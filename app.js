@@ -81,14 +81,14 @@ async function init() {
     languageSelect.value = language;
   }
   function empty(title, body, action) {
-    const box = el('div', undefined, 'empty'), icon = el('span','â–¦','empty-icon'); icon.setAttribute('aria-hidden','true');
+    const box = el('div', undefined, 'empty'), icon = el('span','▦','empty-icon'); icon.setAttribute('aria-hidden','true');
     box.append(icon,el('h3',title),el('p',body)); if(action)box.append(action); results.replaceChildren(box);
   }
   function card(p) {
     const text=p.content[language], article=el('article',undefined,'card'); article.dataset.project=p.id;
     const cover=projectVisual(p,language);
     const body=el('div',undefined,'card-body');
-    const stars=el('p',p.stars===null?t('unknownStars'):'â˜… '+number(p.stars),'stars');
+    const stars=el('p',p.stars===null?t('unknownStars'):'★ '+number(p.stars),'stars');
     stars.setAttribute('aria-label',p.stars===null?t('unknownStars'):t('stars',{count:number(p.stars)}));
     if(p.stars!==null)stars.title=t('snapshot',{date:date(p.starsCollectedAt)});
     const playableBadge=el('span',t(p.playability),'badge');playableBadge.title=t('status');
