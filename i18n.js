@@ -1,6 +1,11 @@
 'use strict';
 const BORA_I18N = {
   "pt": {
+    "browserLinkReview": "Link em verificação",
+    "browserAuto": "Atualização automática duas vezes ao dia. Última execução: ",
+    "browserCheckNote": "A conferência automática de links não é um teste de jogabilidade.",
+    "browserAutoReview": "Ficha incluída por triagem documental automática.",
+
     "browserNav": "Jogar no navegador",
     "browserTitle": "Seu próximo play, direto no navegador.",
     "browserIntro": "Explore projetos web, confira o que cada versão oferece e abra a página do autor para jogar.",
@@ -148,6 +153,11 @@ const BORA_I18N = {
     "originalConsoleArt": "Ilustração original do catálogo."
   },
   "en": {
+    "browserLinkReview": "Link under review",
+    "browserAuto": "Automatic updates twice daily. Last run: ",
+    "browserCheckNote": "Automatic link checks are not gameplay tests.",
+    "browserAutoReview": "Entry added through automatic documentary screening.",
+
     "browserNav": "Play in browser",
     "browserTitle": "Your next game, right in your browser.",
     "browserIntro": "Explore web projects, check what each version offers and open the author’s page to play.",
@@ -295,6 +305,11 @@ const BORA_I18N = {
     "originalConsoleArt": "Original catalog illustration."
   },
   "es": {
+    "browserLinkReview": "Enlace en revisión",
+    "browserAuto": "Actualización automática dos veces al día. Última ejecución: ",
+    "browserCheckNote": "La comprobación automática de enlaces no es una prueba de jugabilidad.",
+    "browserAutoReview": "Ficha añadida mediante filtro documental automático.",
+
     "browserNav": "Jugar en el navegador",
     "browserTitle": "Tu próxima partida, en el navegador.",
     "browserIntro": "Explora proyectos web, consulta qué ofrece cada versión y abre la página del autor para jugar.",

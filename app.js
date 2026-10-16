@@ -23,6 +23,7 @@ function validateProject(p) {
   for (const k of ['origins','targets']) if (!Array.isArray(p[k]) || !p[k].length || p[k].some(v => typeof v !== 'string' || !v.trim())) throw new Error('Invalid platform list');
   if(p.image&&(!safeImageURL(p.image.url)||!['console','reference'].includes(p.image.kind)||(p.image.source&&!safeURL(p.image.source))))throw new Error('Invalid project image');
   if(p.browser&&(!safeURL(p.browser.url)||!['demo','shareware','own-files','free'].includes(p.browser.access)||p.browser.verification!=='documentation'))throw new Error('Invalid browser project');
+  if(p.browser?.health&&!['reachable','review'].includes(p.browser.health.status))throw new Error('Invalid browser link state');
   const github = safeURL(p.github);
   if (!github || !/^https:\/\/github\.com\/[^/]+\/[^/]+\/?$/.test(github)) throw new Error('Invalid repository');
   if (!safeURL(p.instructionsUrl) || !safeURL(p.evidenceUrl)) throw new Error('Invalid source');

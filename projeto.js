@@ -19,7 +19,7 @@ async function initProject(){
     const article=el('article',undefined,'project-detail');article.dataset.project=project.id;const hero=el('header',undefined,'project-heading');
     hero.append(el('span',project.origins.join(' / ')+' → '+project.targets.join(' / '),'eyebrow'),el('h1',project.game),el('p',project.name,'project-name'));
     for(const key of [project.type,project.playability,project.developmentStage])hero.append(el('span',t(key),'badge'));
-    hero.insertBefore(projectVisual(project,language,true),hero.firstChild);if(project.browser){const play=link(t('browserPlay'),project.browser.url);play.className='button';hero.append(play,el('p',t('browserDisclaimer'),'browser-access-note'));}const credit=imageCredit(project,language);if(credit)hero.append(credit);
+    hero.insertBefore(projectVisual(project,language,true),hero.firstChild);if(project.browser){const play=project.browser.health?.status==='review'?el('span',t('browserLinkReview'),'badge'):link(t('browserPlay'),project.browser.url);if(play.tagName==='A')play.className='button';hero.append(play,el('p',t('browserDisclaimer'),'browser-access-note'));}const credit=imageCredit(project,language);if(credit)hero.append(credit);
     const stars=el('p',project.stars===null?t('unknownStars'):'★ '+new Intl.NumberFormat(language).format(project.stars),'stars');
     if(project.stars!==null)stars.append(el('small',t('snapshot',{date:date(project.starsCollectedAt)})));
     hero.append(stars,el('p',text.summary,'project-summary'));if(project.reviewAgent)hero.append(el('p',t('autoReview'),'review'));if(project.authorClaim)hero.append(section('sourceClaim',project.authorClaim));const source=link(t('openGithub'),project.github);source.className='button';hero.append(source);article.append(hero);

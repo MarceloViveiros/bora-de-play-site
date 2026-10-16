@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-16T22:24:22.040586+00:00",
+  "updatedAt": "2026-10-16T22:46:19.478804+00:00",
   "projects": [
     {
       "id": "web-openlara",
@@ -24,7 +24,7 @@
         "Web"
       ],
       "stars": 5124,
-      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "starsCollectedAt": "2026-10-16T22:45:59.688729+00:00",
       "content": {
         "pt": {
           "summary": "Motor de Tomb Raider com uma fase demonstrativa em WebGL.",
@@ -66,7 +66,13 @@
         "verification": "documentation",
         "checkedAt": "2026-10-16T22:24:22.040586+00:00",
         "pageCheckedAt": "2026-10-16T22:27:47.014405+00:00",
-        "pageCheck": "landing-page"
+        "pageCheck": "landing-page",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-16T22:46:03.435287+00:00",
+          "method": "http-html",
+          "reason": null
+        }
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -96,7 +102,7 @@
         "Web"
       ],
       "stars": 2888,
-      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "starsCollectedAt": "2026-10-16T22:45:59.688729+00:00",
       "content": {
         "pt": {
           "summary": "Diablo no navegador, com opção shareware e uso dos seus dados do jogo completo.",
@@ -138,7 +144,13 @@
         "verification": "documentation",
         "checkedAt": "2026-10-16T22:24:22.040586+00:00",
         "pageCheckedAt": "2026-10-16T22:27:47.014417+00:00",
-        "pageCheck": "landing-page"
+        "pageCheck": "landing-page",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-16T22:46:03.781499+00:00",
+          "method": "http-html",
+          "reason": null
+        }
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -168,7 +180,7 @@
         "Web"
       ],
       "stars": 167,
-      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "starsCollectedAt": "2026-10-16T22:45:59.688729+00:00",
       "content": {
         "pt": {
           "summary": "Half-Life no navegador pelo motor Xash3D compilado para WebAssembly.",
@@ -210,7 +222,13 @@
         "verification": "documentation",
         "checkedAt": "2026-10-16T22:24:22.040586+00:00",
         "pageCheckedAt": "2026-10-16T22:27:47.014422+00:00",
-        "pageCheck": "landing-page"
+        "pageCheck": "landing-page",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-16T22:46:04.011513+00:00",
+          "method": "http-html",
+          "reason": null
+        }
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/en/f/fa/Half-Life_Cover_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -240,7 +258,7 @@
         "Web"
       ],
       "stars": 167,
-      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "starsCollectedAt": "2026-10-16T22:45:59.688729+00:00",
       "content": {
         "pt": {
           "summary": "Counter-Strike 1.6 no navegador usando WebXash e arquivos da sua instalação.",
@@ -282,7 +300,13 @@
         "verification": "documentation",
         "checkedAt": "2026-10-16T22:24:22.040586+00:00",
         "pageCheckedAt": "2026-10-16T22:27:47.014424+00:00",
-        "pageCheck": "landing-page"
+        "pageCheck": "landing-page",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-16T22:46:04.438233+00:00",
+          "method": "http-html",
+          "reason": null
+        }
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/en/6/67/Counter-Strike_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -312,7 +336,7 @@
         "Web"
       ],
       "stars": 57,
-      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "starsCollectedAt": "2026-10-16T22:45:59.688729+00:00",
       "content": {
         "pt": {
           "summary": "Motor de Quake no navegador, com opção livre com bots e suporte aos seus arquivos PAK.",
@@ -354,7 +378,13 @@
         "verification": "documentation",
         "checkedAt": "2026-10-16T22:24:22.040586+00:00",
         "pageCheckedAt": "2026-10-16T22:27:47.014425+00:00",
-        "pageCheck": "landing-page"
+        "pageCheck": "landing-page",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-16T22:46:04.535381+00:00",
+          "method": "http-html",
+          "reason": null
+        }
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Quake1cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -384,7 +414,7 @@
         "Web"
       ],
       "stars": 2209,
-      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "starsCollectedAt": "2026-10-16T22:45:59.688729+00:00",
       "content": {
         "pt": {
           "summary": "Estratégia por turnos gratuita para navegador, com partidas individuais e multiplayer.",
@@ -426,13 +456,191 @@
         "verification": "documentation",
         "checkedAt": "2026-10-16T22:24:22.040586+00:00",
         "pageCheckedAt": "2026-10-16T22:27:47.014429+00:00",
-        "pageCheck": "landing-page"
+        "pageCheck": "landing-page",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-16T22:46:05.334242+00:00",
+          "method": "http-html",
+          "reason": null
+        }
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Freeciv_Web_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "kind": "reference",
         "source": "https://en.wikipedia.org/wiki/Freeciv"
       }
+    },
+    {
+      "id": "web-diablo-johnimril",
+      "editionId": "web-diabloweb",
+      "game": "Diablo",
+      "name": "Diablo Web · JohnImril",
+      "type": "port",
+      "approach": "source-port",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "github": "https://github.com/JohnImril/diablo_web",
+      "instructionsUrl": "https://github.com/JohnImril/diablo_web/blob/8e9775f6fef73d0b7f0a5c7fa09a1301e7f21ab3/README.md",
+      "reviewedAt": "2026-10-16",
+      "reviewedVersion": "8e9775f6fef73d0b7f0a5c7fa09a1301e7f21ab3",
+      "evidenceUrl": "https://github.com/JohnImril/diablo_web/blob/8e9775f6fef73d0b7f0a5c7fa09a1301e7f21ab3/README.md",
+      "reviewMethod": "documentation",
+      "origins": [
+        "PC"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": 58,
+      "starsCollectedAt": "2026-10-16T22:45:59.688729+00:00",
+      "content": {
+        "pt": {
+          "summary": "Cliente moderno de Diablo com demo shareware, importação do seu MPQ e gerenciamento local de saves.",
+          "originalFiles": "O jogo completo exige seu DIABDAT.MPQ de uma cópia original. A opção shareware tem conteúdo limitado.",
+          "requirements": [
+            "Navegador atualizado com JavaScript e WebGL/WebAssembly. Controles e desempenho dependem do projeto e do dispositivo."
+          ],
+          "installation": [
+            "Use a opção shareware ou selecione seu DIABDAT.MPQ seguindo a página do projeto."
+          ],
+          "limitations": "Multiplayer experimental; controles móveis ainda em melhoria. Licença geral do cliente não esclarecida pelo repositório. Jogabilidade não testada pelo catálogo."
+        },
+        "en": {
+          "summary": "Modern Diablo client with a shareware demo, your own MPQ import and local save management.",
+          "originalFiles": "The full game requires DIABDAT.MPQ from your original copy. Shareware has limited content.",
+          "requirements": [
+            "Updated browser with JavaScript and WebGL/WebAssembly. Controls and performance depend on the project and device."
+          ],
+          "installation": [
+            "Use the shareware option or select your DIABDAT.MPQ following the project page."
+          ],
+          "limitations": "Experimental multiplayer; mobile controls still need work. The repository does not clarify an overall client license. Gameplay not tested by the catalog."
+        },
+        "es": {
+          "summary": "Cliente moderno de Diablo con demo shareware, importación de tu MPQ y gestión local de partidas.",
+          "originalFiles": "El juego completo exige DIABDAT.MPQ de tu copia original. El shareware tiene contenido limitado.",
+          "requirements": [
+            "Navegador actualizado con JavaScript y WebGL/WebAssembly. Controles y rendimiento dependen del proyecto y dispositivo."
+          ],
+          "installation": [
+            "Usa el shareware o selecciona tu DIABDAT.MPQ según la página del proyecto."
+          ],
+          "limitations": "Multijugador experimental; controles móviles aún en desarrollo. El repositorio no aclara una licencia general del cliente. Jugabilidad no probada por el catálogo."
+        }
+      },
+      "browser": {
+        "url": "https://johnimril.github.io/diablo_web/",
+        "access": "shareware",
+        "verification": "documentation",
+        "checkedAt": "2026-10-16T22:42:24.460395+00:00",
+        "pageCheckedAt": "2026-10-16T22:42:24.460395+00:00",
+        "pageCheck": "landing-page",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-16T22:46:06.207237+00:00",
+          "method": "http-html",
+          "reason": null
+        }
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Diablo_(video_game)"
+      }
+    },
+    {
+      "id": "web-halo-hcemobile",
+      "editionId": "web-halo-ce",
+      "game": "Halo: Combat Evolved",
+      "name": "HCEMobile · base OpenCE",
+      "type": "port",
+      "approach": "engine-reimplementation",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "github": "https://github.com/OpenCommunityEdition/OpenCE",
+      "instructionsUrl": "https://github.com/OpenCommunityEdition/OpenCE/blob/25697bbaa1b2135807807c0b749891fb636f52ae/port/web/README.md",
+      "reviewedAt": "2026-10-16",
+      "reviewedVersion": "25697bbaa1b2135807807c0b749891fb636f52ae",
+      "evidenceUrl": "https://github.com/OpenCommunityEdition/OpenCE/blob/25697bbaa1b2135807807c0b749891fb636f52ae/README.md",
+      "reviewMethod": "documentation",
+      "origins": [
+        "Xbox"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": 1581,
+      "starsCollectedAt": "2026-10-16T22:45:59.688729+00:00",
+      "content": {
+        "pt": {
+          "summary": "Adaptação de Halo de Xbox para navegador, com tela de importação da sua imagem de disco. O site cita o motor OpenCE.",
+          "originalFiles": "Exige sua imagem original de Halo: Combat Evolved de Xbox (.iso ou .xiso) compatível e verificada. Nada foi importado pelo catálogo.",
+          "requirements": [
+            "Navegador com WebAssembly, WebGL 2 e memória/armazenamento suficientes.",
+            "A página informa até 1,8 GB para os mapas; confira a compatibilidade do seu aparelho no guia."
+          ],
+          "installation": [
+            "Escolha Continue in the browser. Instalar o aplicativo é opcional.",
+            "Em Choose disc image, forneça sua própria imagem do jogo.",
+            "Siga os testes de compatibilidade e controles do site."
+          ],
+          "limitations": "Página de configuração e fontes do motor conferidas; campanha, multiplayer e controles móveis não testados pelo catálogo. A versão hospedada pode diferir do commit do motor. Conta do serviço é exigida para partidas online, conforme a página."
+        },
+        "en": {
+          "summary": "Browser adaptation of Xbox Halo with a disc-image import screen. The site credits the OpenCE engine.",
+          "originalFiles": "Requires your own compatible, verified Xbox Halo: Combat Evolved disc image (.iso or .xiso). The catalog imported nothing.",
+          "requirements": [
+            "Browser with WebAssembly, WebGL 2 and sufficient memory/storage.",
+            "The page lists up to 1.8 GB for maps; check your device compatibility in its guide."
+          ],
+          "installation": [
+            "Choose Continue in the browser. App installation is optional.",
+            "Use Choose disc image to provide your own game image.",
+            "Follow the site’s compatibility and control checks."
+          ],
+          "limitations": "Setup page and engine sources checked; campaign, multiplayer and mobile controls not tested by the catalog. The hosted build may differ from the engine commit. Online play requires a service account according to the page."
+        },
+        "es": {
+          "summary": "Adaptación de Halo de Xbox al navegador, con importación de tu imagen de disco. El sitio cita el motor OpenCE.",
+          "originalFiles": "Exige tu imagen original compatible y verificada de Halo: Combat Evolved de Xbox (.iso o .xiso). El catálogo no importó archivos.",
+          "requirements": [
+            "Navegador con WebAssembly, WebGL 2 y memoria/almacenamiento suficientes.",
+            "La página indica hasta 1,8 GB para mapas; consulta compatibilidad del dispositivo en la guía."
+          ],
+          "installation": [
+            "Elige Continue in the browser. Instalar la app es opcional.",
+            "En Choose disc image, proporciona tu imagen del juego.",
+            "Sigue las comprobaciones de compatibilidad y controles del sitio."
+          ],
+          "limitations": "Página de configuración y fuentes del motor revisadas; campaña, multijugador y controles móviles no probados por el catálogo. La versión alojada puede diferir del commit del motor. Jugar online requiere una cuenta del servicio según la página."
+        }
+      },
+      "browser": {
+        "url": "https://hcemobile.com/",
+        "access": "own-files",
+        "verification": "documentation",
+        "checkedAt": "2026-10-16T22:42:24.460395+00:00",
+        "pageCheckedAt": "2026-10-16T22:42:24.460395+00:00",
+        "pageCheck": "landing-page",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-16T22:46:06.606459+00:00",
+          "method": "http-html",
+          "reason": null
+        }
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Halo%3A_Combat_Evolved"
+      }
     }
-  ]
+  ],
+  "automation": {
+    "lastRunAt": "2026-10-16T22:45:59.688480+00:00",
+    "metadata": "updated",
+    "discovery": "completed",
+    "totalProjects": 8,
+    "pendingRepositories": 33
+  }
 }
