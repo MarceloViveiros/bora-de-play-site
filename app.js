@@ -121,13 +121,13 @@ async function init() {
   });
   form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('input',render);form.addEventListener('change',render);form.addEventListener('reset',()=>setTimeout(render,0));
   try {
-    const response=await fetch('./data/projects.json');if(!response.ok)throw new Error('HTTP '+response.status);
+    const response=await fetch('./data/projects.json',{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);
     data=await response.json();if(data.schemaVersion!==3||!Array.isArray(data.projects))throw new Error('Invalid data version');
     projects=data.projects.map(validateProject);if(new Set(projects.map(p=>p.id)).size!==projects.length)throw new Error('Duplicate IDs');
     for(const [id,values]of [['origin',projects.flatMap(p=>p.origins)],['target',projects.flatMap(p=>p.targets)]]){const select=document.getElementById(id);[...new Set(values)].sort().forEach(v=>{if(![...select.options].some(o=>o.value===v))select.append(el('option',v));});}
   }catch(error){loadFailed=true;console.error(error);}
-  try{const response=await fetch('./data/discoveries.json');if(response.ok){const value=await response.json();if(value.schemaVersion===1&&Array.isArray(value.projects)&&value.projects.every(p=>typeof p.repository==='string'&&safeURL(p.github)&&Number.isInteger(p.stars)))discoveries=value;}}catch{/* Discoveries never block the reviewed catalog. */}
-  try{const response=await fetch('./data/youtube.json');if(response.ok){const value=await response.json();if(value.schemaVersion===1&&value.channelId==='UCIyP0J7kf8JiKr6kG7RY4EA'&&/^[A-Za-z0-9_-]{11}$/.test(value.videoId)&&typeof value.title==='string')channelVideo=value;}}catch{/* Keep the channel artwork if the feed snapshot is unavailable. */}
+  try{const response=await fetch('./data/discoveries.json',{cache:'no-store'});if(response.ok){const value=await response.json();if(value.schemaVersion===1&&Array.isArray(value.projects)&&value.projects.every(p=>typeof p.repository==='string'&&safeURL(p.github)&&Number.isInteger(p.stars)))discoveries=value;}}catch{/* Discoveries never block the reviewed catalog. */}
+  try{const response=await fetch('./data/youtube.json',{cache:'no-store'});if(response.ok){const value=await response.json();if(value.schemaVersion===1&&value.videoFormat==='long'&&value.durationSeconds>180&&value.channelId==='UCIyP0J7kf8JiKr6kG7RY4EA'&&/^[A-Za-z0-9_-]{11}$/.test(value.videoId)&&typeof value.title==='string')channelVideo=value;}}catch{/* Keep the channel artwork if the feed snapshot is unavailable. */}
   renderChannel();render();
 }
 if(typeof document!=='undefined' && document.querySelector('#filters'))init();
