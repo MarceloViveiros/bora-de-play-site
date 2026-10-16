@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 3,
+  "updatedAt": "2026-10-16T22:24:22.040586+00:00",
+  "projects": [
+    {
+      "id": "web-openlara",
+      "editionId": "web-openlara",
+      "game": "Tomb Raider",
+      "name": "OpenLara",
+      "type": "port",
+      "approach": "source-port",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "github": "https://github.com/XProger/OpenLara",
+      "instructionsUrl": "https://github.com/XProger/OpenLara/blob/3b268ca4bf986c380f44a26ffd9218bf6d376249/README.md",
+      "reviewedAt": "2026-10-16",
+      "reviewedVersion": "3b268ca4bf986c380f44a26ffd9218bf6d376249",
+      "evidenceUrl": "https://github.com/XProger/OpenLara/blob/3b268ca4bf986c380f44a26ffd9218bf6d376249/README.md",
+      "reviewMethod": "documentation",
+      "origins": [
+        "PC"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": 5124,
+      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "content": {
+        "pt": {
+          "summary": "Motor de Tomb Raider com uma fase demonstrativa em WebGL.",
+          "originalFiles": "A demonstração inclui uma fase; não é a campanha completa.",
+          "requirements": [
+            "Navegador atualizado com JavaScript e WebGL/WebAssembly. Controles e desempenho dependem do projeto e do dispositivo."
+          ],
+          "installation": [
+            "Abra a página do autor e aguarde o carregamento da demonstração."
+          ],
+          "limitations": "Documentação conferida; jogabilidade não testada pelo catálogo. Verifique suporte a celular, controles e salvamento na página do autor."
+        },
+        "en": {
+          "summary": "Tomb Raider engine with a WebGL demo level.",
+          "originalFiles": "The demo includes one level, not the full campaign.",
+          "requirements": [
+            "Updated browser with JavaScript and WebGL/WebAssembly. Controls and performance depend on the project and device."
+          ],
+          "installation": [
+            "Open the author’s page and wait for the demo to load."
+          ],
+          "limitations": "Documentation reviewed; gameplay not tested by the catalog. Check mobile support, controls and saving on the author’s page."
+        },
+        "es": {
+          "summary": "Motor de Tomb Raider con una fase de demostración WebGL.",
+          "originalFiles": "La demo incluye una fase, no la campaña completa.",
+          "requirements": [
+            "Navegador actualizado con JavaScript y WebGL/WebAssembly. Controles y rendimiento dependen del proyecto y dispositivo."
+          ],
+          "installation": [
+            "Abre la página del autor y espera a que cargue la demo."
+          ],
+          "limitations": "Documentación revisada; jugabilidad no probada por el catálogo. Consulta móvil, controles y guardado en la página del autor."
+        }
+      },
+      "browser": {
+        "url": "https://xproger.github.io/OpenLara/",
+        "access": "demo",
+        "verification": "documentation",
+        "checkedAt": "2026-10-16T22:24:22.040586+00:00",
+        "pageCheckedAt": "2026-10-16T22:27:47.014405+00:00",
+        "pageCheck": "landing-page"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Tomb_Raider_(1996_video_game)"
+      }
+    },
+    {
+      "id": "web-diabloweb",
+      "editionId": "web-diabloweb",
+      "game": "Diablo",
+      "name": "DiabloWeb",
+      "type": "port",
+      "approach": "source-port",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "github": "https://github.com/d07RiV/diabloweb",
+      "instructionsUrl": "https://github.com/d07RiV/diabloweb/blob/c61ef19c54ea646aed328bd8cc82c8a5f1ebd81d/README.md",
+      "reviewedAt": "2026-10-16",
+      "reviewedVersion": "c61ef19c54ea646aed328bd8cc82c8a5f1ebd81d",
+      "evidenceUrl": "https://github.com/d07RiV/diabloweb/blob/c61ef19c54ea646aed328bd8cc82c8a5f1ebd81d/README.md",
+      "reviewMethod": "documentation",
+      "origins": [
+        "PC"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": 2888,
+      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "content": {
+        "pt": {
+          "summary": "Diablo no navegador, com opção shareware e uso dos seus dados do jogo completo.",
+          "originalFiles": "O jogo completo exige seu DIABDAT.MPQ de uma cópia original. A opção shareware tem conteúdo limitado.",
+          "requirements": [
+            "Navegador atualizado com JavaScript e WebGL/WebAssembly. Controles e desempenho dependem do projeto e do dispositivo."
+          ],
+          "installation": [
+            "Use a opção shareware ou selecione seu DIABDAT.MPQ seguindo a página do projeto."
+          ],
+          "limitations": "Documentação conferida; jogabilidade não testada pelo catálogo. Verifique suporte a celular, controles e salvamento na página do autor."
+        },
+        "en": {
+          "summary": "Diablo in the browser, with shareware support and your own full-game data.",
+          "originalFiles": "The full game requires DIABDAT.MPQ from your original copy. Shareware has limited content.",
+          "requirements": [
+            "Updated browser with JavaScript and WebGL/WebAssembly. Controls and performance depend on the project and device."
+          ],
+          "installation": [
+            "Use the shareware option or select your DIABDAT.MPQ following the project page."
+          ],
+          "limitations": "Documentation reviewed; gameplay not tested by the catalog. Check mobile support, controls and saving on the author’s page."
+        },
+        "es": {
+          "summary": "Diablo en el navegador, con shareware y tus datos del juego completo.",
+          "originalFiles": "El juego completo exige DIABDAT.MPQ de tu copia original. El shareware tiene contenido limitado.",
+          "requirements": [
+            "Navegador actualizado con JavaScript y WebGL/WebAssembly. Controles y rendimiento dependen del proyecto y dispositivo."
+          ],
+          "installation": [
+            "Usa el shareware o selecciona tu DIABDAT.MPQ según la página del proyecto."
+          ],
+          "limitations": "Documentación revisada; jugabilidad no probada por el catálogo. Consulta móvil, controles y guardado en la página del autor."
+        }
+      },
+      "browser": {
+        "url": "https://d07riv.github.io/diabloweb/",
+        "access": "shareware",
+        "verification": "documentation",
+        "checkedAt": "2026-10-16T22:24:22.040586+00:00",
+        "pageCheckedAt": "2026-10-16T22:27:47.014417+00:00",
+        "pageCheck": "landing-page"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Diablo_(video_game)"
+      }
+    },
+    {
+      "id": "web-half-life",
+      "editionId": "web-half-life",
+      "game": "Half-Life",
+      "name": "WebXash",
+      "type": "port",
+      "approach": "source-port",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "github": "https://github.com/x8BitRain/webXash",
+      "instructionsUrl": "https://github.com/x8BitRain/webXash/blob/ff86609dac6f67b52a4731260dd9900e2e6fce65/README.md",
+      "reviewedAt": "2026-10-16",
+      "reviewedVersion": "ff86609dac6f67b52a4731260dd9900e2e6fce65",
+      "evidenceUrl": "https://github.com/x8BitRain/webXash/blob/ff86609dac6f67b52a4731260dd9900e2e6fce65/README.md",
+      "reviewMethod": "documentation",
+      "origins": [
+        "PC"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": 167,
+      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "content": {
+        "pt": {
+          "summary": "Half-Life no navegador pelo motor Xash3D compilado para WebAssembly.",
+          "originalFiles": "Exige seus arquivos originais, incluindo a pasta valve.",
+          "requirements": [
+            "Navegador atualizado com JavaScript e WebGL/WebAssembly. Controles e desempenho dependem do projeto e do dispositivo."
+          ],
+          "installation": [
+            "Abra Open game folder ou Open zip e selecione os arquivos próprios conforme o README."
+          ],
+          "limitations": "Documentação conferida; jogabilidade não testada pelo catálogo. Verifique suporte a celular, controles e salvamento na página do autor."
+        },
+        "en": {
+          "summary": "Half-Life in the browser through the Xash3D WebAssembly engine.",
+          "originalFiles": "Requires your original game files, including the valve folder.",
+          "requirements": [
+            "Updated browser with JavaScript and WebGL/WebAssembly. Controls and performance depend on the project and device."
+          ],
+          "installation": [
+            "Choose Open game folder or Open zip and select your own files as described in the README."
+          ],
+          "limitations": "Documentation reviewed; gameplay not tested by the catalog. Check mobile support, controls and saving on the author’s page."
+        },
+        "es": {
+          "summary": "Half-Life en el navegador mediante Xash3D y WebAssembly.",
+          "originalFiles": "Exige tus archivos originales, incluida la carpeta valve.",
+          "requirements": [
+            "Navegador actualizado con JavaScript y WebGL/WebAssembly. Controles y rendimiento dependen del proyecto y dispositivo."
+          ],
+          "installation": [
+            "Usa Open game folder u Open zip y selecciona tus archivos según el README."
+          ],
+          "limitations": "Documentación revisada; jugabilidad no probada por el catálogo. Consulta móvil, controles y guardado en la página del autor."
+        }
+      },
+      "browser": {
+        "url": "https://x8bitrain.github.io/webXash/",
+        "access": "own-files",
+        "verification": "documentation",
+        "checkedAt": "2026-10-16T22:24:22.040586+00:00",
+        "pageCheckedAt": "2026-10-16T22:27:47.014422+00:00",
+        "pageCheck": "landing-page"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/f/fa/Half-Life_Cover_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Half-Life_(video_game)"
+      }
+    },
+    {
+      "id": "web-counter-strike",
+      "editionId": "web-counter-strike",
+      "game": "Counter-Strike 1.6",
+      "name": "WebXash",
+      "type": "port",
+      "approach": "source-port",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "github": "https://github.com/x8BitRain/webXash",
+      "instructionsUrl": "https://github.com/x8BitRain/webXash/blob/ff86609dac6f67b52a4731260dd9900e2e6fce65/README.md",
+      "reviewedAt": "2026-10-16",
+      "reviewedVersion": "ff86609dac6f67b52a4731260dd9900e2e6fce65",
+      "evidenceUrl": "https://github.com/x8BitRain/webXash/blob/ff86609dac6f67b52a4731260dd9900e2e6fce65/README.md",
+      "reviewMethod": "documentation",
+      "origins": [
+        "PC"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": 167,
+      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "content": {
+        "pt": {
+          "summary": "Counter-Strike 1.6 no navegador usando WebXash e arquivos da sua instalação.",
+          "originalFiles": "Exige as pastas valve e cstrike da sua cópia, conforme o guia.",
+          "requirements": [
+            "Navegador atualizado com JavaScript e WebGL/WebAssembly. Controles e desempenho dependem do projeto e do dispositivo."
+          ],
+          "installation": [
+            "Selecione a pasta raiz com valve/cstrike ou um ZIP na estrutura indicada pelo autor."
+          ],
+          "limitations": "Documentação conferida; jogabilidade não testada pelo catálogo. Verifique suporte a celular, controles e salvamento na página do autor."
+        },
+        "en": {
+          "summary": "Counter-Strike 1.6 in the browser using WebXash and your installation files.",
+          "originalFiles": "Requires valve and cstrike folders from your copy, following the guide.",
+          "requirements": [
+            "Updated browser with JavaScript and WebGL/WebAssembly. Controls and performance depend on the project and device."
+          ],
+          "installation": [
+            "Select the root folder containing valve/cstrike or a ZIP using the author’s layout."
+          ],
+          "limitations": "Documentation reviewed; gameplay not tested by the catalog. Check mobile support, controls and saving on the author’s page."
+        },
+        "es": {
+          "summary": "Counter-Strike 1.6 en el navegador con WebXash y archivos de tu instalación.",
+          "originalFiles": "Exige las carpetas valve y cstrike de tu copia, según la guía.",
+          "requirements": [
+            "Navegador actualizado con JavaScript y WebGL/WebAssembly. Controles y rendimiento dependen del proyecto y dispositivo."
+          ],
+          "installation": [
+            "Selecciona la carpeta raíz con valve/cstrike o un ZIP con la estructura indicada por el autor."
+          ],
+          "limitations": "Documentación revisada; jugabilidad no probada por el catálogo. Consulta móvil, controles y guardado en la página del autor."
+        }
+      },
+      "browser": {
+        "url": "https://x8bitrain.github.io/webXash/",
+        "access": "own-files",
+        "verification": "documentation",
+        "checkedAt": "2026-10-16T22:24:22.040586+00:00",
+        "pageCheckedAt": "2026-10-16T22:27:47.014424+00:00",
+        "pageCheck": "landing-page"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/6/67/Counter-Strike_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Counter-Strike_(video_game)"
+      }
+    },
+    {
+      "id": "web-quake",
+      "editionId": "web-quake",
+      "game": "Quake",
+      "name": "Qwasm",
+      "type": "port",
+      "approach": "source-port",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "github": "https://github.com/GMH-Code/Qwasm",
+      "instructionsUrl": "https://github.com/GMH-Code/Qwasm/blob/f56b5e71e4be8effede29bae1785a5306dcc0249/README.md",
+      "reviewedAt": "2026-10-16",
+      "reviewedVersion": "f56b5e71e4be8effede29bae1785a5306dcc0249",
+      "evidenceUrl": "https://github.com/GMH-Code/Qwasm/blob/f56b5e71e4be8effede29bae1785a5306dcc0249/README.md",
+      "reviewMethod": "documentation",
+      "origins": [
+        "PC"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": 57,
+      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "content": {
+        "pt": {
+          "summary": "Motor de Quake no navegador, com opção livre com bots e suporte aos seus arquivos PAK.",
+          "originalFiles": "A página oferece shareware (primeiro episódio) e LibreQuake; o jogo completo exige seu PAK1.PAK.",
+          "requirements": [
+            "Navegador atualizado com JavaScript e WebGL/WebAssembly. Controles e desempenho dependem do projeto e do dispositivo."
+          ],
+          "installation": [
+            "Abra o projeto e siga a seleção dos seus PAKs ou a opção livre disponibilizada pelo autor."
+          ],
+          "limitations": "Documentação conferida; jogabilidade não testada pelo catálogo. Verifique suporte a celular, controles e salvamento na página do autor."
+        },
+        "en": {
+          "summary": "Quake engine in the browser, with a free bot option and support for your PAK files.",
+          "originalFiles": "The page offers shareware (first episode) and LibreQuake; the full game requires your PAK1.PAK.",
+          "requirements": [
+            "Updated browser with JavaScript and WebGL/WebAssembly. Controls and performance depend on the project and device."
+          ],
+          "installation": [
+            "Open the project and follow its PAK selection or the author’s free option."
+          ],
+          "limitations": "Documentation reviewed; gameplay not tested by the catalog. Check mobile support, controls and saving on the author’s page."
+        },
+        "es": {
+          "summary": "Motor de Quake en el navegador, con opción libre con bots y tus archivos PAK.",
+          "originalFiles": "La página ofrece shareware (primer episodio) y LibreQuake; el juego completo exige tu PAK1.PAK.",
+          "requirements": [
+            "Navegador actualizado con JavaScript y WebGL/WebAssembly. Controles y rendimiento dependen del proyecto y dispositivo."
+          ],
+          "installation": [
+            "Abre el proyecto y sigue la selección de PAK o la opción libre del autor."
+          ],
+          "limitations": "Documentación revisada; jugabilidad no probada por el catálogo. Consulta móvil, controles y guardado en la página del autor."
+        }
+      },
+      "browser": {
+        "url": "https://qwasm.m-h.org.uk/",
+        "access": "shareware",
+        "verification": "documentation",
+        "checkedAt": "2026-10-16T22:24:22.040586+00:00",
+        "pageCheckedAt": "2026-10-16T22:27:47.014425+00:00",
+        "pageCheck": "landing-page"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/4/4c/Quake1cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Quake_(video_game)"
+      }
+    },
+    {
+      "id": "web-freeciv",
+      "editionId": "web-freeciv",
+      "game": "Freeciv-web",
+      "name": "Freeciv-web",
+      "type": "port",
+      "approach": "source-port",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "github": "https://github.com/freeciv/freeciv-web",
+      "instructionsUrl": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/README.md",
+      "reviewedAt": "2026-10-16",
+      "reviewedVersion": "c19ce060fadc99663f8aba3652ca94b07174467c",
+      "evidenceUrl": "https://github.com/freeciv/freeciv-web/blob/c19ce060fadc99663f8aba3652ca94b07174467c/README.md",
+      "reviewMethod": "documentation",
+      "origins": [
+        "PC"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": 2209,
+      "starsCollectedAt": "2026-10-16T22:24:22.040586+00:00",
+      "content": {
+        "pt": {
+          "summary": "Estratégia por turnos gratuita para navegador, com partidas individuais e multiplayer.",
+          "originalFiles": "Não exige arquivos de um jogo comercial. Os servidores disponíveis estão listados pelo projeto.",
+          "requirements": [
+            "Navegador atualizado com JavaScript e WebGL/WebAssembly. Controles e desempenho dependem do projeto e do dispositivo."
+          ],
+          "installation": [
+            "Abra o servidor indicado pelo projeto e escolha uma modalidade de partida."
+          ],
+          "limitations": "Documentação conferida; jogabilidade não testada pelo catálogo. Verifique suporte a celular, controles e salvamento na página do autor."
+        },
+        "en": {
+          "summary": "Free turn-based browser strategy with single-player and multiplayer modes.",
+          "originalFiles": "No commercial game files required. Available servers are listed by the project.",
+          "requirements": [
+            "Updated browser with JavaScript and WebGL/WebAssembly. Controls and performance depend on the project and device."
+          ],
+          "installation": [
+            "Open a server listed by the project and choose a game mode."
+          ],
+          "limitations": "Documentation reviewed; gameplay not tested by the catalog. Check mobile support, controls and saving on the author’s page."
+        },
+        "es": {
+          "summary": "Estrategia por turnos gratuita en el navegador, individual y multijugador.",
+          "originalFiles": "No exige archivos de un juego comercial. El proyecto enumera los servidores disponibles.",
+          "requirements": [
+            "Navegador actualizado con JavaScript y WebGL/WebAssembly. Controles y rendimiento dependen del proyecto y dispositivo."
+          ],
+          "installation": [
+            "Abre un servidor indicado por el proyecto y elige una modalidad de partida."
+          ],
+          "limitations": "Documentación revisada; jugabilidad no probada por el catálogo. Consulta móvil, controles y guardado en la página del autor."
+        }
+      },
+      "browser": {
+        "url": "https://www.freecivweb.com/",
+        "access": "free",
+        "verification": "documentation",
+        "checkedAt": "2026-10-16T22:24:22.040586+00:00",
+        "pageCheckedAt": "2026-10-16T22:27:47.014429+00:00",
+        "pageCheck": "landing-page"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Freeciv_Web_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Freeciv"
+      }
+    }
+  ]
+}

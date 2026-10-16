@@ -22,6 +22,7 @@ function validateProject(p) {
   if (p.relatedProject && !safeURL(p.relatedProject)) throw new Error('Invalid related project');
   for (const k of ['origins','targets']) if (!Array.isArray(p[k]) || !p[k].length || p[k].some(v => typeof v !== 'string' || !v.trim())) throw new Error('Invalid platform list');
   if(p.image&&(!safeImageURL(p.image.url)||!['console','reference'].includes(p.image.kind)||(p.image.source&&!safeURL(p.image.source))))throw new Error('Invalid project image');
+  if(p.browser&&(!safeURL(p.browser.url)||!['demo','shareware','own-files','free'].includes(p.browser.access)||p.browser.verification!=='documentation'))throw new Error('Invalid browser project');
   const github = safeURL(p.github);
   if (!github || !/^https:\/\/github\.com\/[^/]+\/[^/]+\/?$/.test(github)) throw new Error('Invalid repository');
   if (!safeURL(p.instructionsUrl) || !safeURL(p.evidenceUrl)) throw new Error('Invalid source');
@@ -74,6 +75,7 @@ async function init() {
   const date = value => new Intl.DateTimeFormat(language === 'pt' ? 'pt-BR' : language, {dateStyle:'medium', timeZone:'UTC'}).format(new Date(value.slice(0,10)+'T00:00:00Z'));
   const number = value => new Intl.NumberFormat(language === 'pt' ? 'pt-BR' : language).format(value);
   function translatePage() {
+    document.querySelectorAll('a[href^="navegador.html"]').forEach(a=>a.href="navegador.html?lang="+language);
     document.querySelectorAll('a[href^="contribuir.html"]').forEach(a=>a.href="contribuir.html?lang="+language);
     document.documentElement.lang = language === 'pt' ? 'pt-BR' : language;
     document.title = t('pageTitle'); document.querySelector('meta[name="description"]').content = t('description');

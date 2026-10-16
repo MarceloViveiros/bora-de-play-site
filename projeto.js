@@ -11,7 +11,7 @@ async function initProject(){
     document.documentElement.lang=language==='pt'?'pt-BR':language;
     document.querySelectorAll('[data-i18n]').forEach(n=>n.textContent=t(n.dataset.i18n));
     document.querySelectorAll('[data-i18n-aria-label]').forEach(n=>n.setAttribute('aria-label',t(n.dataset.i18nAriaLabel)));
-    select.value=language;document.querySelector('#back-catalog').href='./?lang='+language+'#catalogo';
+    select.value=language;document.querySelector('#back-catalog').href=project?.browser?'navegador.html?lang='+language:'./?lang='+language+'#catalogo';if(project?.browser)document.querySelector('#back-catalog').textContent=t('browserNav');
     document.title=(project?project.game:t('projectDetails'))+' | Bora de Play';
     document.querySelector('#share-panel').hidden=!project;
     if(!project){const box=el('div',undefined,'empty');box.append(el('h1',t(loadFailed?'loadError':'notFound')),el('p',t(loadFailed?'loadHelp':'notFoundHelp')));content.replaceChildren(box);return;}
@@ -19,7 +19,7 @@ async function initProject(){
     const article=el('article',undefined,'project-detail');article.dataset.project=project.id;const hero=el('header',undefined,'project-heading');
     hero.append(el('span',project.origins.join(' / ')+' → '+project.targets.join(' / '),'eyebrow'),el('h1',project.game),el('p',project.name,'project-name'));
     for(const key of [project.type,project.playability,project.developmentStage])hero.append(el('span',t(key),'badge'));
-    hero.insertBefore(projectVisual(project,language,true),hero.firstChild);const credit=imageCredit(project,language);if(credit)hero.append(credit);
+    hero.insertBefore(projectVisual(project,language,true),hero.firstChild);if(project.browser){const play=link(t('browserPlay'),project.browser.url);play.className='button';hero.append(play,el('p',t('browserDisclaimer'),'browser-access-note'));}const credit=imageCredit(project,language);if(credit)hero.append(credit);
     const stars=el('p',project.stars===null?t('unknownStars'):'★ '+new Intl.NumberFormat(language).format(project.stars),'stars');
     if(project.stars!==null)stars.append(el('small',t('snapshot',{date:date(project.starsCollectedAt)})));
     hero.append(stars,el('p',text.summary,'project-summary'));if(project.reviewAgent)hero.append(el('p',t('autoReview'),'review'));if(project.authorClaim)hero.append(section('sourceClaim',project.authorClaim));const source=link(t('openGithub'),project.github);source.className='button';hero.append(source);article.append(hero);
@@ -37,7 +37,7 @@ async function initProject(){
   }
   select.addEventListener('change',()=>{language=pickLanguage(select.value);try{localStorage.setItem('bora-language',language);}catch{}const u=new URL(location.href);u.searchParams.set('lang',language);history.replaceState(null,'',u);render();});
   document.querySelector('#copy-link').addEventListener('click',async()=>{const input=document.querySelector('#share-url'),status=document.querySelector('#share-status');try{await navigator.clipboard.writeText(input.value);status.textContent=t('copied');}catch{input.focus();input.select();status.textContent=t('copyFallback');}});
-  try{const response=await fetch('./data/projects.json');if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();if(data.schemaVersion!==3||!Array.isArray(data.projects))throw Error('Invalid catalog');projects=data.projects.map(validateProject);project=projects.find(p=>p.id===requested.get('id'))||null;}catch(error){loadFailed=true;console.error(error);}
+  try{const response=await fetch('./data/projects.json');if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();if((requested.get('id')||'').startsWith('web-')){const browserResponse=await fetch('./data/browser-projects.json');if(!browserResponse.ok)throw Error('Browser catalog unavailable');const web=await browserResponse.json();if(web.schemaVersion!==3||!Array.isArray(web.projects))throw Error('Invalid browser catalog');data.projects.push(...web.projects);}if(data.schemaVersion!==3||!Array.isArray(data.projects))throw Error('Invalid catalog');projects=data.projects.map(validateProject);project=projects.find(p=>p.id===requested.get('id'))||null;}catch(error){loadFailed=true;console.error(error);}
   render();
 }
 initProject();
