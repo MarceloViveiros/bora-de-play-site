@@ -122,7 +122,11 @@ const BORA_I18N = {
     "sourceClaim": "Relato do README (idioma original)",
     "watchVideo": "Assistir ao vídeo",
     "latestVideo": "Último vídeo do Bora de Play",
-    "watchYouTube": "Assistir no YouTube ↗"
+    "watchYouTube": "Assistir no YouTube ↗",
+    "gameImage": "Imagem de referência do jogo:",
+    "consoleImage": "Ilustração do console:",
+    "imageSource": "Fonte da imagem ↗",
+    "originalConsoleArt": "Ilustração original do catálogo."
   },
   "en": {
     "pageTitle": "Bora de Play | Game catalog",
@@ -246,7 +250,11 @@ const BORA_I18N = {
     "sourceClaim": "README claim (original language)",
     "watchVideo": "Watch video",
     "latestVideo": "Latest Bora de Play video",
-    "watchYouTube": "Watch on YouTube ↗"
+    "watchYouTube": "Watch on YouTube ↗",
+    "gameImage": "Game reference image:",
+    "consoleImage": "Console illustration:",
+    "imageSource": "Image source ↗",
+    "originalConsoleArt": "Original catalog illustration."
   },
   "es": {
     "pageTitle": "Bora de Play | Catálogo de juegos",
@@ -370,7 +378,11 @@ const BORA_I18N = {
     "sourceClaim": "Declaración del README (idioma original)",
     "watchVideo": "Ver vídeo",
     "latestVideo": "Último vídeo de Bora de Play",
-    "watchYouTube": "Ver en YouTube ↗"
+    "watchYouTube": "Ver en YouTube ↗",
+    "gameImage": "Imagen de referencia del juego:",
+    "consoleImage": "Ilustración de la consola:",
+    "imageSource": "Fuente de la imagen ↗",
+    "originalConsoleArt": "Ilustración original del catálogo."
   }
 };
 if(typeof module !== 'undefined') module.exports = BORA_I18N;

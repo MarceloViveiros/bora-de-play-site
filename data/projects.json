@@ -78,6 +78,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://images.nintendolife.com/b23ee6b78ed2b/na.900x.jpg",
+        "source": "https://www.nintendolife.com/news/2020/01/poll_box_art_brawl_27_-_the_legend_of_zelda_ocarina_of_time",
+        "kind": "reference"
       }
     },
     {
@@ -156,6 +161,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://cdn2.steamgriddb.com/grid/fa56d7c88e197e561a7f7becc3be7386.png",
+        "source": "https://www.steamgriddb.com/grid/729091",
+        "kind": "reference"
       }
     },
     {
@@ -233,6 +243,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png",
+        "source": "https://en.wikipedia.org/wiki/Jak_and_Daxter%3A_The_Precursor_Legacy",
+        "kind": "reference"
       }
     },
     {
@@ -309,6 +324,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg",
+        "source": "https://en.wikipedia.org/wiki/Sonic_Unleashed",
+        "kind": "reference"
       }
     },
     {
@@ -387,6 +407,10 @@
           "hasDownload": false
         },
         "documentationChanged": true
+      },
+      "image": {
+        "url": "assets/platforms/ps3.svg",
+        "kind": "console"
       }
     },
     {
@@ -464,6 +488,10 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "assets/platforms/ps4.svg",
+        "kind": "console"
       }
     },
     {
@@ -547,6 +575,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/8/8b/God_of_War_III_cover_art.jpg",
+        "source": "https://en.wikipedia.org/wiki/God_of_War_III",
+        "kind": "reference"
       }
     },
     {
@@ -631,6 +664,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/P.T._cover_art.jpg/330px-P.T._cover_art.jpg",
+        "source": "https://en.wikipedia.org/wiki/P.T._(video_game)",
+        "kind": "reference"
       }
     },
     {
@@ -715,6 +753,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://raw.githubusercontent.com/peiikai/LASRecomp/6244eb9d4d3497094e21cac7dabe998ded1f2800/docs/ultrawide.jpg",
+        "source": "https://github.com/peiikai/LASRecomp/blob/6244eb9d4d3497094e21cac7dabe998ded1f2800/README.md",
+        "kind": "reference"
       }
     },
     {
@@ -797,6 +840,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/a/a4/ShadowOfTheColossus2018.jpg",
+        "source": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus_(2018_video_game)",
+        "kind": "reference"
       }
     },
     {
@@ -880,6 +928,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+        "source": "https://en.wikipedia.org/wiki/Bloodborne",
+        "kind": "reference"
       }
     },
     {
@@ -963,6 +1016,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+        "source": "https://en.wikipedia.org/wiki/Bloodborne",
+        "kind": "reference"
       }
     },
     {
@@ -1046,6 +1104,11 @@
           "hasDownload": true
         },
         "documentationChanged": true
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/3/34/Infamous_second_son_boxart.jpg",
+        "source": "https://en.wikipedia.org/wiki/Infamous_Second_Son",
+        "kind": "reference"
       }
     },
     {
@@ -1129,6 +1192,11 @@
           "hasDownload": true
         },
         "documentationChanged": true
+      },
+      "image": {
+        "url": "https://raw.githubusercontent.com/HayatoG/tlg_pc/8a0b6f7cafba22d2dc995ca1d126d74c22b65589/docs/screenshots/03-trico.jpg",
+        "source": "https://github.com/HayatoG/tlg_pc/blob/8a0b6f7cafba22d2dc995ca1d126d74c22b65589/README.md",
+        "kind": "reference"
       }
     },
     {
@@ -1214,6 +1282,11 @@
           "hasDownload": true
         },
         "documentationChanged": true
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+        "source": "https://en.wikipedia.org/wiki/Metroid_Prime",
+        "kind": "reference"
       }
     },
     {
@@ -1286,6 +1359,11 @@
         "archived": false,
         "latestRelease": null,
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/8/82/Animal_Crossing_Coverart.png",
+        "source": "https://en.wikipedia.org/wiki/Animal_Crossing_(video_game)",
+        "kind": "reference"
       }
     },
     {
@@ -1363,6 +1441,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://raw.githubusercontent.com/wipeout-phantom-edition/wipeout-phantom-edition/2a4f8937f129de42d94b210090114bf798773121/images/screenshot02.png",
+        "source": "https://github.com/wipeout-phantom-edition/wipeout-phantom-edition/blob/2a4f8937f129de42d94b210090114bf798773121/README.md",
+        "kind": "reference"
       }
     },
     {
@@ -1443,6 +1526,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://cdn2.steamgriddb.com/grid/fa56d7c88e197e561a7f7becc3be7386.png",
+        "source": "https://www.steamgriddb.com/grid/729091",
+        "kind": "reference"
       }
     },
     {
@@ -1522,6 +1610,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/StarFox64_N64_Game_Box.jpg/330px-StarFox64_N64_Game_Box.jpg",
+        "source": "https://en.wikipedia.org/wiki/Star_Fox_64",
+        "kind": "reference"
       }
     },
     {
@@ -1601,6 +1694,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Perfect_dark_box.jpg/330px-Perfect_dark_box.jpg",
+        "source": "https://en.wikipedia.org/wiki/Perfect_Dark",
+        "kind": "reference"
       }
     },
     {
@@ -1682,6 +1780,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://raw.githubusercontent.com/theclub654/ProjectCane/d8e34caf5edd2a0e2d4ec292b69145425ec6201c/README-assets/projectcane-logo.png",
+        "source": "https://github.com/theclub654/ProjectCane/blob/d8e34caf5edd2a0e2d4ec292b69145425ec6201c/README.md",
+        "kind": "reference"
       }
     },
     {
@@ -1760,6 +1863,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/F-Zero_X_box_art.jpg/330px-F-Zero_X_box_art.jpg",
+        "source": "https://en.wikipedia.org/wiki/F-Zero_X",
+        "kind": "reference"
       }
     },
     {
@@ -1838,6 +1946,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/9/94/Gravity_Rush_2.jpg",
+        "source": "https://en.wikipedia.org/wiki/Gravity_Rush_2",
+        "kind": "reference"
       }
     },
     {
@@ -1917,6 +2030,11 @@
           "hasDownload": true
         },
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Conkersbfdbox.jpg/330px-Conkersbfdbox.jpg",
+        "source": "https://en.wikipedia.org/wiki/Conker's_Bad_Fur_Day",
+        "kind": "reference"
       }
     },
     {
@@ -1989,6 +2107,11 @@
         "archived": false,
         "latestRelease": null,
         "documentationChanged": false
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/1/16/Ace_Combat_6_Fires_of_Liberation_Game_Cover.jpg",
+        "source": "https://en.wikipedia.org/wiki/Ace_Combat_6%3A_Fires_of_Liberation",
+        "kind": "reference"
       }
     }
   ],

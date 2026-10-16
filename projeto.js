@@ -16,9 +16,10 @@ async function initProject(){
     document.querySelector('#share-panel').hidden=!project;
     if(!project){const box=el('div',undefined,'empty');box.append(el('h1',t(loadFailed?'loadError':'notFound')),el('p',t(loadFailed?'loadHelp':'notFoundHelp')));content.replaceChildren(box);return;}
     const text=project.content[language];document.querySelector('meta[name="description"]').content=text.summary;
-    const article=el('article',undefined,'project-detail'),hero=el('header',undefined,'project-heading');
+    const article=el('article',undefined,'project-detail');article.dataset.project=project.id;const hero=el('header',undefined,'project-heading');
     hero.append(el('span',project.origins.join(' / ')+' → '+project.targets.join(' / '),'eyebrow'),el('h1',project.game),el('p',project.name,'project-name'));
     for(const key of [project.type,project.playability,project.developmentStage])hero.append(el('span',t(key),'badge'));
+    hero.insertBefore(projectVisual(project,language,true),hero.firstChild);const credit=imageCredit(project,language);if(credit)hero.append(credit);
     const stars=el('p',project.stars===null?t('unknownStars'):'★ '+new Intl.NumberFormat(language).format(project.stars),'stars');
     if(project.stars!==null)stars.append(el('small',t('snapshot',{date:date(project.starsCollectedAt)})));
     hero.append(stars,el('p',text.summary,'project-summary'));if(project.reviewAgent)hero.append(el('p',t('autoReview'),'review'));if(project.authorClaim)hero.append(section('sourceClaim',project.authorClaim));const source=link(t('openGithub'),project.github);source.className='button';hero.append(source);article.append(hero);
@@ -30,6 +31,7 @@ async function initProject(){
     if(related.length){const box=el('section',undefined,'project-section');box.append(el('h2',t('otherProjects')));related.forEach(p=>{const a=el('a',p.name,'text-link');a.href=projectURL(p.id,language);box.append(a,el('br'));});article.append(box);}
     else if(project.relatedProject)article.append(link(t('relatedVersion'),project.relatedProject));
     content.replaceChildren(article);
+    window.dispatchEvent(new CustomEvent('bora-project-change',{detail:{id:project.id,language}}));
     document.querySelector('#share-url').value=new URL(projectURL(project.id,language),location.href).href;
     document.querySelector('#share-status').textContent='';
   }
