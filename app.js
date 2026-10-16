@@ -93,7 +93,7 @@ async function init() {
     if(p.stars!==null)stars.title=t('snapshot',{date:date(p.starsCollectedAt)});
     const playableBadge=el('span',t(p.playability),'badge');playableBadge.title=t('status');
     const stageBadge=el('span',t(p.developmentStage),'badge stage-badge');stageBadge.title=t('stage');
-    body.append(el('span',t(p.type),'badge'),playableBadge,stageBadge,el('h3',p.game),el('p',p.name,'project-name'),stars,el('p',text.summary),el('p',`${p.origins.join(' / ')} â†’ ${p.targets.join(' / ')}`,'platforms'));
+    body.append(el('span',t(p.type),'badge'),playableBadge,stageBadge,el('h3',p.game),el('p',p.name,'project-name'),stars,el('p',text.summary),el('p',`${p.origins.join(' / ')} → ${p.targets.join(' / ')}`,'platforms'));
     if(p.reviewAgent)body.append(el('p',t('autoReview'),'review'));
     const credit=imageCredit(p,language);if(credit)body.append(credit);
     const details=el('details'); details.append(el('summary',t('details')));
@@ -102,7 +102,7 @@ async function init() {
     for(const [title,items,tag] of [['requirements',text.requirements,'ul'],['installation',text.installation,'ol']]){const list=el(tag);items.forEach(i=>list.append(el('li',i)));details.append(el('h4',t(title)),list);}
     details.append(link(t('instructions'),p.instructionsUrl),el('p',t('review',{date:date(p.reviewedAt),version:p.reviewedVersion.slice(0,12)}),'review'),el('p',t('notTested'),'review'),link(t('evidence'),p.evidenceUrl));
     if(p.stars!==null)details.append(el('p',t('snapshot',{date:date(p.starsCollectedAt)}),'review'));
-    if(p.reviewedRelease)details.append(el('h4',t('reviewedRelease')),link(p.reviewedRelease.tag+' â†—',p.reviewedRelease.url),el('p',t('releaseNotice'),'review'));
+    if(p.reviewedRelease)details.append(el('h4',t('reviewedRelease')),link(p.reviewedRelease.tag+' ↗',p.reviewedRelease.url),el('p',t('releaseNotice'),'review'));
     if(p.relatedProject)details.append(el('p',undefined,'related-project'));if(p.relatedProject)details.lastChild.append(link(t('relatedVersion'),p.relatedProject));
     const page=el('a',t('viewProject'),'button project-link');page.href=projectURL(p.id,language);if(p.authorClaim)details.append(el('h4',t('sourceClaim')),el('p',p.authorClaim));
     if(p.upstream?.latestRelease)details.append(el('h4',t('latestRelease')),link(p.upstream.latestRelease.tag,p.upstream.latestRelease.url));
@@ -114,7 +114,7 @@ async function init() {
     const hero=document.querySelector('.hero-art');hero.classList.add('video-hero');
     const frame=el('div',undefined,'channel-player'),button=el('button',undefined,'video-poster');button.type='button';button.setAttribute('aria-label',t('watchVideo')+': '+channelVideo.title);
     const poster=el('img');poster.src='https://i.ytimg.com/vi/'+channelVideo.videoId+'/hqdefault.jpg';poster.alt='';poster.width=480;poster.height=360;
-    button.append(poster,el('span','â–¶ '+t('watchVideo'),'video-play-label'));frame.append(button);
+    button.append(poster,el('span','▶ '+t('watchVideo'),'video-play-label'));frame.append(button);
     button.onclick=()=>{const iframe=el('iframe');iframe.src='https://www.youtube-nocookie.com/embed/'+channelVideo.videoId+'?autoplay=1&rel=0';iframe.title=channelVideo.title;iframe.allow='autoplay; encrypted-media; picture-in-picture; fullscreen';iframe.referrerPolicy='strict-origin-when-cross-origin';iframe.setAttribute('allowfullscreen','');frame.replaceChildren(iframe);};
     const caption=el('div',undefined,'video-caption');caption.append(el('small',t('latestVideo')),el('p',channelVideo.title),link(t('watchYouTube'),'https://www.youtube.com/watch?v='+channelVideo.videoId));hero.replaceChildren(frame,caption);
   }
@@ -123,7 +123,7 @@ async function init() {
     document.querySelector('#discoveries').hidden=false;
     const box=document.querySelector('#discoveries-list');box.replaceChildren();
     if(!discoveries.projects.length){box.append(el('p',t('discoveriesEmpty')));return;}
-    const list=el('ul');discoveries.projects.forEach(p=>{const item=el('li');item.append(link(p.repository,p.github),el('span',' Â· â˜… '+number(p.stars)));list.append(item);});box.append(list);
+    const list=el('ul');discoveries.projects.forEach(p=>{const item=el('li');item.append(link(p.repository,p.github),el('span',' · ★ '+number(p.stars)));list.append(item);});box.append(list);
   }
   function render() {
     renderDiscoveries();
