@@ -1,6 +1,7 @@
 'use strict';
 const BORA_I18N = {
   "pt": {
+    "communityLikesLogin": "Entre com Google na ficha para ver as curtidas",
     "pageTitle": "Bora de Play | Catálogo de jogos",
     "description": "Ports, recompilações e emuladores com fontes oficiais, estrelas e instruções.",
     "home": "Bora de Play, início",
@@ -129,6 +130,7 @@ const BORA_I18N = {
     "originalConsoleArt": "Ilustração original do catálogo."
   },
   "en": {
+    "communityLikesLogin": "Sign in with Google on the project page to see likes",
     "pageTitle": "Bora de Play | Game catalog",
     "description": "Ports, recompilations and emulators with official sources, stars and setup guidance.",
     "home": "Bora de Play, home",
@@ -257,6 +259,7 @@ const BORA_I18N = {
     "originalConsoleArt": "Original catalog illustration."
   },
   "es": {
+    "communityLikesLogin": "Entra con Google en la ficha para ver los me gusta",
     "pageTitle": "Bora de Play | Catálogo de juegos",
     "description": "Ports, recompilaciones y emuladores con fuentes oficiales, estrellas e instrucciones.",
     "home": "Bora de Play, inicio",

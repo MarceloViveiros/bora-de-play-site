@@ -61,7 +61,7 @@ function projectVisual(p,language='pt',large=false){
     for(const node of [back,front]){node.loading=large?'eager':'lazy';node.decoding='async';node.referrerPolicy='no-referrer';if(node===front)node.onerror=()=>{const fallback=fallbackImage(p);if(front.getAttribute('src')!==fallback){front.src=fallback;back.src=fallback;front.alt=t('consoleImage')+' '+p.origins[0];}else{cover.classList.remove('has-image');back.remove();front.remove();}};}
     cover.append(back,front);
   }
-  const meta=el('div',undefined,'cover-labels');meta.append(el('span',p.origins[0]),el('span',t(p.type),'cover-type'));cover.append(meta);return cover;
+  const meta=el('div',undefined,'cover-labels');meta.append(el('span',p.origins[0]),el('span',t(p.type),'cover-type'));cover.append(meta);if(!large){const likes=el('a','♡ —','cover-likes');likes.href=projectURL(p.id,language)+'#community';likes.dataset.likesProject=p.id;likes.dataset.language=language;likes.setAttribute('aria-label',BORA_I18N[language].communityLikesLogin);likes.title=BORA_I18N[language].communityLikesLogin;cover.append(likes);}return cover;
 }
 function imageCredit(p,language){const text=BORA_I18N[language];const box=el('p',undefined,'image-credit');if(p.image?.source)box.append(link(text.imageSource,p.image.source));else box.textContent=text.originalConsoleArt;return box;}
 async function init() {

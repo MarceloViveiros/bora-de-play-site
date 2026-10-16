@@ -52,3 +52,5 @@ form{border-top:3px solid var(--blue);box-shadow:0 15px 35px #00000016}input,sel
 .project-cover .cover-foreground{object-fit:contain;object-position:center}
 .project-visual,.project-visual.has-image,.project-visual:not(.has-image){width:100%;height:auto;aspect-ratio:16/9;max-height:360px;overflow:hidden}
 .card .project-cover:not(.has-image) .cover-labels{height:100%}
+
+.cover-likes{position:absolute;right:12px;bottom:12px;z-index:3;display:inline-flex;align-items:center;min-height:34px;padding:6px 10px;border:1px solid #ffffff45;border-radius:9px;background:#10192fee;color:#fff8e8;font-size:13px;font-weight:700;text-decoration:none;box-shadow:0 2px 9px #0004}.cover-likes:hover,.cover-likes:focus-visible{color:var(--yellow);border-color:var(--yellow)}
