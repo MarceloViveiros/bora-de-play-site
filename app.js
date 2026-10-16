@@ -74,6 +74,7 @@ async function init() {
   const date = value => new Intl.DateTimeFormat(language === 'pt' ? 'pt-BR' : language, {dateStyle:'medium', timeZone:'UTC'}).format(new Date(value.slice(0,10)+'T00:00:00Z'));
   const number = value => new Intl.NumberFormat(language === 'pt' ? 'pt-BR' : language).format(value);
   function translatePage() {
+    document.querySelectorAll('a[href^="contribuir.html"]').forEach(a=>a.href="contribuir.html?lang="+language);
     document.documentElement.lang = language === 'pt' ? 'pt-BR' : language;
     document.title = t('pageTitle'); document.querySelector('meta[name="description"]').content = t('description');
     document.querySelectorAll('[data-i18n]').forEach(n => n.textContent = t(n.dataset.i18n));
