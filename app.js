@@ -1,0 +1,124 @@
+'use strict';
+const LANGUAGES = ['pt', 'en', 'es'];
+const normalize = value => String(value).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+function safeURL(value) { try { const url = new URL(value); return url.protocol === 'https:' && !url.username && !url.password ? url.href : null; } catch { return null; } }
+function validDate(value) { return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0,10) === value; }
+function validateProject(p) {
+  const required = ['id','editionId','game','name','type','playability','developmentStage','approach','github','instructionsUrl','reviewedAt','reviewedVersion','evidenceUrl'];
+  if (!p || required.some(k => typeof p[k] !== 'string' || !p[k].trim())) throw new Error('Incomplete entry');
+  if (!['port','recompilacao','remake','emulador'].includes(p.type) || !['jogavel','parcial','nao-verificado','por-jogo'].includes(p.playability)) throw new Error('Invalid classification');
+  if (!['desenvolvimento','beta','experimental','maduro','parado','desconhecido'].includes(p.developmentStage)) throw new Error('Invalid stage');
+  if (!['source-port','static-recompilation','engine-reimplementation','native-runtime','emulation'].includes(p.approach)) throw new Error('Invalid approach');
+  if (p.reviewedRelease && (!safeURL(p.reviewedRelease.url) || typeof p.reviewedRelease.tag !== 'string' || !p.reviewedRelease.tag.trim())) throw new Error('Invalid release');
+  if (p.relatedProject && !safeURL(p.relatedProject)) throw new Error('Invalid related project');
+  for (const k of ['origins','targets']) if (!Array.isArray(p[k]) || !p[k].length || p[k].some(v => typeof v !== 'string' || !v.trim())) throw new Error('Invalid platform list');
+  const github = safeURL(p.github);
+  if (!github || !/^https:\/\/github\.com\/[^/]+\/[^/]+\/?$/.test(github)) throw new Error('Invalid repository');
+  if (!safeURL(p.instructionsUrl) || !safeURL(p.evidenceUrl)) throw new Error('Invalid source');
+  if (!validDate(p.reviewedAt) || p.reviewMethod !== 'documentation') throw new Error('Invalid review');
+  if (!(p.stars === null || (Number.isInteger(p.stars) && p.stars >= 0))) throw new Error('Invalid stars');
+  if (p.stars !== null && (typeof p.starsCollectedAt !== 'string' || !validDate(p.starsCollectedAt.slice(0,10)) || Number.isNaN(Date.parse(p.starsCollectedAt)))) throw new Error('Missing star timestamp');
+  for (const lang of LANGUAGES) {
+    const text = p.content?.[lang];
+    for (const k of ['summary','originalFiles','limitations']) if (typeof text?.[k] !== 'string' || !text[k].trim()) throw new Error('Missing translation: '+lang+'/'+k);
+    for (const k of ['requirements','installation']) if (!Array.isArray(text?.[k]) || !text[k].length || text[k].some(v => typeof v !== 'string' || !v.trim())) throw new Error('Missing translated list: '+lang+'/'+k);
+  }
+  return p;
+}
+function filterProjects(projects, f) {
+  const q = normalize(f.query || '');
+  return projects.filter(p => (!q || normalize(p.game + ' ' + p.name).includes(q)) && (!f.origin || p.origins.includes(f.origin)) && (!f.target || p.targets.includes(f.target)) && (!f.type || p.type === f.type) && (!f.status || p.playability === f.status) && (!f.stage || p.developmentStage === f.stage) && (!Number(f.minStars) || (p.stars !== null && p.stars >= Number(f.minStars))));
+}
+function sortProjects(projects, sort = 'stars', lang = 'pt') {
+  return [...projects].sort((a,b) => {
+    if (sort === 'stars') return (b.stars ?? -1) - (a.stars ?? -1) || a.game.localeCompare(b.game, lang);
+    if (sort === 'origin') return a.origins[0].localeCompare(b.origins[0], lang) || a.game.localeCompare(b.game, lang);
+    return a.game.localeCompare(b.game, lang);
+  });
+}
+function pickLanguage(requested, stored) { return LANGUAGES.includes(requested) ? requested : LANGUAGES.includes(stored) ? stored : 'pt'; }
+function el(tag, text, className) { const n = document.createElement(tag); if (text !== undefined) n.textContent = text; if (className) n.className = className; return n; }
+function link(text, url) { const a = el('a',text); a.href = safeURL(url); a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; }
+
+function projectURL(id,language='pt'){return 'projeto.html?id='+encodeURIComponent(id)+'&lang='+pickLanguage(language);}
+async function init() {
+  let stored; try { stored = localStorage.getItem('bora-language'); } catch { /* Storage is optional. */ }
+  let language = pickLanguage(new URL(location.href).searchParams.get('lang'), stored);
+  const languageSelect = document.querySelector('#language');
+  const form = document.querySelector('#filters'), results = document.querySelector('#results'), total = document.querySelector('#total');
+  let projects = [], data = null, loadFailed = false, discoveries = null;
+  const t = (key, values = {}) => BORA_I18N[language][key].replace(/\{(\w+)\}/g, (_, name) => String(values[name] ?? ''));
+  const date = value => new Intl.DateTimeFormat(language === 'pt' ? 'pt-BR' : language, {dateStyle:'medium', timeZone:'UTC'}).format(new Date(value.slice(0,10)+'T00:00:00Z'));
+  const number = value => new Intl.NumberFormat(language === 'pt' ? 'pt-BR' : language).format(value);
+  function translatePage() {
+    document.documentElement.lang = language === 'pt' ? 'pt-BR' : language;
+    document.title = t('pageTitle'); document.querySelector('meta[name="description"]').content = t('description');
+    document.querySelectorAll('[data-i18n]').forEach(n => n.textContent = t(n.dataset.i18n));
+    for (const attr of ['aria-label','placeholder','alt']) document.querySelectorAll(`[data-i18n-${attr}]`).forEach(n => n.setAttribute(attr,t(n.getAttribute('data-i18n-'+attr))));
+    languageSelect.value = language;
+  }
+  function empty(title, body, action) {
+    const box = el('div', undefined, 'empty'), icon = el('span','▦','empty-icon'); icon.setAttribute('aria-hidden','true');
+    box.append(icon,el('h3',title),el('p',body)); if(action)box.append(action); results.replaceChildren(box);
+  }
+  function card(p) {
+    const text=p.content[language], article=el('article',undefined,'card'); article.dataset.project=p.id;
+    const cover=el('div',undefined,'project-cover'); cover.dataset.origin=p.origins[0]; cover.setAttribute('aria-hidden','true'); cover.append(el('span',p.origins[0]),el('span',t(p.type),'cover-type'));
+    const body=el('div',undefined,'card-body');
+    const stars=el('p',p.stars===null?t('unknownStars'):'★ '+number(p.stars),'stars');
+    stars.setAttribute('aria-label',p.stars===null?t('unknownStars'):t('stars',{count:number(p.stars)}));
+    if(p.stars!==null)stars.title=t('snapshot',{date:date(p.starsCollectedAt)});
+    const playableBadge=el('span',t(p.playability),'badge');playableBadge.title=t('status');
+    const stageBadge=el('span',t(p.developmentStage),'badge stage-badge');stageBadge.title=t('stage');
+    body.append(el('span',t(p.type),'badge'),playableBadge,stageBadge,el('h3',p.game),el('p',p.name,'project-name'),stars,el('p',text.summary),el('p',`${p.origins.join(' / ')} → ${p.targets.join(' / ')}`,'platforms'));
+    if(p.reviewAgent)body.append(el('p',t('autoReview'),'review'));
+    const details=el('details'); details.append(el('summary',t('details')));
+    details.append(el('h4',t('approach')),el('p',t(p.approach)));
+    for(const [title,value] of [['originalFiles',text.originalFiles],['limitations',text.limitations]])details.append(el('h4',t(title)),el('p',value));
+    for(const [title,items,tag] of [['requirements',text.requirements,'ul'],['installation',text.installation,'ol']]){const list=el(tag);items.forEach(i=>list.append(el('li',i)));details.append(el('h4',t(title)),list);}
+    details.append(link(t('instructions'),p.instructionsUrl),el('p',t('review',{date:date(p.reviewedAt),version:p.reviewedVersion.slice(0,12)}),'review'),el('p',t('notTested'),'review'),link(t('evidence'),p.evidenceUrl));
+    if(p.stars!==null)details.append(el('p',t('snapshot',{date:date(p.starsCollectedAt)}),'review'));
+    if(p.reviewedRelease)details.append(el('h4',t('reviewedRelease')),link(p.reviewedRelease.tag+' ↗',p.reviewedRelease.url),el('p',t('releaseNotice'),'review'));
+    if(p.relatedProject)details.append(el('p',undefined,'related-project'));if(p.relatedProject)details.lastChild.append(link(t('relatedVersion'),p.relatedProject));
+    const page=el('a',t('viewProject'),'button project-link');page.href=projectURL(p.id,language);if(p.authorClaim)details.append(el('h4',t('sourceClaim')),el('p',p.authorClaim));
+    if(p.upstream?.latestRelease)details.append(el('h4',t('latestRelease')),link(p.upstream.latestRelease.tag,p.upstream.latestRelease.url));
+    if(p.upstream?.documentationChanged)details.append(el('p',t('upstreamChanged'),'review'));
+    body.append(page,details,link(t('github'),p.github));article.append(cover,body);return article;
+  }
+  function renderDiscoveries(){
+    if(!discoveries)return;
+    document.querySelector('#discoveries').hidden=false;
+    const box=document.querySelector('#discoveries-list');box.replaceChildren();
+    if(!discoveries.projects.length){box.append(el('p',t('discoveriesEmpty')));return;}
+    const list=el('ul');discoveries.projects.forEach(p=>{const item=el('li');item.append(link(p.repository,p.github),el('span',' · ★ '+number(p.stars)));list.append(item);});box.append(list);
+  }
+  function render() {
+    renderDiscoveries();
+    if(loadFailed){total.textContent=t('unavailable');empty(t('loadError'),t('loadHelp'));return;}
+    const f={query:document.querySelector('#query').value}; ['origin','target','type','status','stage','minStars'].forEach(k=>f[k]=document.getElementById(k).value);
+    const shown=sortProjects(filterProjects(projects,f),document.querySelector('#sort').value,language);
+    total.textContent=t('count',{shown:shown.length,total:projects.length});
+    document.querySelector('#collection-note').textContent=(data?.collectedAt?t('collection',{date:date(data.collectedAt)}):'')+(data?.updatedAt?' '+t('syncDate',{date:new Intl.DateTimeFormat(language,{dateStyle:'medium',timeStyle:'short'}).format(new Date(data.updatedAt))}):'');
+    if(!projects.length){const a=el('a',t('suggest'),'text-link');a.href='contribuir.html';empty(t('empty'),t('emptyBody'),a);return;}
+    if(!shown.length){const b=el('button',t('clear'));b.type='button';b.onclick=()=>form.reset();empty(t('noResults'),t('tryAgain'),b);return;}
+    const grid=el('div',undefined,'cards');shown.forEach(p=>grid.append(card(p)));results.replaceChildren(grid);
+  }
+  translatePage();
+  languageSelect.addEventListener('change',()=>{
+    language=pickLanguage(languageSelect.value);
+    try{localStorage.setItem('bora-language',language);}catch{/* Still works without storage. */}
+    try{const url=new URL(location.href);url.searchParams.set('lang',language);history.replaceState(null,'',url);}catch{/* Language works without URL persistence. */}
+    translatePage();render();
+  });
+  form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('input',render);form.addEventListener('change',render);form.addEventListener('reset',()=>setTimeout(render,0));
+  try {
+    const response=await fetch('./data/projects.json');if(!response.ok)throw new Error('HTTP '+response.status);
+    data=await response.json();if(data.schemaVersion!==3||!Array.isArray(data.projects))throw new Error('Invalid data version');
+    projects=data.projects.map(validateProject);if(new Set(projects.map(p=>p.id)).size!==projects.length)throw new Error('Duplicate IDs');
+    for(const [id,values]of [['origin',projects.flatMap(p=>p.origins)],['target',projects.flatMap(p=>p.targets)]]){const select=document.getElementById(id);[...new Set(values)].sort().forEach(v=>{if(![...select.options].some(o=>o.value===v))select.append(el('option',v));});}
+  }catch(error){loadFailed=true;console.error(error);}
+  try{const response=await fetch('./data/discoveries.json');if(response.ok){const value=await response.json();if(value.schemaVersion===1&&Array.isArray(value.projects)&&value.projects.every(p=>typeof p.repository==='string'&&safeURL(p.github)&&Number.isInteger(p.stars)))discoveries=value;}}catch{/* Discoveries never block the reviewed catalog. */}
+  render();
+}
+if(typeof document!=='undefined' && document.querySelector('#filters'))init();
+if(typeof module!=='undefined')module.exports={filterProjects,sortProjects,validateProject,safeURL,pickLanguage,validDate,projectURL};
