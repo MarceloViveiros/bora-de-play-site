@@ -1,6 +1,7 @@
 'use strict';
 const BORA_I18N = {
   "pt": {
+    "reviewsNav": "Avaliações",
     "channelApproved": "Testado e aprovado",
     "channelTestNote": "Teste confirmado pelo Bora de Play. Consulte os requisitos e limitações desta versão.",
     "browserLinkReview": "Link em verificação",
@@ -158,6 +159,7 @@ const BORA_I18N = {
     "web-unconfirmed": "Tecnologia web não confirmada"
   },
   "en": {
+    "reviewsNav": "Reviews",
     "channelApproved": "Tested and approved",
     "channelTestNote": "Testing confirmed by Bora de Play. Check this version’s requirements and limitations.",
     "browserLinkReview": "Link under review",
@@ -315,6 +317,7 @@ const BORA_I18N = {
     "web-unconfirmed": "Web technology not confirmed"
   },
   "es": {
+    "reviewsNav": "Reseñas",
     "channelApproved": "Probado y aprobado",
     "channelTestNote": "Prueba confirmada por Bora de Play. Consulta los requisitos y limitaciones de esta versión.",
     "browserLinkReview": "Enlace en revisión",

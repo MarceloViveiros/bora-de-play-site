@@ -23,6 +23,7 @@ function render(){
  let footer=document.querySelector('footer');if(!footer){footer=make('footer');document.body.append(footer);}
  let nav=footer.querySelector('.site-info-nav');if(!nav){nav=make('nav');nav.className='site-info-nav';footer.append(nav);}
  nav.setAttribute('aria-label',language==='pt'?'Informações do site':language==='es'?'Información del sitio':'Site information');nav.replaceChildren();
+ const reviewsLink=anchor({pt:"Avaliações",en:"Reviews",es:"Reseñas"}[language],"avaliacoes.html?lang="+language);nav.append(reviewsLink);
  pages.forEach((name,i)=>{const a=anchor(c.nav[i],name+'.html?lang='+language);if(document.body.dataset.infoPage===['about','contact','privacy'][i])a.setAttribute('aria-current','page');nav.append(a);});
 }
 render();document.querySelector('#language')?.addEventListener('change',event=>{language=copy[event.target.value]?event.target.value:'pt';if(document.body.dataset.infoPage){const u=new URL(location.href);u.searchParams.set('lang',language);history.replaceState(null,'',u);try{localStorage.setItem('bora-language',language);}catch{}}render();});
