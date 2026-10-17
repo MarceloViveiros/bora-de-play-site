@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-17T11:35:34.661329+00:00",
+  "updatedAt": "2026-10-17T14:23:14.463094+00:00",
   "projects": [
     {
       "id": "web-openlara",
@@ -23,8 +23,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 5124,
-      "starsCollectedAt": "2026-10-17T01:29:45.535864+00:00",
+      "stars": 5125,
+      "starsCollectedAt": "2026-10-17T14:22:58.912197+00:00",
       "content": {
         "pt": {
           "summary": "Motor de Tomb Raider com uma fase demonstrativa em WebGL.",
@@ -69,7 +69,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T01:29:48.247595+00:00",
+          "checkedAt": "2026-10-17T14:23:01.968156+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -101,8 +101,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 2888,
-      "starsCollectedAt": "2026-10-17T01:29:45.535864+00:00",
+      "stars": 2889,
+      "starsCollectedAt": "2026-10-17T14:22:58.912197+00:00",
       "content": {
         "pt": {
           "summary": "Diablo no navegador, com opção shareware e uso dos seus dados do jogo completo.",
@@ -147,7 +147,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T01:29:48.383466+00:00",
+          "checkedAt": "2026-10-17T14:23:02.121540+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -179,8 +179,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 167,
-      "starsCollectedAt": "2026-10-17T01:29:45.535864+00:00",
+      "stars": 169,
+      "starsCollectedAt": "2026-10-17T14:22:58.912197+00:00",
       "content": {
         "pt": {
           "summary": "Half-Life no navegador pelo motor Xash3D compilado para WebAssembly.",
@@ -225,7 +225,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T01:29:48.528507+00:00",
+          "checkedAt": "2026-10-17T14:23:02.239268+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -257,8 +257,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 167,
-      "starsCollectedAt": "2026-10-17T01:29:45.535864+00:00",
+      "stars": 169,
+      "starsCollectedAt": "2026-10-17T14:22:58.912197+00:00",
       "content": {
         "pt": {
           "summary": "Counter-Strike 1.6 no navegador usando WebXash e arquivos da sua instalação.",
@@ -303,7 +303,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T01:29:48.920076+00:00",
+          "checkedAt": "2026-10-17T14:23:02.380241+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -336,7 +336,7 @@
         "Web"
       ],
       "stars": 57,
-      "starsCollectedAt": "2026-10-17T01:29:45.535864+00:00",
+      "starsCollectedAt": "2026-10-17T14:22:58.912197+00:00",
       "content": {
         "pt": {
           "summary": "Motor de Quake no navegador, com opção livre com bots e suporte aos seus arquivos PAK.",
@@ -381,7 +381,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T01:29:48.966257+00:00",
+          "checkedAt": "2026-10-17T14:23:02.493945+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -414,7 +414,7 @@
         "Web"
       ],
       "stars": 2209,
-      "starsCollectedAt": "2026-10-17T01:29:45.535864+00:00",
+      "starsCollectedAt": "2026-10-17T14:22:58.912197+00:00",
       "content": {
         "pt": {
           "summary": "Estratégia por turnos gratuita para navegador, com partidas individuais e multiplayer.",
@@ -459,7 +459,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T01:29:49.596930+00:00",
+          "checkedAt": "2026-10-17T14:23:02.967558+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -491,8 +491,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 58,
-      "starsCollectedAt": "2026-10-17T01:29:45.535864+00:00",
+      "stars": 59,
+      "starsCollectedAt": "2026-10-17T14:22:58.912197+00:00",
       "content": {
         "pt": {
           "summary": "Cliente moderno de Diablo com demo shareware, importação do seu MPQ e gerenciamento local de saves.",
@@ -537,7 +537,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T01:29:50.469810+00:00",
+          "checkedAt": "2026-10-17T14:23:03.760369+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -569,8 +569,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 1588,
-      "starsCollectedAt": "2026-10-17T01:29:45.535864+00:00",
+      "stars": 1622,
+      "starsCollectedAt": "2026-10-17T14:22:58.912197+00:00",
       "content": {
         "pt": {
           "summary": "Adaptação de Halo de Xbox para navegador, com tela de importação da sua imagem de disco. O site cita o motor OpenCE.",
@@ -624,7 +624,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T01:29:50.755572+00:00",
+          "checkedAt": "2026-10-17T14:23:03.901660+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -673,7 +673,7 @@
         "pageCheckedAt": "2026-10-17T11:35:34.661329+00:00",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T11:35:58.373520+00:00",
+          "checkedAt": "2026-10-17T14:23:04.127876+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -722,10 +722,10 @@
     }
   ],
   "automation": {
-    "lastRunAt": "2026-10-17T01:29:45.535540+00:00",
+    "lastRunAt": "2026-10-17T14:22:58.911759+00:00",
     "metadata": "updated",
     "discovery": "completed",
-    "totalProjects": 8,
+    "totalProjects": 9,
     "pendingRepositories": 74
   }
 }
