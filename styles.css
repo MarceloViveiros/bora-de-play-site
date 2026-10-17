@@ -60,3 +60,6 @@ form{border-top:3px solid var(--blue);box-shadow:0 15px 35px #00000016}input,sel
 .catalog-tabs{max-width:1200px;margin:25px auto 0;padding:0 35px}.browser-intro{max-width:1200px;margin:auto;padding:60px 35px 25px}@media(max-width:580px){.catalog-tabs{padding:0 24px}.browser-intro{padding:36px 24px 20px}}
 
 .catalog-tabs{width:100%;justify-content:flex-start}.catalog-tabs a:last-child{display:block}.header-actions nav a:last-child{display:inline}
+
+/* Institutional pages and reserved ad positions. Inactive positions take no space. */
+.info-page{max-width:880px;margin:auto;padding:36px 24px 64px}.info-page h1{font-size:clamp(2rem,5vw,3rem);margin:32px 0 20px}.info-page h2{font-size:1.35rem;margin:32px 0 12px}.info-page p{line-height:1.8;overflow-wrap:anywhere}.info-page #info-links,.site-info-nav{display:flex;flex-wrap:wrap;gap:18px}.site-info-nav{padding:12px 0}.info-page #info-updated{font-size:.85rem;opacity:.8;margin-top:32px}.ad-placement[hidden]{display:none!important}
