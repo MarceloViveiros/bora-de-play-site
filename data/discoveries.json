@@ -1,7 +1,56 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T19:21:57.897105+00:00",
+  "updatedAt": "2026-10-17T01:22:55.914612+00:00",
   "projects": [
+    {
+      "repository": "LittleBitUA/DownpourRecomp",
+      "github": "https://github.com/LittleBitUA/DownpourRecomp",
+      "stars": 295,
+      "checkedAt": "2026-10-17T01:23:54.193299+00:00",
+      "evidenceUrl": "https://github.com/LittleBitUA/DownpourRecomp/blob/a183ff0b21f5e504526102754a04f2a9534a97b7/README.md"
+    },
+    {
+      "repository": "klorfmorf/Goemon64Recomp",
+      "github": "https://github.com/klorfmorf/Goemon64Recomp",
+      "stars": 317,
+      "checkedAt": "2026-10-17T01:23:48.788466+00:00",
+      "evidenceUrl": "https://github.com/klorfmorf/Goemon64Recomp/blob/6661abc439327b9ed9e235c391720f9034f61a78/README.md"
+    },
+    {
+      "repository": "goliathret/EdgeOfTimeRecomp",
+      "github": "https://github.com/goliathret/EdgeOfTimeRecomp",
+      "stars": 353,
+      "checkedAt": "2026-10-17T01:23:40.998345+00:00",
+      "evidenceUrl": "https://github.com/goliathret/EdgeOfTimeRecomp/blob/340144e4c7979a9f46699bef368fe7d7c62fddc9/README.md"
+    },
+    {
+      "repository": "YesterMester/TheSimpsonsGameRecomp",
+      "github": "https://github.com/YesterMester/TheSimpsonsGameRecomp",
+      "stars": 358,
+      "checkedAt": "2026-10-17T01:23:39.747401+00:00",
+      "evidenceUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp/blob/4ff637bc47900c86f003a48ec3f5ab6cbefc55c6/README.md"
+    },
+    {
+      "repository": "CTR-tools/ctr-native",
+      "github": "https://github.com/CTR-tools/ctr-native",
+      "stars": 407,
+      "checkedAt": "2026-10-17T01:23:35.942915+00:00",
+      "evidenceUrl": "https://github.com/CTR-tools/ctr-native/blob/4682773232715bfd3f39b8c7066ab12e1c37c23e/README.md"
+    },
+    {
+      "repository": "z3xox/Tenkaichi3Decomp",
+      "github": "https://github.com/z3xox/Tenkaichi3Decomp",
+      "stars": 413,
+      "checkedAt": "2026-10-17T01:23:34.474422+00:00",
+      "evidenceUrl": "https://github.com/z3xox/Tenkaichi3Decomp/blob/3449af26264834d69e0c69c85e42e804ec563ca2/README.md"
+    },
+    {
+      "repository": "999sian/melee-pc",
+      "github": "https://github.com/999sian/melee-pc",
+      "stars": 474,
+      "checkedAt": "2026-10-17T01:23:30.692636+00:00",
+      "evidenceUrl": "https://github.com/999sian/melee-pc/blob/88cda55cf976f8e69bdffd8645fd5afeefa77631/README.md"
+    },
     {
       "repository": "florinp93/hells-gate-recomp",
       "github": "https://github.com/florinp93/hells-gate-recomp",

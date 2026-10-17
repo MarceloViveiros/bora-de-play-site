@@ -22,8 +22,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "dd702b0679f2240209763d00277e7343ee1424b9",
       "reviewMethod": "documentation",
-      "stars": 5636,
-      "starsCollectedAt": "2026-10-16T19:21:58.889495+00:00",
+      "stars": 5639,
+      "starsCollectedAt": "2026-10-17T01:22:57.267805+00:00",
       "content": {
         "pt": {
           "summary": "Port nativo baseado na descompilação de Ocarina of Time.",
@@ -67,7 +67,7 @@
       "approach": "source-port",
       "editionId": "ship-of-harkinian",
       "upstream": {
-        "checkedAt": "2026-10-16T19:21:58.889495+00:00",
+        "checkedAt": "2026-10-17T01:22:57.267805+00:00",
         "head": "dd702b0679f2240209763d00277e7343ee1424b9",
         "pushedAt": "2026-10-15T23:09:13Z",
         "archived": false,
@@ -104,8 +104,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "b65c482ed672258eb684ab94a4e8c8aa662615ee",
       "reviewMethod": "documentation",
-      "stars": 7444,
-      "starsCollectedAt": "2026-10-16T19:21:59.864380+00:00",
+      "stars": 7447,
+      "starsCollectedAt": "2026-10-17T01:22:58.656503+00:00",
       "content": {
         "pt": {
           "summary": "Recompilação nativa de Majora’s Mask, com melhorias visuais e mods.",
@@ -150,7 +150,7 @@
       "editionId": "zelda64-recompiled",
       "relatedProject": "https://github.com/2ship2harkinian/2ship2harkinian",
       "upstream": {
-        "checkedAt": "2026-10-16T19:21:59.864380+00:00",
+        "checkedAt": "2026-10-17T01:22:58.656503+00:00",
         "head": "b65c482ed672258eb684ab94a4e8c8aa662615ee",
         "pushedAt": "2026-09-25T18:57:57Z",
         "archived": false,
@@ -188,7 +188,7 @@
       "reviewedVersion": "32c3cf73970f885c0a588623208232db72a74a58",
       "reviewMethod": "documentation",
       "stars": 3576,
-      "starsCollectedAt": "2026-10-16T19:22:00.906624+00:00",
+      "starsCollectedAt": "2026-10-17T01:23:00.117474+00:00",
       "content": {
         "pt": {
           "summary": "Port nativo de Jak 1 pelo projeto OpenGOAL.",
@@ -232,7 +232,7 @@
       "approach": "source-port",
       "editionId": "opengoal-jak1",
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:00.906624+00:00",
+        "checkedAt": "2026-10-17T01:23:00.117474+00:00",
         "head": "32c3cf73970f885c0a588623208232db72a74a58",
         "pushedAt": "2026-10-16T01:27:52Z",
         "archived": false,
@@ -268,8 +268,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "cf829a9eca8fb680fba4b0409ddeb6ca92f22e3c",
       "reviewMethod": "documentation",
-      "stars": 5198,
-      "starsCollectedAt": "2026-10-16T19:22:01.917130+00:00",
+      "stars": 5199,
+      "starsCollectedAt": "2026-10-17T01:23:01.412375+00:00",
       "content": {
         "pt": {
           "summary": "Recompilação da edição Xbox 360, com melhorias gráficas.",
@@ -313,7 +313,7 @@
       "approach": "static-recompilation",
       "editionId": "unleashed-recompiled",
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:01.917130+00:00",
+        "checkedAt": "2026-10-17T01:23:01.412375+00:00",
         "head": "cf829a9eca8fb680fba4b0409ddeb6ca92f22e3c",
         "pushedAt": "2026-06-29T11:05:43Z",
         "archived": false,
@@ -351,8 +351,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "f94e9f8647aeae07ea064dbafe407a41a922f485",
       "reviewMethod": "documentation",
-      "stars": 20094,
-      "starsCollectedAt": "2026-10-16T19:22:02.796775+00:00",
+      "stars": 20095,
+      "starsCollectedAt": "2026-10-17T01:23:02.672270+00:00",
       "content": {
         "pt": {
           "summary": "Emulador e depurador de PS3 para vários sistemas.",
@@ -396,9 +396,9 @@
       "approach": "emulation",
       "editionId": "rpcs3",
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:02.796775+00:00",
-        "head": "a710aba42f6c5b323d507a4818c1837ce6d5dc35",
-        "pushedAt": "2026-10-16T18:26:24Z",
+        "checkedAt": "2026-10-17T01:23:02.672270+00:00",
+        "head": "893d2f1d08c2f01d1b15422e7f768e1c4fa4203f",
+        "pushedAt": "2026-10-16T21:38:12Z",
         "archived": false,
         "latestRelease": {
           "tag": "v0.0.43",
@@ -432,8 +432,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "5aa7ffa3f4f21bba827d7865ed8f69f98f993542",
       "reviewMethod": "documentation",
-      "stars": 33640,
-      "starsCollectedAt": "2026-10-16T19:22:04.004631+00:00",
+      "stars": 33648,
+      "starsCollectedAt": "2026-10-17T01:23:04.031396+00:00",
       "content": {
         "pt": {
           "summary": "Emulador de PS4 em estágio inicial; utiliza launcher separado.",
@@ -477,9 +477,9 @@
       "approach": "emulation",
       "editionId": "shadps4",
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:04.004631+00:00",
-        "head": "5aa7ffa3f4f21bba827d7865ed8f69f98f993542",
-        "pushedAt": "2026-10-15T20:57:38Z",
+        "checkedAt": "2026-10-17T01:23:04.031396+00:00",
+        "head": "32021e41bc52f744c80d122e732e24e97496c98d",
+        "pushedAt": "2026-10-16T20:06:13Z",
         "archived": false,
         "latestRelease": {
           "tag": "v.0.20.0",
@@ -487,7 +487,7 @@
           "publishedAt": "2026-10-14T14:51:07Z",
           "hasDownload": true
         },
-        "documentationChanged": false
+        "documentationChanged": true
       },
       "image": {
         "url": "assets/platforms/ps4.svg",
@@ -516,8 +516,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "7180a7bafa51afbe991523f6392f69ea1cf03e1e",
       "reviewMethod": "documentation",
-      "stars": 2834,
-      "starsCollectedAt": "2026-10-16T19:22:05.044875+00:00",
+      "stars": 2894,
+      "starsCollectedAt": "2026-10-17T01:23:05.482076+00:00",
       "fork": true,
       "parentRepository": "Supermedo/bloodborne_pc",
       "reviewedRelease": {
@@ -564,17 +564,17 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:05.044875+00:00",
-        "head": "7180a7bafa51afbe991523f6392f69ea1cf03e1e",
-        "pushedAt": "2026-10-16T05:11:44Z",
+        "checkedAt": "2026-10-17T01:23:05.482076+00:00",
+        "head": "1436e7e79807de8e832fc1b6da2f8f20a4293172",
+        "pushedAt": "2026-10-16T22:58:58Z",
         "archived": false,
         "latestRelease": {
-          "tag": "windows-v2.4.0",
-          "url": "https://github.com/FelipePrado0/gow3_pc/releases/tag/windows-v2.4.0",
-          "publishedAt": "2026-10-16T05:09:39Z",
+          "tag": "windows-v2.4.1",
+          "url": "https://github.com/FelipePrado0/gow3_pc/releases/tag/windows-v2.4.1",
+          "publishedAt": "2026-10-16T22:58:58Z",
           "hasDownload": true
         },
-        "documentationChanged": false
+        "documentationChanged": true
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/en/8/8b/God_of_War_III_cover_art.jpg",
@@ -605,8 +605,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "d0a9b8f8969588a9ab2b1db03a35854d3af63f2e",
       "reviewMethod": "documentation",
-      "stars": 1854,
-      "starsCollectedAt": "2026-10-16T19:22:06.046002+00:00",
+      "stars": 1868,
+      "starsCollectedAt": "2026-10-17T01:23:06.773807+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -653,7 +653,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:06.046002+00:00",
+        "checkedAt": "2026-10-17T01:23:06.773807+00:00",
         "head": "d0a9b8f8969588a9ab2b1db03a35854d3af63f2e",
         "pushedAt": "2026-10-16T01:12:11Z",
         "archived": false,
@@ -694,8 +694,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "6244eb9d4d3497094e21cac7dabe998ded1f2800",
       "reviewMethod": "documentation",
-      "stars": 1076,
-      "starsCollectedAt": "2026-10-16T19:22:06.975747+00:00",
+      "stars": 1108,
+      "starsCollectedAt": "2026-10-17T01:23:07.817877+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -742,9 +742,9 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:06.975747+00:00",
+        "checkedAt": "2026-10-17T01:23:07.817877+00:00",
         "head": "6244eb9d4d3497094e21cac7dabe998ded1f2800",
-        "pushedAt": "2026-10-16T17:30:53Z",
+        "pushedAt": "2026-10-17T01:22:41Z",
         "archived": false,
         "latestRelease": {
           "tag": "beta_4",
@@ -781,8 +781,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "70bb43859cd7ff181a6d409540b757866184d60d",
       "reviewMethod": "documentation",
-      "stars": 832,
-      "starsCollectedAt": "2026-10-16T19:22:07.851116+00:00",
+      "stars": 879,
+      "starsCollectedAt": "2026-10-17T01:23:09.032302+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -829,9 +829,9 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:07.851116+00:00",
+        "checkedAt": "2026-10-17T01:23:09.032302+00:00",
         "head": "70bb43859cd7ff181a6d409540b757866184d60d",
-        "pushedAt": "2026-10-16T02:52:06Z",
+        "pushedAt": "2026-10-16T23:06:52Z",
         "archived": false,
         "latestRelease": {
           "tag": "v0.57",
@@ -868,8 +868,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "3c57da4198ad62039f63f33bfd205b9916518acf",
       "reviewMethod": "documentation",
-      "stars": 3020,
-      "starsCollectedAt": "2026-10-16T19:22:08.823656+00:00",
+      "stars": 3043,
+      "starsCollectedAt": "2026-10-17T01:23:10.857634+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -917,7 +917,7 @@
       },
       "relatedProject": "https://github.com/Supermedo/bloodborne_pc",
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:08.823656+00:00",
+        "checkedAt": "2026-10-17T01:23:10.857634+00:00",
         "head": "3c57da4198ad62039f63f33bfd205b9916518acf",
         "pushedAt": "2026-10-15T09:18:37Z",
         "archived": false,
@@ -956,8 +956,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "fce08780508a72f50d34a3d3a2926e746d12284c",
       "reviewMethod": "documentation",
-      "stars": 3138,
-      "starsCollectedAt": "2026-10-16T19:22:09.814408+00:00",
+      "stars": 3197,
+      "starsCollectedAt": "2026-10-17T01:23:12.133198+00:00",
       "fork": true,
       "parentRepository": "deadinside28/bloodborne_pc",
       "reviewedRelease": {
@@ -1005,17 +1005,17 @@
       },
       "relatedProject": "https://github.com/deadinside28/bloodborne_pc",
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:09.814408+00:00",
-        "head": "fce08780508a72f50d34a3d3a2926e746d12284c",
-        "pushedAt": "2026-10-15T22:27:36Z",
+        "checkedAt": "2026-10-17T01:23:12.133198+00:00",
+        "head": "652f9a494c47cc8c1ab16f28b456372eaa8103f8",
+        "pushedAt": "2026-10-16T22:37:02Z",
         "archived": false,
         "latestRelease": {
-          "tag": "windows-v1.8.2",
-          "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.8.2",
-          "publishedAt": "2026-10-15T22:27:37Z",
+          "tag": "windows-v1.9",
+          "url": "https://github.com/Supermedo/bloodborne_pc/releases/tag/windows-v1.9",
+          "publishedAt": "2026-10-16T22:37:02Z",
           "hasDownload": true
         },
-        "documentationChanged": false
+        "documentationChanged": true
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
@@ -1045,8 +1045,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "9c24de1bc3bf768968683a11095f8d916173fa7e",
       "reviewMethod": "documentation",
-      "stars": 367,
-      "starsCollectedAt": "2026-10-16T19:22:10.731033+00:00",
+      "stars": 402,
+      "starsCollectedAt": "2026-10-17T01:23:13.327484+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -1093,14 +1093,14 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:10.731033+00:00",
-        "head": "75e1de3caee98b7e720492a6565a4eda77d60c78",
-        "pushedAt": "2026-10-16T19:00:26Z",
+        "checkedAt": "2026-10-17T01:23:13.327484+00:00",
+        "head": "83ce96cb09827539a1ee8404abea9fbb67866fb4",
+        "pushedAt": "2026-10-17T01:00:45Z",
         "archived": false,
         "latestRelease": {
-          "tag": "v2026.10.16-e7b467e",
-          "url": "https://github.com/HayatoG/iss_pc/releases/tag/v2026.10.16-e7b467e",
-          "publishedAt": "2026-10-16T00:31:46Z",
+          "tag": "v2026.10.17-c874c61",
+          "url": "https://github.com/HayatoG/iss_pc/releases/tag/v2026.10.17-c874c61",
+          "publishedAt": "2026-10-17T00:43:42Z",
           "hasDownload": true
         },
         "documentationChanged": true
@@ -1133,8 +1133,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "8a0b6f7cafba22d2dc995ca1d126d74c22b65589",
       "reviewMethod": "documentation",
-      "stars": 173,
-      "starsCollectedAt": "2026-10-16T19:22:11.656159+00:00",
+      "stars": 184,
+      "starsCollectedAt": "2026-10-17T01:23:14.553965+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -1181,7 +1181,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:11.656159+00:00",
+        "checkedAt": "2026-10-17T01:23:14.553965+00:00",
         "head": "3dd0230e94406a87795480c55713eb195f7bc18c",
         "pushedAt": "2026-10-16T16:36:41Z",
         "archived": false,
@@ -1223,8 +1223,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "d6ee4c0a10b7e6138ded4517c203e2724bf0613f",
       "reviewMethod": "documentation",
-      "stars": 440,
-      "starsCollectedAt": "2026-10-16T19:22:12.673594+00:00",
+      "stars": 442,
+      "starsCollectedAt": "2026-10-17T01:23:15.709824+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -1271,14 +1271,14 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:12.673594+00:00",
-        "head": "fe0c03ba2e9684e55fcd8fba91e11279c8786fe0",
-        "pushedAt": "2026-10-16T18:57:38Z",
+        "checkedAt": "2026-10-17T01:23:15.709824+00:00",
+        "head": "61a1650f3440ebee5f155b2a092b70e79111a450",
+        "pushedAt": "2026-10-16T23:41:58Z",
         "archived": false,
         "latestRelease": {
-          "tag": "v0.27.0",
-          "url": "https://github.com/Odrannnn/MetroidPrimePort/releases/tag/v0.27.0",
-          "publishedAt": "2026-10-14T22:06:04Z",
+          "tag": "v0.28.0",
+          "url": "https://github.com/Odrannnn/MetroidPrimePort/releases/tag/v0.28.0",
+          "publishedAt": "2026-10-16T23:41:53Z",
           "hasDownload": true
         },
         "documentationChanged": true
@@ -1310,8 +1310,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "4099d246c927e75b4fd342ca13f4ac4395c55af5",
       "reviewMethod": "documentation",
-      "stars": 1492,
-      "starsCollectedAt": "2026-10-16T19:22:13.641841+00:00",
+      "stars": 1493,
+      "starsCollectedAt": "2026-10-17T01:23:16.804318+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1353,7 +1353,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:13.641841+00:00",
+        "checkedAt": "2026-10-17T01:23:16.804318+00:00",
         "head": "4099d246c927e75b4fd342ca13f4ac4395c55af5",
         "pushedAt": "2026-08-02T00:56:51Z",
         "archived": false,
@@ -1388,7 +1388,7 @@
       "reviewedVersion": "2a4f8937f129de42d94b210090114bf798773121",
       "reviewMethod": "documentation",
       "stars": 973,
-      "starsCollectedAt": "2026-10-16T19:22:14.538201+00:00",
+      "starsCollectedAt": "2026-10-17T01:23:17.973111+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1430,7 +1430,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:14.538201+00:00",
+        "checkedAt": "2026-10-17T01:23:17.973111+00:00",
         "head": "2a4f8937f129de42d94b210090114bf798773121",
         "pushedAt": "2024-08-21T02:53:02Z",
         "archived": false,
@@ -1471,8 +1471,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "f1dda4c28cb9ed7cc80d8c78337ee31a8d2c7d0e",
       "reviewMethod": "documentation",
-      "stars": 2327,
-      "starsCollectedAt": "2026-10-16T19:22:15.488494+00:00",
+      "stars": 2329,
+      "starsCollectedAt": "2026-10-17T01:23:19.845348+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1515,7 +1515,7 @@
       },
       "relatedProject": "https://github.com/Zelda64Recomp/Zelda64Recomp",
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:15.488494+00:00",
+        "checkedAt": "2026-10-17T01:23:19.845348+00:00",
         "head": "f1dda4c28cb9ed7cc80d8c78337ee31a8d2c7d0e",
         "pushedAt": "2026-10-14T16:36:30Z",
         "archived": false,
@@ -1557,7 +1557,7 @@
       "reviewedVersion": "3322643f0bbf80d2f8f7e1c0d2c4c578515f6c90",
       "reviewMethod": "documentation",
       "stars": 2099,
-      "starsCollectedAt": "2026-10-16T19:22:16.519435+00:00",
+      "starsCollectedAt": "2026-10-17T01:23:21.096787+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1599,7 +1599,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:16.519435+00:00",
+        "checkedAt": "2026-10-17T01:23:21.096787+00:00",
         "head": "3322643f0bbf80d2f8f7e1c0d2c4c578515f6c90",
         "pushedAt": "2026-09-15T21:17:12Z",
         "archived": false,
@@ -1641,7 +1641,7 @@
       "reviewedVersion": "32a1cb9f268dd3ac73016801025c6bbbfa20130f",
       "reviewMethod": "documentation",
       "stars": 2057,
-      "starsCollectedAt": "2026-10-16T19:22:17.466640+00:00",
+      "starsCollectedAt": "2026-10-17T01:23:22.572097+00:00",
       "fork": true,
       "parentRepository": "n64decomp/perfect_dark",
       "content": {
@@ -1683,7 +1683,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:17.466640+00:00",
+        "checkedAt": "2026-10-17T01:23:22.572097+00:00",
         "head": "32a1cb9f268dd3ac73016801025c6bbbfa20130f",
         "pushedAt": "2026-08-13T05:58:19Z",
         "archived": false,
@@ -1724,7 +1724,7 @@
       "reviewedVersion": "d8e34caf5edd2a0e2d4ec292b69145425ec6201c",
       "reviewMethod": "documentation",
       "stars": 264,
-      "starsCollectedAt": "2026-10-16T19:22:18.269784+00:00",
+      "starsCollectedAt": "2026-10-17T01:23:23.864180+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1769,7 +1769,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:18.269784+00:00",
+        "checkedAt": "2026-10-17T01:23:23.864180+00:00",
         "head": "d8e34caf5edd2a0e2d4ec292b69145425ec6201c",
         "pushedAt": "2026-10-15T02:39:28Z",
         "archived": false,
@@ -1810,7 +1810,7 @@
       "reviewedVersion": "535abe9559934fda7a3493c038fd238a0ef3394a",
       "reviewMethod": "documentation",
       "stars": 288,
-      "starsCollectedAt": "2026-10-16T19:22:19.080470+00:00",
+      "starsCollectedAt": "2026-10-17T01:23:25.157154+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1852,7 +1852,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:19.080470+00:00",
+        "checkedAt": "2026-10-17T01:23:25.157154+00:00",
         "head": "535abe9559934fda7a3493c038fd238a0ef3394a",
         "pushedAt": "2026-10-13T00:14:16Z",
         "archived": false,
@@ -1893,7 +1893,7 @@
       "reviewedVersion": "3159679aa6ce1c56eaafb5978d838bc0422367e4",
       "reviewMethod": "documentation",
       "stars": 37,
-      "starsCollectedAt": "2026-10-16T19:22:20.086924+00:00",
+      "starsCollectedAt": "2026-10-17T01:23:26.796790+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1935,7 +1935,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:20.086924+00:00",
+        "checkedAt": "2026-10-17T01:23:26.796790+00:00",
         "head": "3159679aa6ce1c56eaafb5978d838bc0422367e4",
         "pushedAt": "2026-10-16T02:51:12Z",
         "archived": false,
@@ -1976,8 +1976,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "ed1b8bb7f3f036334124ec27eb28efa64e400178",
       "reviewMethod": "documentation",
-      "stars": 273,
-      "starsCollectedAt": "2026-10-16T19:22:20.894695+00:00",
+      "stars": 274,
+      "starsCollectedAt": "2026-10-17T01:23:28.135650+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -2019,9 +2019,9 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:20.894695+00:00",
+        "checkedAt": "2026-10-17T01:23:28.135650+00:00",
         "head": "ed1b8bb7f3f036334124ec27eb28efa64e400178",
-        "pushedAt": "2026-10-16T06:07:38Z",
+        "pushedAt": "2026-10-17T00:00:23Z",
         "archived": false,
         "latestRelease": {
           "tag": "V0.1.6",
@@ -2058,8 +2058,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "09144bb092ad871584808aeead69c395edbd5200",
       "reviewMethod": "documentation",
-      "stars": 525,
-      "starsCollectedAt": "2026-10-16T19:22:21.753759+00:00",
+      "stars": 528,
+      "starsCollectedAt": "2026-10-17T01:23:29.304023+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -2101,7 +2101,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-16T19:22:21.753759+00:00",
+        "checkedAt": "2026-10-17T01:23:29.304023+00:00",
         "head": "09144bb092ad871584808aeead69c395edbd5200",
         "pushedAt": "2026-08-22T15:52:26Z",
         "archived": false,
@@ -2115,5 +2115,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-16T19:21:57.897105+00:00"
+  "updatedAt": "2026-10-17T01:22:55.914612+00:00"
 }
