@@ -5,7 +5,6 @@ const BORA_I18N = {
     "browserAuto": "Atualização automática duas vezes ao dia. Última execução: ",
     "browserCheckNote": "A conferência automática de links não é um teste de jogabilidade.",
     "browserAutoReview": "Ficha incluída por triagem documental automática.",
-
     "browserNav": "Jogar no navegador",
     "browserTitle": "Seu próximo play, direto no navegador.",
     "browserIntro": "Explore projetos web, confira o que cada versão oferece e abra a página do autor para jogar.",
@@ -23,7 +22,6 @@ const BORA_I18N = {
     "browserNotTested": "Jogabilidade não testada",
     "browserPending": "Mais links em análise",
     "browserPendingText": "A lista enviada pela comunidade inclui jogos de fãs e links ainda não conferidos. Eles entram aqui conforme suas páginas, requisitos e fontes forem verificados.",
-
     "communityLikesLogin": "Entre com Google na ficha para ver as curtidas",
     "pageTitle": "Bora de Play | Catálogo de jogos",
     "description": "Ports, recompilações e emuladores com fontes oficiais, estrelas e instruções.",
@@ -150,14 +148,18 @@ const BORA_I18N = {
     "gameImage": "Imagem de referência do jogo:",
     "consoleImage": "Ilustração do console:",
     "imageSource": "Fonte da imagem ↗",
-    "originalConsoleArt": "Ilustração original do catálogo."
+    "originalConsoleArt": "Ilustração original do catálogo.",
+    "jogo-fa": "Jogo de fãs",
+    "browserWeb": "Acesso pelo site",
+    "openWebsite": "Site do projeto ↗",
+    "websiteReview": "Fonte: página web; sem repositório confirmado.",
+    "web-unconfirmed": "Tecnologia web não confirmada"
   },
   "en": {
     "browserLinkReview": "Link under review",
     "browserAuto": "Automatic updates twice daily. Last run: ",
     "browserCheckNote": "Automatic link checks are not gameplay tests.",
     "browserAutoReview": "Entry added through automatic documentary screening.",
-
     "browserNav": "Play in browser",
     "browserTitle": "Your next game, right in your browser.",
     "browserIntro": "Explore web projects, check what each version offers and open the author’s page to play.",
@@ -175,7 +177,6 @@ const BORA_I18N = {
     "browserNotTested": "Gameplay not tested",
     "browserPending": "More links under review",
     "browserPendingText": "Community links include fan games and pages not yet checked. They will appear here as their pages, requirements and sources are reviewed.",
-
     "communityLikesLogin": "Sign in with Google on the project page to see likes",
     "pageTitle": "Bora de Play | Game catalog",
     "description": "Ports, recompilations and emulators with official sources, stars and setup guidance.",
@@ -302,14 +303,18 @@ const BORA_I18N = {
     "gameImage": "Game reference image:",
     "consoleImage": "Console illustration:",
     "imageSource": "Image source ↗",
-    "originalConsoleArt": "Original catalog illustration."
+    "originalConsoleArt": "Original catalog illustration.",
+    "jogo-fa": "Fan game",
+    "browserWeb": "Access on website",
+    "openWebsite": "Project website ↗",
+    "websiteReview": "Source: website; no confirmed repository.",
+    "web-unconfirmed": "Web technology not confirmed"
   },
   "es": {
     "browserLinkReview": "Enlace en revisión",
     "browserAuto": "Actualización automática dos veces al día. Última ejecución: ",
     "browserCheckNote": "La comprobación automática de enlaces no es una prueba de jugabilidad.",
     "browserAutoReview": "Ficha añadida mediante filtro documental automático.",
-
     "browserNav": "Jugar en el navegador",
     "browserTitle": "Tu próxima partida, en el navegador.",
     "browserIntro": "Explora proyectos web, consulta qué ofrece cada versión y abre la página del autor para jugar.",
@@ -327,7 +332,6 @@ const BORA_I18N = {
     "browserNotTested": "Jugabilidad no probada",
     "browserPending": "Más enlaces en revisión",
     "browserPendingText": "Los enlaces de la comunidad incluyen juegos de fans y páginas sin comprobar. Aparecerán aquí tras revisar sus páginas, requisitos y fuentes.",
-
     "communityLikesLogin": "Entra con Google en la ficha para ver los me gusta",
     "pageTitle": "Bora de Play | Catálogo de juegos",
     "description": "Ports, recompilaciones y emuladores con fuentes oficiales, estrellas e instrucciones.",
@@ -454,7 +458,12 @@ const BORA_I18N = {
     "gameImage": "Imagen de referencia del juego:",
     "consoleImage": "Ilustración de la consola:",
     "imageSource": "Fuente de la imagen ↗",
-    "originalConsoleArt": "Ilustración original del catálogo."
+    "originalConsoleArt": "Ilustración original del catálogo.",
+    "jogo-fa": "Juego de fans",
+    "browserWeb": "Acceso por el sitio",
+    "openWebsite": "Sitio del proyecto ↗",
+    "websiteReview": "Fuente: página web; sin repositorio confirmado.",
+    "web-unconfirmed": "Tecnología web no confirmada"
   }
 };
 if(typeof module !== 'undefined') module.exports = BORA_I18N;

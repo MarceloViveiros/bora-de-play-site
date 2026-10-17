@@ -13,19 +13,20 @@ function safeImageURL(value){
 }
 function validDate(value) { return typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0,10) === value; }
 function validateProject(p) {
-  const required = ['id','editionId','game','name','type','playability','developmentStage','approach','github','instructionsUrl','reviewedAt','reviewedVersion','evidenceUrl'];
+  const required = ['id','editionId','game','name','type','playability','developmentStage','approach','instructionsUrl','reviewedAt','reviewedVersion','evidenceUrl'];
   if (!p || required.some(k => typeof p[k] !== 'string' || !p[k].trim())) throw new Error('Incomplete entry');
-  if (!['port','recompilacao','remake','emulador'].includes(p.type) || !['jogavel','parcial','nao-verificado','por-jogo'].includes(p.playability)) throw new Error('Invalid classification');
+  if (!(['port','recompilacao','remake','emulador'].includes(p.type)||(p.browser&&p.type==='jogo-fa')) || !['jogavel','parcial','nao-verificado','por-jogo'].includes(p.playability)) throw new Error('Invalid classification');
   if (!['desenvolvimento','beta','experimental','maduro','parado','desconhecido'].includes(p.developmentStage)) throw new Error('Invalid stage');
-  if (!['source-port','static-recompilation','engine-reimplementation','native-runtime','emulation'].includes(p.approach)) throw new Error('Invalid approach');
+  if (!(['source-port','static-recompilation','engine-reimplementation','native-runtime','emulation'].includes(p.approach)||(p.browser&&p.approach==='web-unconfirmed'))) throw new Error('Invalid approach');
   if (p.reviewedRelease && (!safeURL(p.reviewedRelease.url) || typeof p.reviewedRelease.tag !== 'string' || !p.reviewedRelease.tag.trim())) throw new Error('Invalid release');
   if (p.relatedProject && !safeURL(p.relatedProject)) throw new Error('Invalid related project');
   for (const k of ['origins','targets']) if (!Array.isArray(p[k]) || !p[k].length || p[k].some(v => typeof v !== 'string' || !v.trim())) throw new Error('Invalid platform list');
   if(p.image&&(!safeImageURL(p.image.url)||!['console','reference'].includes(p.image.kind)||(p.image.source&&!safeURL(p.image.source))))throw new Error('Invalid project image');
-  if(p.browser&&(!safeURL(p.browser.url)||!['demo','shareware','own-files','free'].includes(p.browser.access)||p.browser.verification!=='documentation'))throw new Error('Invalid browser project');
+  if(p.browser&&(!safeURL(p.browser.url)||!['demo','shareware','own-files','free','web'].includes(p.browser.access)||p.browser.verification!=='documentation'))throw new Error('Invalid browser project');
   if(p.browser?.health&&!['reachable','review'].includes(p.browser.health.status))throw new Error('Invalid browser link state');
   const github = safeURL(p.github);
-  if (!github || !/^https:\/\/github\.com\/[^/]+\/[^/]+\/?$/.test(github)) throw new Error('Invalid repository');
+  if (p.sourceKind==='website') { if(!p.browser||p.github!==null||p.stars!==null||p.evidenceUrl!==p.browser.url||p.instructionsUrl!==p.browser.url||!/^https:\/\//.test(p.evidenceUrl)||!(/^[a-f0-9]{64}$/).test(p.reviewedVersion))throw new Error('Invalid website-only source'); }
+  else if (!github || !/^https:\/\/github\.com\/[^/]+\/[^/]+\/?$/.test(github)) throw new Error('Invalid repository');
   if (!safeURL(p.instructionsUrl) || !safeURL(p.evidenceUrl)) throw new Error('Invalid source');
   if (!validDate(p.reviewedAt) || p.reviewMethod !== 'documentation') throw new Error('Invalid review');
   if (!(p.stars === null || (Number.isInteger(p.stars) && p.stars >= 0))) throw new Error('Invalid stars');

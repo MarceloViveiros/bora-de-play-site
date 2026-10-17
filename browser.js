@@ -3,7 +3,7 @@ async function initBrowserCatalog(){
  let stored;try{stored=localStorage.getItem('bora-language');}catch{}
  let language=pickLanguage(new URL(location.href).searchParams.get('lang'),stored),projects=[],failed=false,automation=null;
  const host=document.querySelector('#results'),form=document.querySelector('#browser-filters'),select=document.querySelector('#language');
- const accessKeys={demo:'browserDemo',shareware:'browserShareware','own-files':'browserOwn',free:'browserFree'};
+ const accessKeys={demo:'browserDemo',shareware:'browserShareware','own-files':'browserOwn',free:'browserFree',web:'browserWeb'};
  const t=key=>BORA_I18N[language][key];
  function render(){
   document.documentElement.lang=language==='pt'?'pt-BR':language;document.title='Bora de Play | '+t('browserNav');select.value=language;

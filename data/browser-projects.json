@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-17T01:30:00.458890+00:00",
+  "updatedAt": "2026-10-17T11:35:34.661329+00:00",
   "projects": [
     {
       "id": "web-openlara",
@@ -633,6 +633,90 @@
         "url": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "kind": "reference",
         "source": "https://en.wikipedia.org/wiki/Halo%3A_Combat_Evolved"
+      }
+    },
+    {
+      "id": "web-d2-survivors",
+      "editionId": "web-d2-survivors",
+      "game": "D2 Survivors",
+      "name": "Projeto de fãs · D2 Survivors",
+      "type": "jogo-fa",
+      "approach": "web-unconfirmed",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "sourceKind": "website",
+      "github": null,
+      "instructionsUrl": "https://d2survivors.lol/",
+      "evidenceUrl": "https://d2survivors.lol/",
+      "reviewedAt": "2026-10-17",
+      "reviewedVersion": "c600ec5acf3db128e4de795327f05d29b1d5040139a80d3ac15812bd249281f2",
+      "reviewMethod": "documentation",
+      "origins": [
+        "PC"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": null,
+      "starsCollectedAt": null,
+      "image": {
+        "url": "assets/platforms/generic.svg",
+        "kind": "console"
+      },
+      "browser": {
+        "url": "https://d2survivors.lol/",
+        "access": "web",
+        "verification": "documentation",
+        "checkedAt": "2026-10-17T11:35:34.661329+00:00",
+        "pageCheck": "title-screen",
+        "pageCheckedAt": "2026-10-17T11:35:34.661329+00:00",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-17T11:35:58.373520+00:00",
+          "method": "http-html",
+          "reason": null
+        }
+      },
+      "content": {
+        "pt": {
+          "summary": "Projeto de fãs inspirado em Diablo II, com proposta de sobrevivência e execução pelo navegador. Não é um port do jogo original completo.",
+          "originalFiles": "A tela inicial não solicitou arquivos originais. Requisitos completos e origem/licença dos recursos não foram confirmados.",
+          "requirements": [
+            "Navegador atualizado com JavaScript.",
+            "Compatibilidade móvel, desempenho e controles ainda não verificados."
+          ],
+          "installation": [
+            "Abra o site do projeto pelo botão Jogar no navegador.",
+            "Siga as opções e instruções exibidas pelo próprio jogo."
+          ],
+          "limitations": "Tela inicial carregada; nenhuma partida testada. O site declara não ter vínculo ou aprovação da Blizzard. Repositório, versão numerada e licença não confirmados. A revisão registra um hash SHA-256 do HTML consultado, não um commit do jogo."
+        },
+        "en": {
+          "summary": "A Diablo II-inspired fan project with a survival concept, running in a browser. This is not a port of the complete original game.",
+          "originalFiles": "The title screen did not request original files. Full requirements and asset origins/licensing were not confirmed.",
+          "requirements": [
+            "An up-to-date browser with JavaScript.",
+            "Mobile compatibility, performance and controls have not been verified."
+          ],
+          "installation": [
+            "Open the project site using Play in browser.",
+            "Follow the options and instructions shown by the game."
+          ],
+          "limitations": "Title screen loaded; no gameplay tested. The site states it is not affiliated with or endorsed by Blizzard. Repository, numbered version and license not confirmed. The review records a SHA-256 hash of the consulted HTML, not a game commit."
+        },
+        "es": {
+          "summary": "Proyecto de fans inspirado en Diablo II, con propuesta de supervivencia y ejecución en navegador. No es un port del juego original completo.",
+          "originalFiles": "La pantalla inicial no solicitó archivos originales. No se confirmaron los requisitos completos ni el origen o licencia de los recursos.",
+          "requirements": [
+            "Navegador actualizado con JavaScript.",
+            "Compatibilidad móvil, rendimiento y controles aún no verificados."
+          ],
+          "installation": [
+            "Abre el sitio del proyecto con Jugar en el navegador.",
+            "Sigue las opciones e instrucciones del propio juego."
+          ],
+          "limitations": "Pantalla inicial cargada; no se probó una partida. El sitio declara no estar afiliado ni respaldado por Blizzard. Repositorio, versión numerada y licencia no confirmados. La revisión registra un hash SHA-256 del HTML consultado, no un commit del juego."
+        }
       }
     }
   ],
