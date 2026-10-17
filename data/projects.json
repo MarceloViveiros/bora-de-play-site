@@ -2111,8 +2111,12 @@
     },
     {
       "image": {
-        "url": "assets/platforms/xbox360.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Darkness_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/The_Darkness_(video_game)",
+        "subject": "The Darkness (video game)",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-17T15:24:53.608784+00:00"
       },
       "id": "auto-1274ce75aefd8c",
       "editionId": "auto-1274ce75aefd8c",
@@ -2200,8 +2204,12 @@
     },
     {
       "image": {
-        "url": "assets/platforms/generic.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/a/ad/Black_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Black_(video_game)",
+        "subject": "Black (video game)",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-17T15:24:53.855544+00:00"
       },
       "id": "auto-f0068d695798ef",
       "editionId": "auto-f0068d695798ef",
@@ -2289,8 +2297,12 @@
     },
     {
       "image": {
-        "url": "assets/platforms/ps1.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Crash_Bandicoot_(video_game)",
+        "subject": "Crash Bandicoot (video game)",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-17T15:24:54.115310+00:00"
       },
       "id": "auto-0a3ccbe4ef86e1",
       "editionId": "auto-0a3ccbe4ef86e1",
@@ -2379,8 +2391,12 @@
     },
     {
       "image": {
-        "url": "assets/platforms/n64.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/GoldenEye_007",
+        "subject": "GoldenEye 007",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-17T15:24:54.364964+00:00"
       },
       "id": "auto-e2142f6b425bc5",
       "editionId": "auto-e2142f6b425bc5",
@@ -2469,8 +2485,12 @@
     },
     {
       "image": {
-        "url": "assets/platforms/gamecube.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/1/13/Pikmin_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Pikmin_(video_game)",
+        "subject": "Pikmin (video game)",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-17T15:24:54.606253+00:00"
       },
       "id": "auto-a276312b894e60",
       "editionId": "auto-a276312b894e60",
@@ -2560,8 +2580,12 @@
     },
     {
       "image": {
-        "url": "assets/platforms/generic.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/1/1e/Scda_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Tom_Clancy%27s_Splinter_Cell%3A_Double_Agent",
+        "subject": "Tom Clancy's Splinter Cell: Double Agent",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-17T15:24:54.845175+00:00"
       },
       "id": "auto-52d5040f4e2d07",
       "editionId": "auto-52d5040f4e2d07",
@@ -2649,8 +2673,12 @@
     },
     {
       "image": {
-        "url": "assets/platforms/xbox360.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/7/77/Forza_Horizon_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Forza_Horizon",
+        "subject": "Forza Horizon",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-17T15:24:55.084937+00:00"
       },
       "id": "auto-58c7e18397bc99",
       "editionId": "auto-58c7e18397bc99",
@@ -2739,8 +2767,12 @@
     },
     {
       "image": {
-        "url": "assets/platforms/xbox360.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/2/21/King-kong-cover-pc.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/King_Kong_(2005_video_game)",
+        "subject": "King Kong (2005 video game)",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-17T15:24:55.324973+00:00"
       },
       "id": "auto-b2f752a89ad390",
       "editionId": "auto-b2f752a89ad390",
