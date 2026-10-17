@@ -1,6 +1,8 @@
 'use strict';
 const BORA_I18N = {
   "pt": {
+    "channelApproved": "Testado e aprovado",
+    "channelTestNote": "Teste confirmado pelo Bora de Play. Consulte os requisitos e limitações desta versão.",
     "browserLinkReview": "Link em verificação",
     "browserAuto": "Atualização automática duas vezes ao dia. Última execução: ",
     "browserCheckNote": "A conferência automática de links não é um teste de jogabilidade.",
@@ -156,6 +158,8 @@ const BORA_I18N = {
     "web-unconfirmed": "Tecnologia web não confirmada"
   },
   "en": {
+    "channelApproved": "Tested and approved",
+    "channelTestNote": "Testing confirmed by Bora de Play. Check this version’s requirements and limitations.",
     "browserLinkReview": "Link under review",
     "browserAuto": "Automatic updates twice daily. Last run: ",
     "browserCheckNote": "Automatic link checks are not gameplay tests.",
@@ -311,6 +315,8 @@ const BORA_I18N = {
     "web-unconfirmed": "Web technology not confirmed"
   },
   "es": {
+    "channelApproved": "Probado y aprobado",
+    "channelTestNote": "Prueba confirmada por Bora de Play. Consulta los requisitos y limitaciones de esta versión.",
     "browserLinkReview": "Enlace en revisión",
     "browserAuto": "Actualización automática dos veces al día. Última ejecución: ",
     "browserCheckNote": "La comprobación automática de enlaces no es una prueba de jugabilidad.",

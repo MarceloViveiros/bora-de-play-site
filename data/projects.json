@@ -580,6 +580,12 @@
         "url": "https://upload.wikimedia.org/wikipedia/en/8/8b/God_of_War_III_cover_art.jpg",
         "source": "https://en.wikipedia.org/wiki/God_of_War_III",
         "kind": "reference"
+      },
+      "channelReview": {
+        "status": "approved",
+        "reviewedAt": "2026-10-17",
+        "reviewer": "Bora de Play",
+        "basis": "owner-confirmation"
       }
     },
     {

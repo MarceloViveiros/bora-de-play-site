@@ -64,7 +64,7 @@ function projectVisual(p,language='pt',large=false){
     for(const node of [back,front]){node.loading=large?'eager':'lazy';node.decoding='async';node.referrerPolicy='no-referrer';if(node===front)node.onerror=()=>{const fallback=fallbackImage(p);if(front.getAttribute('src')!==fallback){front.src=fallback;back.src=fallback;front.alt=t('consoleImage')+' '+p.origins[0];}else{cover.classList.remove('has-image');back.remove();front.remove();}};}
     cover.append(back,front);
   }
-  const meta=el('div',undefined,'cover-labels');meta.append(el('span',p.origins[0]),el('span',t(p.type),'cover-type'));cover.append(meta);if(!large){const likes=el('a','♡ —','cover-likes');likes.href=projectURL(p.id,language)+'#community';likes.dataset.likesProject=p.id;likes.dataset.language=language;likes.setAttribute('aria-label',BORA_I18N[language].communityLikesLogin);likes.title=BORA_I18N[language].communityLikesLogin;cover.append(likes);}return cover;
+  const meta=el('div',undefined,'cover-labels');meta.append(el('span',p.origins[0]),el('span',t(p.type),'cover-type'));cover.append(meta);if(p.channelReview?.status==='approved'){const stamp=el('div',undefined,'channel-stamp');stamp.append(el('strong','✓'),el('span',t('channelApproved')),el('small','BORA DE PLAY'));cover.append(stamp);}if(!large){const likes=el('a','♡ —','cover-likes');likes.href=projectURL(p.id,language)+'#community';likes.dataset.likesProject=p.id;likes.dataset.language=language;likes.setAttribute('aria-label',BORA_I18N[language].communityLikesLogin);likes.title=BORA_I18N[language].communityLikesLogin;cover.append(likes);}return cover;
 }
 function imageCredit(p,language){const text=BORA_I18N[language];const box=el('p',undefined,'image-credit');if(p.image?.source)box.append(link(text.imageSource,p.image.source));else box.textContent=text.originalConsoleArt;return box;}
 async function init() {
@@ -105,7 +105,7 @@ async function init() {
     details.append(el('h4',t('approach')),el('p',t(p.approach)));
     for(const [title,value] of [['originalFiles',text.originalFiles],['limitations',text.limitations]])details.append(el('h4',t(title)),el('p',value));
     for(const [title,items,tag] of [['requirements',text.requirements,'ul'],['installation',text.installation,'ol']]){const list=el(tag);items.forEach(i=>list.append(el('li',i)));details.append(el('h4',t(title)),list);}
-    details.append(link(t('instructions'),p.instructionsUrl),el('p',t('review',{date:date(p.reviewedAt),version:p.reviewedVersion.slice(0,12)}),'review'),el('p',t('notTested'),'review'),link(t('evidence'),p.evidenceUrl));
+    details.append(link(t('instructions'),p.instructionsUrl),el('p',t('review',{date:date(p.reviewedAt),version:p.reviewedVersion.slice(0,12)}),'review'),el('p',t(p.channelReview?.status==='approved'?'channelTestNote':'notTested'),'review'),link(t('evidence'),p.evidenceUrl));
     if(p.stars!==null)details.append(el('p',t('snapshot',{date:date(p.starsCollectedAt)}),'review'));
     if(p.reviewedRelease)details.append(el('h4',t('reviewedRelease')),link(p.reviewedRelease.tag+' ↗',p.reviewedRelease.url),el('p',t('releaseNotice'),'review'));
     if(p.relatedProject)details.append(el('p',undefined,'related-project'));if(p.relatedProject)details.lastChild.append(link(t('relatedVersion'),p.relatedProject));
