@@ -660,8 +660,9 @@
       "stars": null,
       "starsCollectedAt": null,
       "image": {
-        "url": "assets/platforms/generic.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/d/d5/Diablo_II_Coverart.png",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Diablo_II"
       },
       "browser": {
         "url": "https://d2survivors.lol/",
