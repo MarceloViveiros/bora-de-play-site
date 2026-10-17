@@ -17,7 +17,7 @@ async function initReviews(){
  const text=k=>REVIEW_COPY[language][k];
  const date=v=>new Intl.DateTimeFormat(language==='pt'?'pt-BR':language,{dateStyle:'medium',timeZone:'UTC'}).format(new Date(v+'T00:00:00Z'));
  function options(id,items){const node=$(id),old=node.value;node.replaceChildren(...items.map(([value,label])=>{const o=el('option',label);o.value=value;return o;}));if(items.some(x=>x[0]===old))node.value=old;}
- function cover(p){return projectVisual({...p,origins:[p.platform],type:'port'},language,true);}
+ function cover(p){const node=projectVisual({...p,origins:[p.platform],type:'port'},language,true);node.querySelector('.cover-labels').replaceChildren(el('span',text(p.progress)));return node;}
  function score(p){const n=el('span',new Intl.NumberFormat(language,{maximumFractionDigits:1}).format(p.score)+'/10','review-score');n.setAttribute('aria-label',text('score')+': '+p.score+'/10');return n;}
  function render(){
  document.documentElement.lang=language==='pt'?'pt-BR':language;document.title=text('nav')+' | Bora de Play';$('language').value=language;
