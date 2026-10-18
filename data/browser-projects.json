@@ -856,7 +856,7 @@
       },
       "content": {
         "pt": {
-          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "summary": "Explore a ilha de LEGO de 1997, monte veículos e faça entregas de pizza nesta adaptação para navegador.",
           "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
           "requirements": [
             "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
@@ -869,7 +869,7 @@
           "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
         },
         "en": {
-          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "summary": "Explore 1997’s LEGO Island, build vehicles and deliver pizzas in this browser adaptation.",
           "originalFiles": "Not verified. Check the game page for any required files you must supply.",
           "requirements": [
             "An up-to-date browser; check technologies, controls and requirements at the destination."
@@ -882,7 +882,7 @@
           "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
         },
         "es": {
-          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "summary": "Explora LEGO Island de 1997, construye vehículos y reparte pizzas en esta adaptación para navegador.",
           "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
           "requirements": [
             "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
@@ -943,7 +943,7 @@
       },
       "content": {
         "pt": {
-          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "summary": "Os combates de Dragon Ball Z: Budokai Tenkaichi 3 do PS2 no navegador, com opções de jogo solo e duelos online.",
           "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
           "requirements": [
             "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
@@ -956,7 +956,7 @@
           "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
         },
         "en": {
-          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "summary": "Dragon Ball Z: Budokai Tenkaichi 3’s PS2 battles in a browser, with solo play and online duel options.",
           "originalFiles": "Not verified. Check the game page for any required files you must supply.",
           "requirements": [
             "An up-to-date browser; check technologies, controls and requirements at the destination."
@@ -969,7 +969,7 @@
           "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
         },
         "es": {
-          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "summary": "Los combates de Dragon Ball Z: Budokai Tenkaichi 3 de PS2 en navegador, con opciones individuales y duelos en línea.",
           "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
           "requirements": [
             "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
@@ -1030,7 +1030,7 @@
       },
       "content": {
         "pt": {
-          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "summary": "Versão de Counter-Strike 1.6 para navegador com acesso a partidas online, incluindo modos clássicos e variações da comunidade.",
           "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
           "requirements": [
             "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
@@ -1043,7 +1043,7 @@
           "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
         },
         "en": {
-          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "summary": "A browser version of Counter-Strike 1.6 with online matches, including classic modes and community variations.",
           "originalFiles": "Not verified. Check the game page for any required files you must supply.",
           "requirements": [
             "An up-to-date browser; check technologies, controls and requirements at the destination."
@@ -1056,7 +1056,7 @@
           "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
         },
         "es": {
-          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "summary": "Versión de Counter-Strike 1.6 para navegador con partidas en línea, modos clásicos y variantes de la comunidad.",
           "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
           "requirements": [
             "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
@@ -1117,7 +1117,7 @@
       },
       "content": {
         "pt": {
-          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "summary": "Uma aventura de fãs que mistura Pokémon e Minecraft: explore, capture criaturas e use mineração e construção para avançar.",
           "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
           "requirements": [
             "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
@@ -1130,7 +1130,7 @@
           "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
         },
         "en": {
-          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "summary": "A fan adventure mixing Pokémon and Minecraft: explore, catch creatures, mine and build to progress.",
           "originalFiles": "Not verified. Check the game page for any required files you must supply.",
           "requirements": [
             "An up-to-date browser; check technologies, controls and requirements at the destination."
@@ -1143,7 +1143,7 @@
           "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
         },
         "es": {
-          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "summary": "Aventura de fans que mezcla Pokémon y Minecraft: explora, captura criaturas, mina y construye para avanzar.",
           "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
           "requirements": [
             "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
@@ -1204,7 +1204,7 @@
       },
       "content": {
         "pt": {
-          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "summary": "Explore uma cidade inspirada em Taipei, dirija veículos e cumpra missões nesta experiência de mundo aberto para navegador.",
           "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
           "requirements": [
             "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
@@ -1217,7 +1217,7 @@
           "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
         },
         "en": {
-          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "summary": "Explore a Taipei-inspired city, drive vehicles and take on missions in this open-world browser game.",
           "originalFiles": "Not verified. Check the game page for any required files you must supply.",
           "requirements": [
             "An up-to-date browser; check technologies, controls and requirements at the destination."
@@ -1230,7 +1230,7 @@
           "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
         },
         "es": {
-          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "summary": "Explora una ciudad inspirada en Taipei, conduce vehículos y completa misiones en este juego de mundo abierto para navegador.",
           "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
           "requirements": [
             "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
@@ -1291,7 +1291,7 @@
       },
       "content": {
         "pt": {
-          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "summary": "Batalhas online com infantaria, cavalaria e canhões, em um jogo de tiro inspirado nos conflitos da era da pólvora.",
           "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
           "requirements": [
             "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
@@ -1304,7 +1304,7 @@
           "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
         },
         "en": {
-          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "summary": "Online battles with infantry, cavalry and cannons in a shooter inspired by the age of gunpowder.",
           "originalFiles": "Not verified. Check the game page for any required files you must supply.",
           "requirements": [
             "An up-to-date browser; check technologies, controls and requirements at the destination."
@@ -1317,7 +1317,7 @@
           "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
         },
         "es": {
-          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "summary": "Batallas en línea con infantería, caballería y cañones en un juego de disparos inspirado en la era de la pólvora.",
           "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
           "requirements": [
             "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
@@ -1378,7 +1378,7 @@
       },
       "content": {
         "pt": {
-          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "summary": "Aventura multiplayer de piratas: forme uma tripulação, navegue e participe de combates entre navios pelo navegador.",
           "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
           "requirements": [
             "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
@@ -1391,7 +1391,7 @@
           "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
         },
         "en": {
-          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "summary": "A multiplayer pirate adventure: form a crew, sail and fight ship battles in your browser.",
           "originalFiles": "Not verified. Check the game page for any required files you must supply.",
           "requirements": [
             "An up-to-date browser; check technologies, controls and requirements at the destination."
@@ -1404,7 +1404,7 @@
           "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
         },
         "es": {
-          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "summary": "Aventura multijugador de piratas: forma una tripulación, navega y combate entre barcos desde el navegador.",
           "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
           "requirements": [
             "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
@@ -1465,7 +1465,7 @@
       },
       "content": {
         "pt": {
-          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "summary": "Construa e administre um parque de diversões, desenhando montanhas-russas e planejando atrações para os visitantes.",
           "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
           "requirements": [
             "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
@@ -1478,7 +1478,7 @@
           "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
         },
         "en": {
-          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "summary": "Build and manage a theme park, designing roller coasters and planning attractions for visitors.",
           "originalFiles": "Not verified. Check the game page for any required files you must supply.",
           "requirements": [
             "An up-to-date browser; check technologies, controls and requirements at the destination."
@@ -1491,7 +1491,7 @@
           "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
         },
         "es": {
-          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "summary": "Construye y administra un parque de atracciones, diseñando montañas rusas y organizando actividades para los visitantes.",
           "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
           "requirements": [
             "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
@@ -1552,7 +1552,7 @@
       },
       "content": {
         "pt": {
-          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "summary": "Jogo de tiro em um cenário de areia e partículas destrutíveis, no qual o próprio terreno faz parte do combate.",
           "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
           "requirements": [
             "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
@@ -1565,7 +1565,7 @@
           "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
         },
         "en": {
-          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "summary": "A shooter set in a world of sand and destructible particles, where the terrain itself is part of the combat.",
           "originalFiles": "Not verified. Check the game page for any required files you must supply.",
           "requirements": [
             "An up-to-date browser; check technologies, controls and requirements at the destination."
@@ -1578,7 +1578,7 @@
           "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
         },
         "es": {
-          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "summary": "Juego de disparos en un escenario de arena y partículas destructibles, donde el terreno forma parte del combate.",
           "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
           "requirements": [
             "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
@@ -1639,7 +1639,7 @@
       },
       "content": {
         "pt": {
-          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "summary": "Adaptação de GTA Vice City para navegador, ambientada na cidade dos anos 1980 com direção, exploração e missões de Tommy Vercetti.",
           "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
           "requirements": [
             "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
@@ -1652,7 +1652,7 @@
           "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
         },
         "en": {
-          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "summary": "A browser adaptation of GTA Vice City, featuring driving, exploration and Tommy Vercetti’s missions in its 1980s-inspired city.",
           "originalFiles": "Not verified. Check the game page for any required files you must supply.",
           "requirements": [
             "An up-to-date browser; check technologies, controls and requirements at the destination."
@@ -1665,7 +1665,7 @@
           "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
         },
         "es": {
-          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "summary": "Adaptación de GTA Vice City para navegador, con conducción, exploración y las misiones de Tommy Vercetti en su ciudad inspirada en los años ochenta.",
           "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
           "requirements": [
             "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."

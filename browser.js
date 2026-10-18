@@ -20,8 +20,8 @@ async function initBrowserCatalog(){
   if(failed){host.append(el('p',t('loadHelp'),'community-error'));return;}
   for(const p of matches){
    const article=el('article',undefined,'card');article.dataset.project=p.id;const cover=projectVisual(p,language),body=el('div',undefined,'card-body');
-   body.append(el('span',t(accessKeys[p.browser.access]),'badge browser-access-badge'),el('h3',p.game),el('p',p.name,'project-name'),el('p',p.content[language].summary),el('p',p.content[language].originalFiles,'browser-access-note'));
-   body.append(el('p',t('browserNotTested'),'browser-access-note'));if(p.reviewAgent)body.append(el('p',t('browserAutoReview'),'browser-access-note'));const credit=imageCredit(p,language);if(credit)body.append(credit);
+   body.append(el('span',t(accessKeys[p.browser.access]),'badge browser-access-badge'),el('h3',p.game),el('p',p.name,'project-name'),el('p',p.content[language].summary));
+   const status=el('span',t(p.playability),'badge');status.title=t('status');body.append(status);if(p.developmentStage==='experimental')body.append(el('span',t('experimental'),'badge')); const credit=imageCredit(p,language);if(credit)body.append(credit);
    const actions=el('div',undefined,'browser-card-actions'),play=p.browser.health?.status==='review'?el('span',t('browserLinkReview'),'badge'):link(t('browserPlay'),p.browser.url);if(play.tagName==='A')play.className='button';const details=el('a',t('browserDetails'));details.href=projectURL(p.id,language);actions.append(play,details,link(t('browserEvidence'),p.evidenceUrl));body.append(actions);article.append(cover,body);host.append(article);
   }
   if(!matches.length)host.append(el('p',t('noResults')));

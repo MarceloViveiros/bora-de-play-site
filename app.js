@@ -100,7 +100,6 @@ async function init() {
     const playableBadge=el('span',t(p.playability),'badge');playableBadge.title=t('status');
     const stageBadge=el('span',t(p.developmentStage),'badge stage-badge');stageBadge.title=t('stage');
     body.append(el('span',t(p.type),'badge'),playableBadge,stageBadge,el('h3',p.game),el('p',p.name,'project-name'),stars,el('p',text.summary),el('p',`${p.origins.join(' / ')} → ${p.targets.join(' / ')}`,'platforms'));
-    if(p.reviewAgent)body.append(el('p',t('autoReview'),'review'));
     const credit=imageCredit(p,language);if(credit)body.append(credit);
     const details=el('details'); details.append(el('summary',t('details')));
     details.append(el('h4',t('approach')),el('p',t(p.approach)));
