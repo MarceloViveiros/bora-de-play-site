@@ -1,6 +1,8 @@
 'use strict';
 const BORA_I18N = {
   "pt": {
+    "p2bUnavailable": "Ported2Browser: fonte indisponível nesta rodada; nova tentativa nas próximas atualizações.",
+    "p2bSummary": "Ported2Browser: {count} novos jogos nesta rodada.",
     "reviewsNav": "Avaliações",
     "channelApproved": "Testado e aprovado",
     "channelTestNote": "Teste confirmado pelo Bora de Play. Consulte os requisitos e limitações desta versão.",
@@ -159,6 +161,8 @@ const BORA_I18N = {
     "web-unconfirmed": "Tecnologia web não confirmada"
   },
   "en": {
+    "p2bUnavailable": "Ported2Browser: source unavailable this round; it will be retried in future updates.",
+    "p2bSummary": "Ported2Browser: {count} new games this round.",
     "reviewsNav": "Reviews",
     "channelApproved": "Tested and approved",
     "channelTestNote": "Testing confirmed by Bora de Play. Check this version’s requirements and limitations.",
@@ -317,6 +321,8 @@ const BORA_I18N = {
     "web-unconfirmed": "Web technology not confirmed"
   },
   "es": {
+    "p2bUnavailable": "Ported2Browser: fuente no disponible en esta ronda; se volverá a intentar en próximas actualizaciones.",
+    "p2bSummary": "Ported2Browser: {count} juegos nuevos en esta ronda.",
     "reviewsNav": "Reseñas",
     "channelApproved": "Probado y aprobado",
     "channelTestNote": "Prueba confirmada por Bora de Play. Consulta los requisitos y limitaciones de esta versión.",
