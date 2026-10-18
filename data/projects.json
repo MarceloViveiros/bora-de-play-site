@@ -81,9 +81,12 @@
         "documentationChanged": false
       },
       "image": {
-        "url": "https://images.nintendolife.com/b23ee6b78ed2b/na.900x.jpg",
-        "source": "https://www.nintendolife.com/news/2020/01/poll_box_art_brawl_27_-_the_legend_of_zelda_ocarina_of_time",
-        "kind": "reference"
+        "url": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time",
+        "subject": "The Legend of Zelda: Ocarina of Time",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-18T12:09:59.138691+00:00"
       }
     },
     {
@@ -3018,8 +3021,12 @@
     },
     {
       "image": {
-        "url": "assets/platforms/generic.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Doaxbvbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Dead_or_Alive_Xtreme_Beach_Volleyball",
+        "subject": "Dead or Alive Xtreme Beach Volleyball",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-18T12:08:09.898670+00:00"
       },
       "id": "auto-87167d9b93aebf",
       "editionId": "auto-87167d9b93aebf",
@@ -3109,8 +3116,12 @@
     },
     {
       "image": {
-        "url": "assets/platforms/gamecube.svg",
-        "kind": "console"
+        "url": "https://upload.wikimedia.org/wikipedia/en/3/37/Soulcalibur_II_flyer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Soulcalibur_II",
+        "subject": "Soulcalibur II",
+        "provider": "wikipedia-summary-v1",
+        "checkedAt": "2026-10-18T12:08:09.998385+00:00"
       },
       "id": "auto-ef78f74e6dcc16",
       "editionId": "auto-ef78f74e6dcc16",
@@ -3198,5 +3209,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T11:54:51.481094+00:00"
+  "updatedAt": "2026-10-18T12:08:09.649768+00:00"
 }

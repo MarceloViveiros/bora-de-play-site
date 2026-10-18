@@ -13,7 +13,7 @@ async function initBrowserCatalog(){
   document.querySelectorAll('a[href^="contribuir.html"]').forEach(a=>a.href='contribuir.html?lang='+language);
   document.querySelectorAll('a[href^="./#"]').forEach(a=>a.href='./?lang='+language+a.hash);
   const auto=document.querySelector('#browser-automation');auto.textContent=automation?.lastRunAt?t('browserAuto')+new Intl.DateTimeFormat(language,{dateStyle:'medium',timeStyle:'short'}).format(new Date(automation.lastRunAt))+'. '+t('browserCheckNote'):'';
-  if(automation?.ported2browser){const source=automation.ported2browser;document.querySelector('#browser-automation').textContent+=' '+(source.status==='source-unavailable'?t('p2bUnavailable'):t('p2bSummary').replace('{count}',String(source.added)));}
+  if(automation?.inxanity){const source=automation.inxanity;document.querySelector('#browser-automation').textContent+=' '+(source.status==='source-unavailable'?t('inxUnavailable'):t('inxSummary').replace('{count}',String(source.added)));}
   const q=normalize(document.querySelector('#browser-query').value),access=document.querySelector('#browser-access').value;
   const matches=projects.filter(p=>(!q||normalize(p.game+' '+p.name).includes(q))&&(!access||p.browser.access===access));
   const total=document.querySelector('#browser-total');total.textContent=failed?t('loadError'):matches.length+' / '+projects.length+' · '+t('browserNav');host.replaceChildren();

@@ -8,6 +8,7 @@ function safeImageURL(value){
   if(typeof value!=='string')return null;
   if(/^assets\/platforms\/(?:ps[1-4]|xbox360|n64|gamecube|switch|wiiu|generic)\.svg$/.test(value))return value;
   const safe=safeURL(value);if(!safe)return null;
+  const parsedImage=new URL(safe);if(parsedImage.hostname==='www.inxanitylabs.com'&&/^\/assets\/games\/[a-z0-9-]+\.(?:webp|png|jpg|jpeg)$/.test(parsedImage.pathname)&&!parsedImage.search)return safe;
   const allowed=['upload.wikimedia.org','thumb.wikimedia.org','raw.githubusercontent.com','cdn2.steamgriddb.com','images.nintendolife.com'];
   return allowed.includes(new URL(safe).hostname)?safe:null;
 }
