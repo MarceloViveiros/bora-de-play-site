@@ -1,20 +1,34 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-17T15:08:03.792576+00:00",
+  "updatedAt": "2026-10-18T11:54:51.481094+00:00",
   "triage": {
     "ruleVersion": "documentary-v2",
     "reviewed": 20,
-    "added": 8,
-    "pending": 11,
-    "outOfScope": 1
+    "added": 2,
+    "pending": 18,
+    "outOfScope": 0
   },
   "projects": [
     {
-      "repository": "NeverCookFirst/DimensionsRecomp",
-      "github": "https://github.com/NeverCookFirst/DimensionsRecomp",
-      "stars": 211,
-      "checkedAt": "2026-10-17T15:08:19.037344+00:00",
-      "evidenceUrl": "https://github.com/NeverCookFirst/DimensionsRecomp/blob/2e7ace18bb6ac200ae042e39209542af25370d88/README.md"
+      "repository": "murkantor/Project-Midas",
+      "github": "https://github.com/murkantor/Project-Midas",
+      "stars": 128,
+      "checkedAt": "2026-10-18T11:56:11.809211+00:00",
+      "evidenceUrl": "https://github.com/murkantor/Project-Midas/blob/6be5920beed453b6a81fdf9935fb9851928b718d/readme.md"
+    },
+    {
+      "repository": "chasem-dev/sms-pc-port",
+      "github": "https://github.com/chasem-dev/sms-pc-port",
+      "stars": 147,
+      "checkedAt": "2026-10-18T11:56:03.953758+00:00",
+      "evidenceUrl": "https://github.com/chasem-dev/sms-pc-port/blob/a2ff4eef099b22b2af487d1b5e3ac09ffe667d31/README.md"
+    },
+    {
+      "repository": "LittleBitUA/DPRecomp",
+      "github": "https://github.com/LittleBitUA/DPRecomp",
+      "stars": 165,
+      "checkedAt": "2026-10-18T11:55:51.727392+00:00",
+      "evidenceUrl": "https://github.com/LittleBitUA/DPRecomp/blob/e0624129c06b9437aa0278b58f2f3eb954192aec/README.md"
     }
   ]
 }
