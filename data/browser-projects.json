@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-17T15:11:40.235103+00:00",
+  "updatedAt": "2026-10-18T01:29:09.695936+00:00",
   "projects": [
     {
       "id": "web-openlara",
@@ -23,8 +23,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 5125,
-      "starsCollectedAt": "2026-10-17T15:11:12.929508+00:00",
+      "stars": 5127,
+      "starsCollectedAt": "2026-10-18T01:28:57.193756+00:00",
       "content": {
         "pt": {
           "summary": "Motor de Tomb Raider com uma fase demonstrativa em WebGL.",
@@ -69,7 +69,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T15:11:16.795462+00:00",
+          "checkedAt": "2026-10-18T01:28:58.888751+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -101,8 +101,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 2889,
-      "starsCollectedAt": "2026-10-17T15:11:12.929508+00:00",
+      "stars": 2891,
+      "starsCollectedAt": "2026-10-18T01:28:57.193756+00:00",
       "content": {
         "pt": {
           "summary": "Diablo no navegador, com opção shareware e uso dos seus dados do jogo completo.",
@@ -147,7 +147,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T15:11:16.920563+00:00",
+          "checkedAt": "2026-10-18T01:28:58.987648+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -179,8 +179,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 169,
-      "starsCollectedAt": "2026-10-17T15:11:12.929508+00:00",
+      "stars": 170,
+      "starsCollectedAt": "2026-10-18T01:28:57.193756+00:00",
       "content": {
         "pt": {
           "summary": "Half-Life no navegador pelo motor Xash3D compilado para WebAssembly.",
@@ -225,7 +225,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T15:11:17.040448+00:00",
+          "checkedAt": "2026-10-18T01:28:59.114664+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -257,8 +257,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 169,
-      "starsCollectedAt": "2026-10-17T15:11:12.929508+00:00",
+      "stars": 170,
+      "starsCollectedAt": "2026-10-18T01:28:57.193756+00:00",
       "content": {
         "pt": {
           "summary": "Counter-Strike 1.6 no navegador usando WebXash e arquivos da sua instalação.",
@@ -303,7 +303,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T15:11:17.160087+00:00",
+          "checkedAt": "2026-10-18T01:28:59.186901+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -335,8 +335,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 57,
-      "starsCollectedAt": "2026-10-17T15:11:12.929508+00:00",
+      "stars": 58,
+      "starsCollectedAt": "2026-10-18T01:28:57.193756+00:00",
       "content": {
         "pt": {
           "summary": "Motor de Quake no navegador, com opção livre com bots e suporte aos seus arquivos PAK.",
@@ -381,7 +381,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T15:11:17.269838+00:00",
+          "checkedAt": "2026-10-18T01:28:59.232179+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -414,7 +414,7 @@
         "Web"
       ],
       "stars": 2209,
-      "starsCollectedAt": "2026-10-17T15:11:12.929508+00:00",
+      "starsCollectedAt": "2026-10-18T01:28:57.193756+00:00",
       "content": {
         "pt": {
           "summary": "Estratégia por turnos gratuita para navegador, com partidas individuais e multiplayer.",
@@ -459,7 +459,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T15:11:18.090986+00:00",
+          "checkedAt": "2026-10-18T01:28:59.559376+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -491,8 +491,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 59,
-      "starsCollectedAt": "2026-10-17T15:11:12.929508+00:00",
+      "stars": 60,
+      "starsCollectedAt": "2026-10-18T01:28:57.193756+00:00",
       "content": {
         "pt": {
           "summary": "Cliente moderno de Diablo com demo shareware, importação do seu MPQ e gerenciamento local de saves.",
@@ -537,7 +537,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T15:11:18.931782+00:00",
+          "checkedAt": "2026-10-18T01:28:59.798283+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -569,8 +569,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 1628,
-      "starsCollectedAt": "2026-10-17T15:11:12.929508+00:00",
+      "stars": 1640,
+      "starsCollectedAt": "2026-10-18T01:28:57.193756+00:00",
       "content": {
         "pt": {
           "summary": "Adaptação de Halo de Xbox para navegador, com tela de importação da sua imagem de disco. O site cita o motor OpenCE.",
@@ -624,7 +624,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T15:11:19.052498+00:00",
+          "checkedAt": "2026-10-18T01:28:59.932302+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -673,7 +673,7 @@
         "pageCheckedAt": "2026-10-17T11:35:34.661329+00:00",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-17T15:11:19.228817+00:00",
+          "checkedAt": "2026-10-18T01:29:00.175234+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -722,13 +722,18 @@
     }
   ],
   "automation": {
-    "lastRunAt": "2026-10-17T15:11:12.929185+00:00",
+    "lastRunAt": "2026-10-18T01:28:57.193288+00:00",
     "metadata": "updated",
     "discovery": "completed",
+    "images": {
+      "filled": 0,
+      "pending": 0,
+      "providerRequests": 0
+    },
     "totalProjects": 9,
-    "pendingRepositories": 150,
+    "pendingRepositories": 146,
     "reviewedRepositories": 6,
-    "lowRelevanceRepositories": 11,
+    "lowRelevanceRepositories": 36,
     "ruleVersion": "documentary-v2"
   }
 }
