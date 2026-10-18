@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-18T12:13:38.044287+00:00",
+  "updatedAt": "2026-10-18T14:47:17.165170+00:00",
   "projects": [
     {
       "id": "web-openlara",
@@ -24,7 +24,7 @@
         "Web"
       ],
       "stars": 5127,
-      "starsCollectedAt": "2026-10-18T12:13:20.867101+00:00",
+      "starsCollectedAt": "2026-10-18T14:46:47.425012+00:00",
       "content": {
         "pt": {
           "summary": "Motor de Tomb Raider com uma fase demonstrativa em WebGL.",
@@ -69,7 +69,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:22.798275+00:00",
+          "checkedAt": "2026-10-18T14:46:50.296791+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -102,7 +102,7 @@
         "Web"
       ],
       "stars": 2891,
-      "starsCollectedAt": "2026-10-18T12:13:20.867101+00:00",
+      "starsCollectedAt": "2026-10-18T14:46:47.425012+00:00",
       "content": {
         "pt": {
           "summary": "Diablo no navegador, com opção shareware e uso dos seus dados do jogo completo.",
@@ -147,7 +147,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:23.035591+00:00",
+          "checkedAt": "2026-10-18T14:46:50.494999+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -179,8 +179,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 171,
-      "starsCollectedAt": "2026-10-18T12:13:20.867101+00:00",
+      "stars": 172,
+      "starsCollectedAt": "2026-10-18T14:46:47.425012+00:00",
       "content": {
         "pt": {
           "summary": "Half-Life no navegador pelo motor Xash3D compilado para WebAssembly.",
@@ -225,7 +225,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:23.121469+00:00",
+          "checkedAt": "2026-10-18T14:46:50.648286+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -257,8 +257,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 171,
-      "starsCollectedAt": "2026-10-18T12:13:20.867101+00:00",
+      "stars": 172,
+      "starsCollectedAt": "2026-10-18T14:46:47.425012+00:00",
       "content": {
         "pt": {
           "summary": "Counter-Strike 1.6 no navegador usando WebXash e arquivos da sua instalação.",
@@ -303,7 +303,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:23.250308+00:00",
+          "checkedAt": "2026-10-18T14:46:50.789763+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -336,7 +336,7 @@
         "Web"
       ],
       "stars": 58,
-      "starsCollectedAt": "2026-10-18T12:13:20.867101+00:00",
+      "starsCollectedAt": "2026-10-18T14:46:47.425012+00:00",
       "content": {
         "pt": {
           "summary": "Motor de Quake no navegador, com opção livre com bots e suporte aos seus arquivos PAK.",
@@ -381,7 +381,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:23.294908+00:00",
+          "checkedAt": "2026-10-18T14:46:50.903225+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -414,7 +414,7 @@
         "Web"
       ],
       "stars": 2211,
-      "starsCollectedAt": "2026-10-18T12:13:20.867101+00:00",
+      "starsCollectedAt": "2026-10-18T14:46:47.425012+00:00",
       "content": {
         "pt": {
           "summary": "Estratégia por turnos gratuita para navegador, com partidas individuais e multiplayer.",
@@ -459,7 +459,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:23.636355+00:00",
+          "checkedAt": "2026-10-18T14:46:51.365770+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -491,8 +491,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 61,
-      "starsCollectedAt": "2026-10-18T12:13:20.867101+00:00",
+      "stars": 62,
+      "starsCollectedAt": "2026-10-18T14:46:47.425012+00:00",
       "content": {
         "pt": {
           "summary": "Cliente moderno de Diablo com demo shareware, importação do seu MPQ e gerenciamento local de saves.",
@@ -537,7 +537,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:23.839556+00:00",
+          "checkedAt": "2026-10-18T14:46:52.172243+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -569,8 +569,8 @@
       "targets": [
         "Web"
       ],
-      "stars": 1653,
-      "starsCollectedAt": "2026-10-18T12:13:20.867101+00:00",
+      "stars": 1662,
+      "starsCollectedAt": "2026-10-18T14:46:47.425012+00:00",
       "content": {
         "pt": {
           "summary": "Adaptação de Halo de Xbox para navegador, com tela de importação da sua imagem de disco. O site cita o motor OpenCE.",
@@ -624,7 +624,7 @@
         "pageCheck": "landing-page",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:23.911178+00:00",
+          "checkedAt": "2026-10-18T14:46:52.302638+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -673,7 +673,7 @@
         "pageCheckedAt": "2026-10-17T11:35:34.661329+00:00",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:24.099679+00:00",
+          "checkedAt": "2026-10-18T14:46:52.482577+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -759,7 +759,7 @@
         "pageCheckedAt": "2026-10-18T11:43:26.835069+00:00",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:24.624587+00:00",
+          "checkedAt": "2026-10-18T14:46:52.897796+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -849,7 +849,7 @@
         "pageCheck": "http-html",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:34.983391+00:00",
+          "checkedAt": "2026-10-18T14:46:53.516636+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -936,7 +936,7 @@
         "pageCheck": "http-html",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:35.517093+00:00",
+          "checkedAt": "2026-10-18T14:46:53.826267+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -1023,7 +1023,7 @@
         "pageCheck": "http-html",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:36.308948+00:00",
+          "checkedAt": "2026-10-18T14:46:54.229606+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -1110,7 +1110,7 @@
         "pageCheck": "http-html",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:36.856506+00:00",
+          "checkedAt": "2026-10-18T14:46:54.865058+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -1197,7 +1197,442 @@
         "pageCheck": "http-html",
         "health": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:13:37.172519+00:00",
+          "checkedAt": "2026-10-18T14:46:54.986387+00:00",
+          "method": "http-html",
+          "reason": null
+        }
+      },
+      "content": {
+        "pt": {
+          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
+          "requirements": [
+            "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
+          ],
+          "installation": [
+            "Abra o link direto pelo botão Jogar no navegador.",
+            "Siga as instruções da página do jogo.",
+            "Compartilhe erros e sua experiência na comunidade desta ficha."
+          ],
+          "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
+        },
+        "en": {
+          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "originalFiles": "Not verified. Check the game page for any required files you must supply.",
+          "requirements": [
+            "An up-to-date browser; check technologies, controls and requirements at the destination."
+          ],
+          "installation": [
+            "Open the direct link using Play in browser.",
+            "Follow the instructions on the game page.",
+            "Share errors and your experience in this entry’s community section."
+          ],
+          "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
+        },
+        "es": {
+          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
+          "requirements": [
+            "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
+          ],
+          "installation": [
+            "Abre el enlace directo con Jugar en el navegador.",
+            "Sigue las instrucciones de la página del juego.",
+            "Comparte errores y tu experiencia en la comunidad de esta ficha."
+          ],
+          "limitations": "Abrir una página no demuestra que una partida funcione. Bora de Play no ha probado campaña, controles, rendimiento ni tecnología. El hash identifica el HTML consultado. Se conservaron los avisos de desarrollo de la fuente."
+        }
+      }
+    },
+    {
+      "id": "web-inx-28bb0c63510dfd",
+      "editionId": "web-inx-28bb0c63510dfd",
+      "game": "Redcoats",
+      "name": "Redcoats · Web",
+      "type": "port",
+      "approach": "web-unconfirmed",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "sourceKind": "website",
+      "github": null,
+      "instructionsUrl": "https://redcoats.io/app/",
+      "evidenceUrl": "https://redcoats.io/app/",
+      "discoveredVia": "https://www.inxanitylabs.com/games/redcoats",
+      "reviewedAt": "2026-10-18",
+      "reviewedVersion": "387e787aee9c96547d9aca2e3ed288c093fd8da983bb8faa85557565c1f3672c",
+      "reviewMethod": "documentation",
+      "origins": [
+        "Outro"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": null,
+      "starsCollectedAt": null,
+      "image": {
+        "url": "https://www.inxanitylabs.com/assets/games/redcoats.webp",
+        "kind": "reference",
+        "source": "https://www.inxanitylabs.com/games/redcoats",
+        "provider": "inxanity-declared-cover-v1",
+        "subject": "Redcoats"
+      },
+      "browser": {
+        "url": "https://redcoats.io/app/",
+        "access": "web",
+        "verification": "documentation",
+        "checkedAt": "2026-10-18T14:47:11.473125+00:00",
+        "pageCheck": "http-html",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T14:47:09.461465+00:00",
+          "method": "http-html",
+          "reason": null
+        }
+      },
+      "content": {
+        "pt": {
+          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
+          "requirements": [
+            "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
+          ],
+          "installation": [
+            "Abra o link direto pelo botão Jogar no navegador.",
+            "Siga as instruções da página do jogo.",
+            "Compartilhe erros e sua experiência na comunidade desta ficha."
+          ],
+          "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
+        },
+        "en": {
+          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "originalFiles": "Not verified. Check the game page for any required files you must supply.",
+          "requirements": [
+            "An up-to-date browser; check technologies, controls and requirements at the destination."
+          ],
+          "installation": [
+            "Open the direct link using Play in browser.",
+            "Follow the instructions on the game page.",
+            "Share errors and your experience in this entry’s community section."
+          ],
+          "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
+        },
+        "es": {
+          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
+          "requirements": [
+            "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
+          ],
+          "installation": [
+            "Abre el enlace directo con Jugar en el navegador.",
+            "Sigue las instrucciones de la página del juego.",
+            "Comparte errores y tu experiencia en la comunidad de esta ficha."
+          ],
+          "limitations": "Abrir una página no demuestra que una partida funcione. Bora de Play no ha probado campaña, controles, rendimiento ni tecnología. El hash identifica el HTML consultado. Se conservaron los avisos de desarrollo de la fuente."
+        }
+      }
+    },
+    {
+      "id": "web-inx-63b577666e15b6",
+      "editionId": "web-inx-63b577666e15b6",
+      "game": "Salty Seas",
+      "name": "Salty Seas · Web",
+      "type": "port",
+      "approach": "web-unconfirmed",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "sourceKind": "website",
+      "github": null,
+      "instructionsUrl": "https://saltyseas.io/app/",
+      "evidenceUrl": "https://saltyseas.io/app/",
+      "discoveredVia": "https://www.inxanitylabs.com/games/salty-seas",
+      "reviewedAt": "2026-10-18",
+      "reviewedVersion": "e0104c9b3a9e98ac83e897f28eb3b5e3faabe11749f13e9ecef139374d262873",
+      "reviewMethod": "documentation",
+      "origins": [
+        "Outro"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": null,
+      "starsCollectedAt": null,
+      "image": {
+        "url": "https://www.inxanitylabs.com/assets/games/salty-seas.webp",
+        "kind": "reference",
+        "source": "https://www.inxanitylabs.com/games/salty-seas",
+        "provider": "inxanity-declared-cover-v1",
+        "subject": "Salty Seas"
+      },
+      "browser": {
+        "url": "https://saltyseas.io/app/",
+        "access": "web",
+        "verification": "documentation",
+        "checkedAt": "2026-10-18T14:47:13.027779+00:00",
+        "pageCheck": "http-html",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T14:47:11.661643+00:00",
+          "method": "http-html",
+          "reason": null
+        }
+      },
+      "content": {
+        "pt": {
+          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
+          "requirements": [
+            "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
+          ],
+          "installation": [
+            "Abra o link direto pelo botão Jogar no navegador.",
+            "Siga as instruções da página do jogo.",
+            "Compartilhe erros e sua experiência na comunidade desta ficha."
+          ],
+          "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
+        },
+        "en": {
+          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "originalFiles": "Not verified. Check the game page for any required files you must supply.",
+          "requirements": [
+            "An up-to-date browser; check technologies, controls and requirements at the destination."
+          ],
+          "installation": [
+            "Open the direct link using Play in browser.",
+            "Follow the instructions on the game page.",
+            "Share errors and your experience in this entry’s community section."
+          ],
+          "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
+        },
+        "es": {
+          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
+          "requirements": [
+            "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
+          ],
+          "installation": [
+            "Abre el enlace directo con Jugar en el navegador.",
+            "Sigue las instrucciones de la página del juego.",
+            "Comparte errores y tu experiencia en la comunidad de esta ficha."
+          ],
+          "limitations": "Abrir una página no demuestra que una partida funcione. Bora de Play no ha probado campaña, controles, rendimiento ni tecnología. El hash identifica el HTML consultado. Se conservaron los avisos de desarrollo de la fuente."
+        }
+      }
+    },
+    {
+      "id": "web-inx-0f41d50c92f5c7",
+      "editionId": "web-inx-0f41d50c92f5c7",
+      "game": "Park Baron",
+      "name": "Park Baron · Web",
+      "type": "port",
+      "approach": "web-unconfirmed",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "sourceKind": "website",
+      "github": null,
+      "instructionsUrl": "https://parkbaron.com/play",
+      "evidenceUrl": "https://parkbaron.com/play",
+      "discoveredVia": "https://www.inxanitylabs.com/games/park-baron",
+      "reviewedAt": "2026-10-18",
+      "reviewedVersion": "1b6ec15bb58bf9fbb9813a403b6414acb2c24ea3c962e4cc9aed8571ad72c12b",
+      "reviewMethod": "documentation",
+      "origins": [
+        "Outro"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": null,
+      "starsCollectedAt": null,
+      "image": {
+        "url": "https://www.inxanitylabs.com/assets/games/park-baron.webp",
+        "kind": "reference",
+        "source": "https://www.inxanitylabs.com/games/park-baron",
+        "provider": "inxanity-declared-cover-v1",
+        "subject": "Park Baron"
+      },
+      "browser": {
+        "url": "https://parkbaron.com/play",
+        "access": "web",
+        "verification": "documentation",
+        "checkedAt": "2026-10-18T14:47:13.741285+00:00",
+        "pageCheck": "http-html",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T14:47:13.222377+00:00",
+          "method": "http-html",
+          "reason": null
+        }
+      },
+      "content": {
+        "pt": {
+          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
+          "requirements": [
+            "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
+          ],
+          "installation": [
+            "Abra o link direto pelo botão Jogar no navegador.",
+            "Siga as instruções da página do jogo.",
+            "Compartilhe erros e sua experiência na comunidade desta ficha."
+          ],
+          "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
+        },
+        "en": {
+          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "originalFiles": "Not verified. Check the game page for any required files you must supply.",
+          "requirements": [
+            "An up-to-date browser; check technologies, controls and requirements at the destination."
+          ],
+          "installation": [
+            "Open the direct link using Play in browser.",
+            "Follow the instructions on the game page.",
+            "Share errors and your experience in this entry’s community section."
+          ],
+          "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
+        },
+        "es": {
+          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
+          "requirements": [
+            "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
+          ],
+          "installation": [
+            "Abre el enlace directo con Jugar en el navegador.",
+            "Sigue las instrucciones de la página del juego.",
+            "Comparte errores y tu experiencia en la comunidad de esta ficha."
+          ],
+          "limitations": "Abrir una página no demuestra que una partida funcione. Bora de Play no ha probado campaña, controles, rendimiento ni tecnología. El hash identifica el HTML consultado. Se conservaron los avisos de desarrollo de la fuente."
+        }
+      }
+    },
+    {
+      "id": "web-inx-abd766ccbbdee8",
+      "editionId": "web-inx-abd766ccbbdee8",
+      "game": "SandStorm",
+      "name": "SandStorm · Web",
+      "type": "port",
+      "approach": "web-unconfirmed",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "sourceKind": "website",
+      "github": null,
+      "instructionsUrl": "https://sandstorm.ink/play.html",
+      "evidenceUrl": "https://sandstorm.ink/play.html",
+      "discoveredVia": "https://www.inxanitylabs.com/games/sandstorm",
+      "reviewedAt": "2026-10-18",
+      "reviewedVersion": "d4004b6393d76a830551f540e7a9a627aa959ea761a8b4cf0fa0e43d2aaff22a",
+      "reviewMethod": "documentation",
+      "origins": [
+        "Outro"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": null,
+      "starsCollectedAt": null,
+      "image": {
+        "url": "https://www.inxanitylabs.com/assets/games/sandstorm.webp",
+        "kind": "reference",
+        "source": "https://www.inxanitylabs.com/games/sandstorm",
+        "provider": "inxanity-declared-cover-v1",
+        "subject": "SandStorm"
+      },
+      "browser": {
+        "url": "https://sandstorm.ink/play.html",
+        "access": "web",
+        "verification": "documentation",
+        "checkedAt": "2026-10-18T14:47:14.617809+00:00",
+        "pageCheck": "http-html",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T14:47:13.925311+00:00",
+          "method": "http-html",
+          "reason": null
+        }
+      },
+      "content": {
+        "pt": {
+          "summary": "Projeto para jogar pelo navegador, descoberto no INXANITY Labs. Página de destino acessível; partida ainda não testada.",
+          "originalFiles": "Não verificado. Confira na página do jogo se são necessários arquivos próprios.",
+          "requirements": [
+            "Navegador atualizado; confira tecnologias, controles e requisitos no destino."
+          ],
+          "installation": [
+            "Abra o link direto pelo botão Jogar no navegador.",
+            "Siga as instruções da página do jogo.",
+            "Compartilhe erros e sua experiência na comunidade desta ficha."
+          ],
+          "limitations": "Abertura de página não comprova funcionamento de uma partida. Campanha, controles, desempenho e tecnologia não testados pelo Bora de Play. O hash identifica o HTML consultado. Os avisos de desenvolvimento da fonte foram preservados."
+        },
+        "en": {
+          "summary": "Browser game project discovered through INXANITY Labs. Its destination page is accessible; gameplay has not been tested.",
+          "originalFiles": "Not verified. Check the game page for any required files you must supply.",
+          "requirements": [
+            "An up-to-date browser; check technologies, controls and requirements at the destination."
+          ],
+          "installation": [
+            "Open the direct link using Play in browser.",
+            "Follow the instructions on the game page.",
+            "Share errors and your experience in this entry’s community section."
+          ],
+          "limitations": "Opening a page does not prove gameplay works. Campaign, controls, performance and technology have not been tested by Bora de Play. The hash identifies the consulted HTML. Development notices from the source were preserved."
+        },
+        "es": {
+          "summary": "Proyecto para jugar en navegador, descubierto en INXANITY Labs. Página de destino accesible; partida todavía no probada.",
+          "originalFiles": "No verificado. Consulta si la página del juego requiere tus propios archivos.",
+          "requirements": [
+            "Navegador actualizado; consulta tecnologías, controles y requisitos en el destino."
+          ],
+          "installation": [
+            "Abre el enlace directo con Jugar en el navegador.",
+            "Sigue las instrucciones de la página del juego.",
+            "Comparte errores y tu experiencia en la comunidad de esta ficha."
+          ],
+          "limitations": "Abrir una página no demuestra que una partida funcione. Bora de Play no ha probado campaña, controles, rendimiento ni tecnología. El hash identifica el HTML consultado. Se conservaron los avisos de desarrollo de la fuente."
+        }
+      }
+    },
+    {
+      "id": "web-inx-d508c20694d759",
+      "editionId": "web-inx-d508c20694d759",
+      "game": "GTA Vice City",
+      "name": "GTA Vice City · Web",
+      "type": "port",
+      "approach": "web-unconfirmed",
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "sourceKind": "website",
+      "github": null,
+      "instructionsUrl": "https://wasmarcade.com/vice-city",
+      "evidenceUrl": "https://wasmarcade.com/vice-city",
+      "discoveredVia": "https://www.inxanitylabs.com/games/gta-vice-city",
+      "reviewedAt": "2026-10-18",
+      "reviewedVersion": "6c82e536e7c6ad58fbb5a53576b8f9d2ec09b5c5a902a7914374845abc5fe6d1",
+      "reviewMethod": "documentation",
+      "origins": [
+        "Outro"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": null,
+      "starsCollectedAt": null,
+      "image": {
+        "url": "https://www.inxanitylabs.com/assets/games/gta-vice-city.webp",
+        "kind": "reference",
+        "source": "https://www.inxanitylabs.com/games/gta-vice-city",
+        "provider": "inxanity-declared-cover-v1",
+        "subject": "GTA Vice City"
+      },
+      "browser": {
+        "url": "https://wasmarcade.com/vice-city",
+        "access": "web",
+        "verification": "documentation",
+        "checkedAt": "2026-10-18T14:47:16.765152+00:00",
+        "pageCheck": "http-html",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T14:47:15.497424+00:00",
           "method": "http-html",
           "reason": null
         }
@@ -1246,17 +1681,17 @@
     }
   ],
   "automation": {
-    "lastRunAt": "2026-10-18T12:13:20.866529+00:00",
+    "lastRunAt": "2026-10-18T14:46:47.424448+00:00",
     "metadata": "updated",
     "discovery": "completed",
     "inxanity": {
       "status": "completed",
-      "checkedAt": "2026-10-18T12:13:34.679020+00:00",
+      "checkedAt": "2026-10-18T14:47:09.091834+00:00",
       "discovered": 81,
       "reviewed": 6,
       "added": 5,
       "duplicates": 0,
-      "pending": 76
+      "pending": 71
     },
     "images": {
       "filled": 0,
@@ -1266,10 +1701,10 @@
       "unavailableCovers": 0,
       "missingGameCovers": 0
     },
-    "totalProjects": 15,
-    "pendingRepositories": 133,
+    "totalProjects": 20,
+    "pendingRepositories": 127,
     "reviewedRepositories": 6,
-    "lowRelevanceRepositories": 54,
+    "lowRelevanceRepositories": 63,
     "ruleVersion": "documentary-v2"
   }
 }
