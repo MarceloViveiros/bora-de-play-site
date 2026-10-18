@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-18T01:29:09.695936+00:00",
+  "updatedAt": "2026-10-18T11:43:26.835069+00:00",
   "projects": [
     {
       "id": "web-openlara",
@@ -717,6 +717,95 @@
             "Sigue las opciones e instrucciones del propio juego."
           ],
           "limitations": "Pantalla inicial cargada; no se probó una partida. El sitio declara no estar afiliado ni respaldado por Blizzard. Repositorio, versión numerada y licencia no confirmados. La revisión registra un hash SHA-256 del HTML consultado, no un commit del juego."
+        }
+      }
+    },
+    {
+      "id": "web-nfs-underground-2",
+      "editionId": "web-nfs-underground-2",
+      "game": "Need for Speed: Underground 2",
+      "name": "NFS Underground 2 Web Online · gfernandezcano25",
+      "type": "port",
+      "approach": "web-unconfirmed",
+      "playability": "nao-verificado",
+      "developmentStage": "experimental",
+      "sourceKind": "website",
+      "github": null,
+      "instructionsUrl": "https://nfsunderground2.site/",
+      "evidenceUrl": "https://nfsunderground2.site/",
+      "discoveredVia": "https://ported2browser.com/ports/01M52FZSRNZZ4GTNF764YGZSN5&pt",
+      "reviewedAt": "2026-10-18",
+      "reviewedVersion": "96098de18d37d0c3ae943715edb5957fcca0335e1eb7b897ad7cbf13e2474b04",
+      "reviewMethod": "documentation",
+      "origins": [
+        "PS2"
+      ],
+      "targets": [
+        "Web"
+      ],
+      "stars": null,
+      "starsCollectedAt": null,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
+        "kind": "reference",
+        "source": "https://en.wikipedia.org/wiki/Need_for_Speed%3A_Underground_2"
+      },
+      "browser": {
+        "url": "https://nfsunderground2.site/",
+        "access": "web",
+        "verification": "documentation",
+        "checkedAt": "2026-10-18T11:43:26.835069+00:00",
+        "pageCheck": "landing-page",
+        "pageCheckedAt": "2026-10-18T11:43:26.835069+00:00",
+        "health": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T11:43:26.835069+00:00",
+          "method": "http-html",
+          "reason": null
+        }
+      },
+      "content": {
+        "pt": {
+          "summary": "Adaptação experimental de Need for Speed: Underground 2 para navegador. A página anuncia corridas solo e online, com teclado, controle e toque.",
+          "originalFiles": "A página inicial não solicitou arquivos originais. Os requisitos posteriores ao carregamento do motor não foram confirmados.",
+          "requirements": [
+            "Navegador atualizado com JavaScript e suporte a WebAssembly e WebGPU, conforme informado pelo projeto.",
+            "Desempenho varia conforme o computador; o autor recomenda começar em resolução 1x."
+          ],
+          "installation": [
+            "Abra o link direto pelo botão Jogar no navegador.",
+            "Aguarde o carregamento do motor e siga as opções do jogo.",
+            "Se encontrar erros, relate sua experiência na comunidade desta ficha."
+          ],
+          "limitations": "Página inicial e opções abertas; nenhuma corrida testada pelo Bora de Play. O autor informa problemas de desempenho e modo online experimental. A página menciona o motor PS2 Web Recomp; essa descrição técnica não foi auditada. O hash identifica o HTML consultado, não uma versão do jogo. Link encontrado no Ported2Browser e conferido no destino."
+        },
+        "en": {
+          "summary": "An experimental browser adaptation of Need for Speed: Underground 2. The page advertises solo and online racing with keyboard, gamepad and touch controls.",
+          "originalFiles": "The landing page did not request original files. Requirements after engine loading have not been confirmed.",
+          "requirements": [
+            "An up-to-date browser with JavaScript, WebAssembly and WebGPU support, as stated by the project.",
+            "Performance varies by computer; the author recommends starting at 1x resolution."
+          ],
+          "installation": [
+            "Open the direct link using Play in browser.",
+            "Wait for the engine to load and follow the game options.",
+            "Report errors and your experience in this entry’s community section."
+          ],
+          "limitations": "Landing page and options opened; Bora de Play has not tested a race. The author reports performance issues and experimental online play. The page mentions PS2 Web Recomp; this technical claim has not been audited. The hash identifies the consulted HTML, not a game version. Discovered through Ported2Browser and checked at the destination."
+        },
+        "es": {
+          "summary": "Adaptación experimental de Need for Speed: Underground 2 para navegador. La página anuncia carreras individuales y en línea con teclado, mando y controles táctiles.",
+          "originalFiles": "La página inicial no solicitó archivos originales. No se confirmaron los requisitos posteriores a la carga del motor.",
+          "requirements": [
+            "Navegador actualizado con JavaScript y soporte de WebAssembly y WebGPU, según el proyecto.",
+            "El rendimiento varía según el equipo; el autor recomienda empezar con resolución 1x."
+          ],
+          "installation": [
+            "Abre el enlace directo con Jugar en el navegador.",
+            "Espera a que cargue el motor y sigue las opciones del juego.",
+            "Comunica errores y tu experiencia en la comunidad de esta ficha."
+          ],
+          "limitations": "Página inicial y opciones abiertas; Bora de Play no ha probado una carrera. El autor informa problemas de rendimiento y modo en línea experimental. La página menciona PS2 Web Recomp; esta descripción técnica no fue auditada. El hash identifica el HTML consultado, no una versión del juego. Encontrado en Ported2Browser y comprobado en el destino."
         }
       }
     }
