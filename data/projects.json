@@ -22,8 +22,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "dd702b0679f2240209763d00277e7343ee1424b9",
       "reviewMethod": "documentation",
-      "stars": 5659,
-      "starsCollectedAt": "2026-10-18T11:54:53.097814+00:00",
+      "stars": 5665,
+      "starsCollectedAt": "2026-10-18T14:37:23.258962+00:00",
       "content": {
         "pt": {
           "summary": "Port nativo baseado na descompilação de Ocarina of Time.",
@@ -67,7 +67,7 @@
       "approach": "source-port",
       "editionId": "ship-of-harkinian",
       "upstream": {
-        "checkedAt": "2026-10-18T11:54:53.097814+00:00",
+        "checkedAt": "2026-10-18T14:37:23.258962+00:00",
         "head": "dd702b0679f2240209763d00277e7343ee1424b9",
         "pushedAt": "2026-10-17T16:45:33Z",
         "archived": false,
@@ -108,8 +108,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "b65c482ed672258eb684ab94a4e8c8aa662615ee",
       "reviewMethod": "documentation",
-      "stars": 7457,
-      "starsCollectedAt": "2026-10-18T11:54:54.554658+00:00",
+      "stars": 7461,
+      "starsCollectedAt": "2026-10-18T14:37:24.646380+00:00",
       "content": {
         "pt": {
           "summary": "Recompilação nativa de Majora’s Mask, com melhorias visuais e mods.",
@@ -154,7 +154,7 @@
       "editionId": "zelda64-recompiled",
       "relatedProject": "https://github.com/2ship2harkinian/2ship2harkinian",
       "upstream": {
-        "checkedAt": "2026-10-18T11:54:54.554658+00:00",
+        "checkedAt": "2026-10-18T14:37:24.646380+00:00",
         "head": "b65c482ed672258eb684ab94a4e8c8aa662615ee",
         "pushedAt": "2026-09-25T18:57:57Z",
         "archived": false,
@@ -192,8 +192,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "32c3cf73970f885c0a588623208232db72a74a58",
       "reviewMethod": "documentation",
-      "stars": 3582,
-      "starsCollectedAt": "2026-10-18T11:54:56.132878+00:00",
+      "stars": 3586,
+      "starsCollectedAt": "2026-10-18T14:37:26.044849+00:00",
       "content": {
         "pt": {
           "summary": "Port nativo de Jak 1 pelo projeto OpenGOAL.",
@@ -237,7 +237,7 @@
       "approach": "source-port",
       "editionId": "opengoal-jak1",
       "upstream": {
-        "checkedAt": "2026-10-18T11:54:56.132878+00:00",
+        "checkedAt": "2026-10-18T14:37:26.044849+00:00",
         "head": "32c3cf73970f885c0a588623208232db72a74a58",
         "pushedAt": "2026-10-16T01:27:52Z",
         "archived": false,
@@ -274,8 +274,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "cf829a9eca8fb680fba4b0409ddeb6ca92f22e3c",
       "reviewMethod": "documentation",
-      "stars": 5215,
-      "starsCollectedAt": "2026-10-18T11:54:57.538058+00:00",
+      "stars": 5218,
+      "starsCollectedAt": "2026-10-18T14:37:27.299111+00:00",
       "content": {
         "pt": {
           "summary": "Recompilação da edição Xbox 360, com melhorias gráficas.",
@@ -319,7 +319,7 @@
       "approach": "static-recompilation",
       "editionId": "unleashed-recompiled",
       "upstream": {
-        "checkedAt": "2026-10-18T11:54:57.538058+00:00",
+        "checkedAt": "2026-10-18T14:37:27.299111+00:00",
         "head": "cf829a9eca8fb680fba4b0409ddeb6ca92f22e3c",
         "pushedAt": "2026-06-29T11:05:43Z",
         "archived": false,
@@ -358,8 +358,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "f94e9f8647aeae07ea064dbafe407a41a922f485",
       "reviewMethod": "documentation",
-      "stars": 20114,
-      "starsCollectedAt": "2026-10-18T11:54:59.116068+00:00",
+      "stars": 20116,
+      "starsCollectedAt": "2026-10-18T14:37:28.608422+00:00",
       "content": {
         "pt": {
           "summary": "Emulador e depurador de PS3 para vários sistemas.",
@@ -403,7 +403,7 @@
       "approach": "emulation",
       "editionId": "rpcs3",
       "upstream": {
-        "checkedAt": "2026-10-18T11:54:59.116068+00:00",
+        "checkedAt": "2026-10-18T14:37:28.608422+00:00",
         "head": "1b336f41fa61d4b09737666c531016e11043d390",
         "pushedAt": "2026-10-18T11:39:14Z",
         "archived": false,
@@ -440,8 +440,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "5aa7ffa3f4f21bba827d7865ed8f69f98f993542",
       "reviewMethod": "documentation",
-      "stars": 33709,
-      "starsCollectedAt": "2026-10-18T11:55:00.652086+00:00",
+      "stars": 33715,
+      "starsCollectedAt": "2026-10-18T14:37:29.799275+00:00",
       "content": {
         "pt": {
           "summary": "Emulador de PS4 em estágio inicial; utiliza launcher separado.",
@@ -485,14 +485,14 @@
       "approach": "emulation",
       "editionId": "shadps4",
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:00.652086+00:00",
-        "head": "860a477160e08e65f8c0927677c1955be28fabc7",
-        "pushedAt": "2026-10-17T21:13:18Z",
+        "checkedAt": "2026-10-18T14:37:29.799275+00:00",
+        "head": "cd3cc8022aef5be7766443f694e79d270544eaf4",
+        "pushedAt": "2026-10-18T13:23:20Z",
         "archived": false,
         "latestRelease": {
-          "tag": "Pre-release-shadPS4-2026-10-17-860a477160e08e65f8c0927677c1955be28fabc7",
-          "url": "https://github.com/shadps4-emu/shadPS4/releases/tag/Pre-release-shadPS4-2026-10-17-860a477160e08e65f8c0927677c1955be28fabc7",
-          "publishedAt": "2026-10-17T21:12:52Z",
+          "tag": "Pre-release-shadPS4-2026-10-18-cd3cc8022aef5be7766443f694e79d270544eaf4",
+          "url": "https://github.com/shadps4-emu/shadPS4/releases/tag/Pre-release-shadPS4-2026-10-18-cd3cc8022aef5be7766443f694e79d270544eaf4",
+          "publishedAt": "2026-10-18T13:22:52Z",
           "prerelease": true,
           "hasDownload": true
         },
@@ -525,8 +525,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "7180a7bafa51afbe991523f6392f69ea1cf03e1e",
       "reviewMethod": "documentation",
-      "stars": 3271,
-      "starsCollectedAt": "2026-10-18T11:55:02.239454+00:00",
+      "stars": 3300,
+      "starsCollectedAt": "2026-10-18T14:37:31.137437+00:00",
       "fork": true,
       "parentRepository": "Supermedo/bloodborne_pc",
       "reviewedRelease": {
@@ -573,7 +573,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:02.239454+00:00",
+        "checkedAt": "2026-10-18T14:37:31.137437+00:00",
         "head": "5428f3944962a1d9b5742eba644087aa14a4a2a7",
         "pushedAt": "2026-10-18T06:10:14Z",
         "archived": false,
@@ -621,8 +621,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "d0a9b8f8969588a9ab2b1db03a35854d3af63f2e",
       "reviewMethod": "documentation",
-      "stars": 1926,
-      "starsCollectedAt": "2026-10-18T11:55:03.753352+00:00",
+      "stars": 1929,
+      "starsCollectedAt": "2026-10-18T14:37:32.423690+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -669,7 +669,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:03.753352+00:00",
+        "checkedAt": "2026-10-18T14:37:32.423690+00:00",
         "head": "d0a9b8f8969588a9ab2b1db03a35854d3af63f2e",
         "pushedAt": "2026-10-16T01:12:11Z",
         "archived": false,
@@ -711,8 +711,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "6244eb9d4d3497094e21cac7dabe998ded1f2800",
       "reviewMethod": "documentation",
-      "stars": 1254,
-      "starsCollectedAt": "2026-10-18T11:55:05.179782+00:00",
+      "stars": 1266,
+      "starsCollectedAt": "2026-10-18T14:37:33.668737+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -759,9 +759,9 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:05.179782+00:00",
-        "head": "e9245915d84df3b43a8502fbc7cf5f2292335c20",
-        "pushedAt": "2026-10-18T11:51:01Z",
+        "checkedAt": "2026-10-18T14:37:33.668737+00:00",
+        "head": "09f8e5ebf28aeefd6daa1456c73ae1b7a51efec5",
+        "pushedAt": "2026-10-18T14:18:36Z",
         "archived": false,
         "latestRelease": {
           "tag": "test-perf-4",
@@ -799,8 +799,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "70bb43859cd7ff181a6d409540b757866184d60d",
       "reviewMethod": "documentation",
-      "stars": 1025,
-      "starsCollectedAt": "2026-10-18T11:55:06.562920+00:00",
+      "stars": 1028,
+      "starsCollectedAt": "2026-10-18T14:37:34.752062+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -847,7 +847,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:06.562920+00:00",
+        "checkedAt": "2026-10-18T14:37:34.752062+00:00",
         "head": "70bb43859cd7ff181a6d409540b757866184d60d",
         "pushedAt": "2026-10-17T01:41:22Z",
         "archived": false,
@@ -887,8 +887,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "3c57da4198ad62039f63f33bfd205b9916518acf",
       "reviewMethod": "documentation",
-      "stars": 3196,
-      "starsCollectedAt": "2026-10-18T11:55:08.426986+00:00",
+      "stars": 3207,
+      "starsCollectedAt": "2026-10-18T14:37:36.308087+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -936,7 +936,7 @@
       },
       "relatedProject": "https://github.com/Supermedo/bloodborne_pc",
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:08.426986+00:00",
+        "checkedAt": "2026-10-18T14:37:36.308087+00:00",
         "head": "3c57da4198ad62039f63f33bfd205b9916518acf",
         "pushedAt": "2026-10-15T09:18:37Z",
         "archived": false,
@@ -976,8 +976,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "fce08780508a72f50d34a3d3a2926e746d12284c",
       "reviewMethod": "documentation",
-      "stars": 3636,
-      "starsCollectedAt": "2026-10-18T11:55:10.018166+00:00",
+      "stars": 3663,
+      "starsCollectedAt": "2026-10-18T14:37:37.615738+00:00",
       "fork": true,
       "parentRepository": "deadinside28/bloodborne_pc",
       "reviewedRelease": {
@@ -1025,7 +1025,7 @@
       },
       "relatedProject": "https://github.com/deadinside28/bloodborne_pc",
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:10.018166+00:00",
+        "checkedAt": "2026-10-18T14:37:37.615738+00:00",
         "head": "b3fc78bff0997f75f73e14a5fffeb1141f0cea70",
         "pushedAt": "2026-10-18T11:00:14Z",
         "archived": false,
@@ -1066,8 +1066,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "9c24de1bc3bf768968683a11095f8d916173fa7e",
       "reviewMethod": "documentation",
-      "stars": 533,
-      "starsCollectedAt": "2026-10-18T11:55:11.393251+00:00",
+      "stars": 550,
+      "starsCollectedAt": "2026-10-18T14:37:38.866431+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -1114,7 +1114,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:11.393251+00:00",
+        "checkedAt": "2026-10-18T14:37:38.866431+00:00",
         "head": "3c197589dc6f48f496f5bcc0665f3363fa995abb",
         "pushedAt": "2026-10-17T18:24:28Z",
         "archived": false,
@@ -1155,8 +1155,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "8a0b6f7cafba22d2dc995ca1d126d74c22b65589",
       "reviewMethod": "documentation",
-      "stars": 252,
-      "starsCollectedAt": "2026-10-18T11:55:12.867977+00:00",
+      "stars": 257,
+      "starsCollectedAt": "2026-10-18T14:37:40.024743+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -1203,7 +1203,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:12.867977+00:00",
+        "checkedAt": "2026-10-18T14:37:40.024743+00:00",
         "head": "b8d5f412398fae52a444400a9b5131bc1c970cc3",
         "pushedAt": "2026-10-17T15:12:31Z",
         "archived": false,
@@ -1246,8 +1246,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "d6ee4c0a10b7e6138ded4517c203e2724bf0613f",
       "reviewMethod": "documentation",
-      "stars": 460,
-      "starsCollectedAt": "2026-10-18T11:55:14.211787+00:00",
+      "stars": 461,
+      "starsCollectedAt": "2026-10-18T14:37:41.315093+00:00",
       "fork": false,
       "parentRepository": null,
       "reviewedRelease": {
@@ -1294,9 +1294,9 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:14.211787+00:00",
-        "head": "26febe4e09685ab68e7e0a9822934c0daa306a22",
-        "pushedAt": "2026-10-18T10:55:38Z",
+        "checkedAt": "2026-10-18T14:37:41.315093+00:00",
+        "head": "73750b802dd55676fcefdb549d52f9d360a965cd",
+        "pushedAt": "2026-10-18T13:12:15Z",
         "archived": false,
         "latestRelease": {
           "tag": "v0.29.0",
@@ -1334,8 +1334,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "4099d246c927e75b4fd342ca13f4ac4395c55af5",
       "reviewMethod": "documentation",
-      "stars": 1502,
-      "starsCollectedAt": "2026-10-18T11:55:15.552179+00:00",
+      "stars": 1503,
+      "starsCollectedAt": "2026-10-18T14:37:42.572630+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1377,7 +1377,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:15.552179+00:00",
+        "checkedAt": "2026-10-18T14:37:42.572630+00:00",
         "head": "4099d246c927e75b4fd342ca13f4ac4395c55af5",
         "pushedAt": "2026-08-02T00:56:51Z",
         "archived": false,
@@ -1418,7 +1418,7 @@
       "reviewedVersion": "2a4f8937f129de42d94b210090114bf798773121",
       "reviewMethod": "documentation",
       "stars": 977,
-      "starsCollectedAt": "2026-10-18T11:55:16.920272+00:00",
+      "starsCollectedAt": "2026-10-18T14:37:43.922819+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1460,7 +1460,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:16.920272+00:00",
+        "checkedAt": "2026-10-18T14:37:43.922819+00:00",
         "head": "2a4f8937f129de42d94b210090114bf798773121",
         "pushedAt": "2024-08-21T02:53:02Z",
         "archived": false,
@@ -1502,8 +1502,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "f1dda4c28cb9ed7cc80d8c78337ee31a8d2c7d0e",
       "reviewMethod": "documentation",
-      "stars": 2339,
-      "starsCollectedAt": "2026-10-18T11:55:18.960079+00:00",
+      "stars": 2340,
+      "starsCollectedAt": "2026-10-18T14:37:45.494172+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1546,7 +1546,7 @@
       },
       "relatedProject": "https://github.com/Zelda64Recomp/Zelda64Recomp",
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:18.960079+00:00",
+        "checkedAt": "2026-10-18T14:37:45.494172+00:00",
         "head": "f1dda4c28cb9ed7cc80d8c78337ee31a8d2c7d0e",
         "pushedAt": "2026-10-14T16:36:30Z",
         "archived": false,
@@ -1588,8 +1588,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "3322643f0bbf80d2f8f7e1c0d2c4c578515f6c90",
       "reviewMethod": "documentation",
-      "stars": 2104,
-      "starsCollectedAt": "2026-10-18T11:55:20.320545+00:00",
+      "stars": 2105,
+      "starsCollectedAt": "2026-10-18T14:37:46.792762+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1631,7 +1631,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:20.320545+00:00",
+        "checkedAt": "2026-10-18T14:37:46.792762+00:00",
         "head": "3322643f0bbf80d2f8f7e1c0d2c4c578515f6c90",
         "pushedAt": "2026-09-15T21:17:12Z",
         "archived": false,
@@ -1673,8 +1673,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "32a1cb9f268dd3ac73016801025c6bbbfa20130f",
       "reviewMethod": "documentation",
-      "stars": 2059,
-      "starsCollectedAt": "2026-10-18T11:55:21.862769+00:00",
+      "stars": 2062,
+      "starsCollectedAt": "2026-10-18T14:37:48.064508+00:00",
       "fork": true,
       "parentRepository": "n64decomp/perfect_dark",
       "content": {
@@ -1716,7 +1716,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:21.862769+00:00",
+        "checkedAt": "2026-10-18T14:37:48.064508+00:00",
         "head": "32a1cb9f268dd3ac73016801025c6bbbfa20130f",
         "pushedAt": "2026-08-13T05:58:19Z",
         "archived": false,
@@ -1758,7 +1758,7 @@
       "reviewedVersion": "d8e34caf5edd2a0e2d4ec292b69145425ec6201c",
       "reviewMethod": "documentation",
       "stars": 274,
-      "starsCollectedAt": "2026-10-18T11:55:23.221458+00:00",
+      "starsCollectedAt": "2026-10-18T14:37:49.261452+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1803,7 +1803,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:23.221458+00:00",
+        "checkedAt": "2026-10-18T14:37:49.261452+00:00",
         "head": "d8e34caf5edd2a0e2d4ec292b69145425ec6201c",
         "pushedAt": "2026-10-15T02:39:28Z",
         "archived": false,
@@ -1845,7 +1845,7 @@
       "reviewedVersion": "535abe9559934fda7a3493c038fd238a0ef3394a",
       "reviewMethod": "documentation",
       "stars": 291,
-      "starsCollectedAt": "2026-10-18T11:55:24.644159+00:00",
+      "starsCollectedAt": "2026-10-18T14:37:50.409699+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1887,7 +1887,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:24.644159+00:00",
+        "checkedAt": "2026-10-18T14:37:50.409699+00:00",
         "head": "bf1f367b51f8eb9c834519eb152b9a98f151a1dc",
         "pushedAt": "2026-10-18T10:40:58Z",
         "archived": false,
@@ -1928,8 +1928,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "3159679aa6ce1c56eaafb5978d838bc0422367e4",
       "reviewMethod": "documentation",
-      "stars": 46,
-      "starsCollectedAt": "2026-10-18T11:55:26.062942+00:00",
+      "stars": 49,
+      "starsCollectedAt": "2026-10-18T14:37:51.748686+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -1971,7 +1971,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:26.062942+00:00",
+        "checkedAt": "2026-10-18T14:37:51.748686+00:00",
         "head": "fd637d0c40301af63ddbc056f7998ab809857088",
         "pushedAt": "2026-10-17T15:35:22Z",
         "archived": false,
@@ -2013,8 +2013,8 @@
       "reviewedAt": "2026-10-16",
       "reviewedVersion": "ed1b8bb7f3f036334124ec27eb28efa64e400178",
       "reviewMethod": "documentation",
-      "stars": 282,
-      "starsCollectedAt": "2026-10-18T11:55:27.574599+00:00",
+      "stars": 284,
+      "starsCollectedAt": "2026-10-18T14:37:52.989150+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -2056,7 +2056,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:27.574599+00:00",
+        "checkedAt": "2026-10-18T14:37:52.989150+00:00",
         "head": "ed1b8bb7f3f036334124ec27eb28efa64e400178",
         "pushedAt": "2026-10-17T20:54:25Z",
         "archived": false,
@@ -2097,7 +2097,7 @@
       "reviewedVersion": "09144bb092ad871584808aeead69c395edbd5200",
       "reviewMethod": "documentation",
       "stars": 537,
-      "starsCollectedAt": "2026-10-18T11:55:28.931588+00:00",
+      "starsCollectedAt": "2026-10-18T14:37:54.159712+00:00",
       "fork": false,
       "parentRepository": null,
       "content": {
@@ -2139,7 +2139,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:28.931588+00:00",
+        "checkedAt": "2026-10-18T14:37:54.159712+00:00",
         "head": "09144bb092ad871584808aeead69c395edbd5200",
         "pushedAt": "2026-08-22T15:52:26Z",
         "archived": false,
@@ -2210,8 +2210,8 @@
           "url": "https://github.com/portingpete/The-Darkness-Recomp/blob/98f0bcd49dfee90dfee968a3b75fd40e892c91e7/README.md"
         }
       },
-      "stars": 299,
-      "starsCollectedAt": "2026-10-18T11:55:30.424534+00:00",
+      "stars": 302,
+      "starsCollectedAt": "2026-10-18T14:37:55.424931+00:00",
       "content": {
         "pt": {
           "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
@@ -2251,7 +2251,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:30.424534+00:00",
+        "checkedAt": "2026-10-18T14:37:55.424931+00:00",
         "head": "98f0bcd49dfee90dfee968a3b75fd40e892c91e7",
         "pushedAt": "2026-10-16T17:31:54Z",
         "archived": false,
@@ -2317,8 +2317,8 @@
           "url": "https://github.com/TGP482/BLACK-XBERecomp/blob/39ad6973d3eed447acda81f99722ac27e6ee0b71/README.md"
         }
       },
-      "stars": 345,
-      "starsCollectedAt": "2026-10-18T11:55:31.719058+00:00",
+      "stars": 366,
+      "starsCollectedAt": "2026-10-18T14:37:56.619362+00:00",
       "content": {
         "pt": {
           "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
@@ -2358,9 +2358,9 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:31.719058+00:00",
-        "head": "1e9fcf85e9d45671ad02103c593e1171bb3863b5",
-        "pushedAt": "2026-10-18T09:22:36Z",
+        "checkedAt": "2026-10-18T14:37:56.619362+00:00",
+        "head": "0d3ef51253d3007b351411b80cb30068fe37ecb1",
+        "pushedAt": "2026-10-18T14:32:25Z",
         "archived": false,
         "latestRelease": {
           "tag": "V1",
@@ -2425,8 +2425,8 @@
           "url": "https://github.com/Matteo842/CrashBandicoot-Launcher/blob/5c7b2ff989eb84bfa2b9143787108f5d2cea50c6/README.md"
         }
       },
-      "stars": 274,
-      "starsCollectedAt": "2026-10-18T11:55:33.451042+00:00",
+      "stars": 276,
+      "starsCollectedAt": "2026-10-18T14:37:58.181425+00:00",
       "content": {
         "pt": {
           "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
@@ -2466,9 +2466,9 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:33.451042+00:00",
-        "head": "fd5e3de39ec52b714a29450b5726b323f3986225",
-        "pushedAt": "2026-10-18T10:52:01Z",
+        "checkedAt": "2026-10-18T14:37:58.181425+00:00",
+        "head": "6415234c5a2e366717f7cf83471c5cf23f340941",
+        "pushedAt": "2026-10-18T13:29:45Z",
         "archived": false,
         "latestRelease": {
           "tag": "2.2",
@@ -2533,8 +2533,8 @@
           "url": "https://github.com/jkdansereau/goldeneye-pc-port/blob/fda76b69837e6c5aae436e0d3e798989e49b06d2/README.md"
         }
       },
-      "stars": 270,
-      "starsCollectedAt": "2026-10-18T11:55:35.400538+00:00",
+      "stars": 272,
+      "starsCollectedAt": "2026-10-18T14:37:59.776229+00:00",
       "content": {
         "pt": {
           "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
@@ -2574,7 +2574,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:35.400538+00:00",
+        "checkedAt": "2026-10-18T14:37:59.776229+00:00",
         "head": "fda76b69837e6c5aae436e0d3e798989e49b06d2",
         "pushedAt": "2026-10-14T02:09:45Z",
         "archived": false,
@@ -2642,8 +2642,8 @@
           "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/blob/7496d7da1562d9d2a82d19c9eacf6f4ea2ebc366/README.md"
         }
       },
-      "stars": 244,
-      "starsCollectedAt": "2026-10-18T11:55:36.984842+00:00",
+      "stars": 250,
+      "starsCollectedAt": "2026-10-18T14:38:01.218224+00:00",
       "content": {
         "pt": {
           "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
@@ -2683,18 +2683,18 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:36.984842+00:00",
-        "head": "7496d7da1562d9d2a82d19c9eacf6f4ea2ebc366",
-        "pushedAt": "2026-10-17T11:04:06Z",
+        "checkedAt": "2026-10-18T14:38:01.218224+00:00",
+        "head": "eed2df260dc80dc89ea8e7e6fcce3879d409fcc0",
+        "pushedAt": "2026-10-18T14:24:21Z",
         "archived": false,
         "latestRelease": {
-          "tag": "0.9.2",
-          "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/tag/0.9.2",
-          "publishedAt": "2026-10-01T16:06:07Z",
+          "tag": "1.0.1",
+          "url": "https://github.com/SSunnKing/Open-Nectar---Pikmin-Native-PC-Mobile-Port/releases/tag/1.0.1",
+          "publishedAt": "2026-10-18T14:19:56Z",
           "prerelease": false,
           "hasDownload": true
         },
-        "documentationChanged": false
+        "documentationChanged": true
       }
     },
     {
@@ -2749,8 +2749,8 @@
           "url": "https://github.com/TGP482/SCDA-XBERecomp/blob/e8f8b443e97cc89c8b1f009df5b6b66e50a771ee/README.md"
         }
       },
-      "stars": 264,
-      "starsCollectedAt": "2026-10-18T11:55:38.442713+00:00",
+      "stars": 265,
+      "starsCollectedAt": "2026-10-18T14:38:02.344938+00:00",
       "content": {
         "pt": {
           "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
@@ -2790,7 +2790,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:38.442713+00:00",
+        "checkedAt": "2026-10-18T14:38:02.344938+00:00",
         "head": "9f29dcb566012810f7e875de37b7258d2f52bde2",
         "pushedAt": "2026-10-18T10:01:43Z",
         "archived": false,
@@ -2857,8 +2857,8 @@
           "url": "https://github.com/Dyotson/ForzaHorizon1-ReImagined/blob/af8dd5b7a9d918215e147daa1520420faa20e5d6/README.md"
         }
       },
-      "stars": 207,
-      "starsCollectedAt": "2026-10-18T11:55:39.949584+00:00",
+      "stars": 210,
+      "starsCollectedAt": "2026-10-18T14:38:03.585722+00:00",
       "content": {
         "pt": {
           "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
@@ -2898,9 +2898,9 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:39.949584+00:00",
-        "head": "57fd47effb56dd5d76d42d9347ddd082a599c0f9",
-        "pushedAt": "2026-10-18T10:58:10Z",
+        "checkedAt": "2026-10-18T14:38:03.585722+00:00",
+        "head": "92322ba87964ba69bf2db0f202d1697c8f8f79cd",
+        "pushedAt": "2026-10-18T14:08:04Z",
         "archived": false,
         "latestRelease": {
           "tag": "v0.1.23",
@@ -2965,7 +2965,7 @@
         }
       },
       "stars": 186,
-      "starsCollectedAt": "2026-10-18T11:55:41.300439+00:00",
+      "starsCollectedAt": "2026-10-18T14:38:04.859121+00:00",
       "content": {
         "pt": {
           "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
@@ -3005,7 +3005,7 @@
         }
       },
       "upstream": {
-        "checkedAt": "2026-10-18T11:55:41.300439+00:00",
+        "checkedAt": "2026-10-18T14:38:04.859121+00:00",
         "head": "c852d9f467201e9a02c1aaf099b65522535b3473",
         "pushedAt": "2026-10-13T22:17:46Z",
         "archived": false,
@@ -3073,8 +3073,8 @@
           "url": "https://github.com/NoRain211/doaxvb-re/blob/e282a3fc15c793e621098fc0a5d9e70aa6a6e9c2/README.md"
         }
       },
-      "stars": 179,
-      "starsCollectedAt": "2026-10-18T11:55:48.760545+00:00",
+      "stars": 180,
+      "starsCollectedAt": "2026-10-18T14:38:06.371446+00:00",
       "content": {
         "pt": {
           "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
@@ -3112,6 +3112,20 @@
           ],
           "limitations": "Filtro por reglas sin ejecutar el juego. Las afirmaciones pueden ser incorrectas o antiguas; no se garantiza una campaña completa en tu PC."
         }
+      },
+      "upstream": {
+        "checkedAt": "2026-10-18T14:38:06.371446+00:00",
+        "head": "e282a3fc15c793e621098fc0a5d9e70aa6a6e9c2",
+        "pushedAt": "2026-10-18T03:39:50Z",
+        "archived": false,
+        "latestRelease": {
+          "tag": "v0.6.0-rc1",
+          "url": "https://github.com/NoRain211/doaxvb-re/releases/tag/v0.6.0-rc1",
+          "publishedAt": "2026-10-09T23:28:43Z",
+          "prerelease": true,
+          "hasDownload": true
+        },
+        "documentationChanged": false
       }
     },
     {
@@ -3168,7 +3182,111 @@
         }
       },
       "stars": 164,
-      "starsCollectedAt": "2026-10-18T11:55:53.480787+00:00",
+      "starsCollectedAt": "2026-10-18T14:38:07.916671+00:00",
+      "content": {
+        "pt": {
+          "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
+          "originalFiles": "Forneça sua própria cópia compatível; confira edição e arquivos exigidos no README.",
+          "requirements": [
+            "Confira os requisitos completos e as diferenças entre sistemas na fonte fixada."
+          ],
+          "installation": [
+            "Abra o README fixado e confira a seção de instalação.",
+            "Use a release oficial e forneça seus arquivos conforme o autor."
+          ],
+          "limitations": "Triagem por regras, sem execução do jogo. Alegações podem estar desatualizadas ou incorretas; não há garantia de campanha completa no seu PC."
+        },
+        "en": {
+          "summary": "Project discovered and screened automatically using documentary rules. The README reports working gameplay; this is not a catalog gameplay test.",
+          "originalFiles": "Provide your own compatible copy; check the required edition and files in the README.",
+          "requirements": [
+            "Check full requirements and OS differences in the pinned source."
+          ],
+          "installation": [
+            "Open the pinned README and check the installation section.",
+            "Use the official release and supply your files as instructed by its author."
+          ],
+          "limitations": "Rule-based screening without running the game. Claims may be outdated or incorrect; a full playthrough on your PC is not guaranteed."
+        },
+        "es": {
+          "summary": "Proyecto descubierto y filtrado automáticamente mediante reglas documentales. El README declara funcionamiento; no es una prueba del catálogo.",
+          "originalFiles": "Proporciona tu copia compatible; consulta edición y archivos necesarios en el README.",
+          "requirements": [
+            "Consulta requisitos completos y diferencias entre sistemas en la fuente fijada."
+          ],
+          "installation": [
+            "Abre el README fijado y consulta la instalación.",
+            "Usa la versión oficial y aporta tus archivos según el autor."
+          ],
+          "limitations": "Filtro por reglas sin ejecutar el juego. Las afirmaciones pueden ser incorrectas o antiguas; no se garantiza una campaña completa en tu PC."
+        }
+      },
+      "upstream": {
+        "checkedAt": "2026-10-18T14:38:07.916671+00:00",
+        "head": "6aa0179f8efbb8e0040e6383b3a486e94fbbb58c",
+        "pushedAt": "2026-10-15T20:32:46Z",
+        "archived": false,
+        "latestRelease": {
+          "tag": "v1.6.9",
+          "url": "https://github.com/jackpoison-prog/RingOut/releases/tag/v1.6.9",
+          "publishedAt": "2026-10-15T20:32:46Z",
+          "prerelease": false,
+          "hasDownload": true
+        },
+        "documentationChanged": false
+      }
+    },
+    {
+      "image": {
+        "url": "assets/platforms/n64.svg",
+        "kind": "console"
+      },
+      "id": "auto-74834b948c2589",
+      "editionId": "auto-74834b948c2589",
+      "game": "Conker's Bad Fur Day: Reloaded",
+      "name": "DahSidiAbdallah/ConkerBFDReloaded",
+      "type": "recompilacao",
+      "approach": "static-recompilation",
+      "origins": [
+        "Nintendo 64"
+      ],
+      "targets": [
+        "Windows",
+        "Linux"
+      ],
+      "playability": "nao-verificado",
+      "developmentStage": "desconhecido",
+      "github": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded",
+      "instructionsUrl": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/blob/b5b2d6d697766dfecc13f4169e3a1141af58ef7e/README.md",
+      "evidenceUrl": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/blob/b5b2d6d697766dfecc13f4169e3a1141af58ef7e/README.md",
+      "reviewedAt": "2026-10-18",
+      "reviewedVersion": "b5b2d6d697766dfecc13f4169e3a1141af58ef7e",
+      "reviewMethod": "documentation",
+      "reviewAgent": "documentary-rules-v2",
+      "authorClaim": "running natively on PC",
+      "screeningVersion": "documentary-v2",
+      "documentaryEvidence": {
+        "technique": {
+          "url": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/blob/b5b2d6d697766dfecc13f4169e3a1141af58ef7e/README.md"
+        },
+        "pc": {
+          "url": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/blob/b5b2d6d697766dfecc13f4169e3a1141af58ef7e/README.md"
+        },
+        "instructions": {
+          "url": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/blob/b5b2d6d697766dfecc13f4169e3a1141af58ef7e/README.md"
+        },
+        "requirements": {
+          "url": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/blob/b5b2d6d697766dfecc13f4169e3a1141af58ef7e/README.md"
+        },
+        "ownFiles": {
+          "url": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/blob/b5b2d6d697766dfecc13f4169e3a1141af58ef7e/README.md"
+        },
+        "playabilityClaim": {
+          "url": "https://github.com/DahSidiAbdallah/ConkerBFDReloaded/blob/b5b2d6d697766dfecc13f4169e3a1141af58ef7e/README.md"
+        }
+      },
+      "stars": 98,
+      "starsCollectedAt": "2026-10-18T14:38:24.374485+00:00",
       "content": {
         "pt": {
           "summary": "Projeto descoberto e triado automaticamente por regras documentais. O README relata funcionamento; isso não é teste do catálogo.",
@@ -3209,5 +3327,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-18T12:08:09.649768+00:00"
+  "updatedAt": "2026-10-18T14:37:21.974353+00:00"
 }
