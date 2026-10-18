@@ -27,7 +27,7 @@ async function initBrowserCatalog(){
  }
  form.addEventListener('submit',e=>e.preventDefault());form.addEventListener('input',render);form.addEventListener('change',render);
  select.addEventListener('change',()=>{language=pickLanguage(select.value);try{localStorage.setItem('bora-language',language);}catch{}const u=new URL(location.href);u.searchParams.set('lang',language);history.replaceState(null,'',u);render();});
- try{const response=await fetch('data/browser-projects.json');if(!response.ok)throw Error();const data=await response.json();if(data.schemaVersion!==3||!Array.isArray(data.projects))throw Error();projects=data.projects.map(validateProject);automation=data.automation||null;if(projects.some(p=>!p.browser))throw Error();}catch{failed=true;}
+ try{const response=await fetch('data/browser-projects.json',{cache:'no-store'});if(!response.ok)throw Error();const data=await response.json();if(data.schemaVersion!==3||!Array.isArray(data.projects))throw Error();projects=data.projects.map(validateProject);automation=data.automation||null;if(projects.some(p=>!p.browser))throw Error();}catch{failed=true;}
  render();
 }
 initBrowserCatalog();
