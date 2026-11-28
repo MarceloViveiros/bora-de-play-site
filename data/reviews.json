@@ -105,6 +105,40 @@
           "cons": []
         }
       }
+    },
+    {
+      "id": "replaced",
+      "game": "REPLACED",
+      "platform": "PC",
+      "progress": "completed",
+      "score": 9,
+      "reviewedAt": "2026-11-28",
+      "videoId": "pbbUtRsXJeo",
+      "image": {
+        "url": "assets/reviews/replaced.jpg",
+        "kind": "reference",
+        "source": "https://store.steampowered.com/app/1663850/REPLACED/"
+      },
+      "content": {
+        "pt": {
+          "summary": "Zerei em cerca de 10 horas. Um dos melhores jogos que passaram pelo canal: a história lembra Blade Runner, a arte em pixel art 2,5D é maravilhosa e a jogabilidade é muito gostosa.",
+          "opinion": "Gráficos\nA arte é o auge do jogo, junto com a história. É um visual em pixel art 2,5D muito caprichado: dá pra ver o cuidado que os desenvolvedores tiveram em cada tela. Qualquer cena dá um print que vira papel de parede.\n\nDesempenho\nRodou liso no meu PC (AMD Ryzen 5 5600X, NVIDIA GeForce RTX 3060 Ti e 16 GB de RAM), sem problemas.\n\nHistória\nMuito boa. Você acompanha o R.E.A.C.H., uma IA presa num corpo humano, saindo do laboratório sem saber o que é o quê e ficando cada vez mais humano. Me lembrou muito Blade Runner: ele parece um replicante, e fica quase impossível separar o que é máquina do que é humano. São personagens com quem você se importa de verdade.\n\nJogabilidade\nMuito legal e gostosa de jogar. O combate é ótimo, dá a sensação de estar num filme de ação em 2,5D. Alguns inimigos, como os snipers e o ninja, são mais chatos de enfrentar, e um ou outro puzzle me deixou na dúvida, mas nada que atrapalhe.\n\nDificuldade\nNa medida certa. Não é fácil demais nem difícil demais.\n\nTempo de jogo\nCerca de 10 horas para zerar.\n\nÁudio\nA trilha e os sons combinam com o clima cyberpunk. Tem até rádio em que dá pra trocar as músicas.\n\nPra quem eu recomendo\nPra quem curte ficção científica, cyberpunk, Blade Runner, jogos com história forte e pixel art.\n\nCompensa comprar?\nSim. Vale o preço cheio. É um daqueles jogos de estúdio menor que entregam arte, história e personagens incríveis.\n\nNota final\n9/10. Um dos melhores jogos que passaram pelo canal. A história e a arte são maravilhosas, e a jogabilidade acompanha.",
+          "pros": [],
+          "cons": []
+        },
+        "en": {
+          "summary": "I finished it in about 10 hours. One of the best games to come through the channel: the story recalls Blade Runner, the 2.5D pixel art is gorgeous and the gameplay is a pleasure.",
+          "opinion": "Graphics\nThe art is the game’s high point, together with the story. It is a very polished 2.5D pixel art look: you can see the care the developers put into every screen. Any scene makes a screenshot worth using as a wallpaper.\n\nPerformance\nIt ran smoothly on my PC (AMD Ryzen 5 5600X, NVIDIA GeForce RTX 3060 Ti and 16 GB of RAM), with no problems.\n\nStory\nVery good. You follow R.E.A.C.H., an AI trapped in a human body, leaving the lab without knowing what’s what and becoming more and more human. It reminded me a lot of Blade Runner: he feels like a replicant, and it becomes almost impossible to tell what is machine and what is human. These are characters you really care about.\n\nGameplay\nReally fun and a pleasure to play. The combat is great and feels like being in a 2.5D action movie. Some enemies, like the snipers and the ninja, are more annoying to fight, and a couple of puzzles left me unsure, but nothing that gets in the way.\n\nDifficulty\nJust right. Not too easy and not too hard.\n\nLength\nAbout 10 hours to finish.\n\nAudio\nThe soundtrack and sound effects match the cyberpunk mood. There is even a radio where you can change the music.\n\nWho I recommend it to\nAnyone who enjoys science fiction, cyberpunk, Blade Runner, story-driven games and pixel art.\n\nIs it worth buying?\nYes. It is worth the full price. It is one of those games from a smaller studio that delivers amazing art, story and characters.\n\nFinal score\n9/10. One of the best games to come through the channel. The story and the art are wonderful, and the gameplay keeps up.",
+          "pros": [],
+          "cons": []
+        },
+        "es": {
+          "summary": "Lo terminé en unas 10 horas. Uno de los mejores juegos que pasaron por el canal: la historia recuerda a Blade Runner, el pixel art 2,5D es maravilloso y la jugabilidad es muy agradable.",
+          "opinion": "Gráficos\nEl arte es lo mejor del juego, junto con la historia. Es un pixel art 2,5D muy cuidado: se nota el esmero de los desarrolladores en cada pantalla. Cualquier escena da para una captura que sirve de fondo de pantalla.\n\nRendimiento\nFuncionó fluido en mi PC (AMD Ryzen 5 5600X, NVIDIA GeForce RTX 3060 Ti y 16 GB de RAM), sin problemas.\n\nHistoria\nMuy buena. Acompañas a R.E.A.C.H., una IA atrapada en un cuerpo humano, que sale del laboratorio sin saber qué es qué y se vuelve cada vez más humana. Me recordó mucho a Blade Runner: parece un replicante, y se vuelve casi imposible distinguir qué es máquina y qué es humano. Son personajes que de verdad te importan.\n\nJugabilidad\nMuy divertida y agradable de jugar. El combate es excelente y da la sensación de estar en una película de acción en 2,5D. Algunos enemigos, como los francotiradores y el ninja, son más molestos, y algún que otro acertijo me dejó dudando, pero nada que estorbe.\n\nDificultad\nEn su punto justo. Ni demasiado fácil ni demasiado difícil.\n\nDuración\nUnas 10 horas para terminarlo.\n\nAudio\nLa banda sonora y los sonidos encajan con el ambiente cyberpunk. Hasta hay una radio donde se puede cambiar la música.\n\nA quién se lo recomiendo\nA quien le gusten la ciencia ficción, el cyberpunk, Blade Runner, los juegos con buena historia y el pixel art.\n\n¿Vale la pena comprarlo?\nSí. Vale el precio completo. Es uno de esos juegos de estudio pequeño que ofrecen un arte, una historia y unos personajes increíbles.\n\nNota final\n9/10. Uno de los mejores juegos que pasaron por el canal. La historia y el arte son maravillosos, y la jugabilidad está a la altura.",
+          "pros": [],
+          "cons": []
+        }
+      }
     }
   ]
 }
